@@ -1,0 +1,14 @@
+This project is to automatically extract housing information from the Queen's University Listing Service.
+
+TODO:
+    - format output into nice human-readable format
+    - produce automated script to run
+    - extend to other housing listing sites
+
+14Nov2015.txt               - A raw copy of data pulled on Nov. 14, 2015
+houseParse.pl               - Script responsible for extracting data from
+                                listing service
+output.txt                  - Copy of data in 14Nov2015.txt, stripped of other
+                                page information
+template_14Nov2015.txt      - Don't really have a use for this right now
+test.txt                    - Current output from houseParse.pl
