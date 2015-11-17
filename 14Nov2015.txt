@@ -1,0 +1,1164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+    <title>Housing Listing Service :: Search Results</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />
+    <meta http-equiv="Content-Language" content="en" />
+		    <meta name="keywords" content="Queen's University Housing Listing Service, housing, listing service, Kingston, Ontario, Housing" />
+    <meta name="description" content="Housing Listing Service of Queen's University in Kingston, Ontario" />
+    <meta name="rating" content="General" />
+    <meta name="generator" content="Dragonfly IT Inc." />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="copyright" content="Copyright (c) 2008 Housing Listing Service" />
+
+    <link rel="shortcut icon" type="images/x-icon" href="https://listingservice.housing.queensu.ca/themes/default/images/favicon.ico" />
+
+    
+<script type='text/javascript'>
+//<![CDATA[
+        var SGL_JS_WEBROOT          = "https://listingservice.housing.queensu.ca";
+        var SGL_JS_WINHEIGHT        = 500;
+        var SGL_JS_WINWIDTH         = 600;
+        var SGL_JS_SESSID           = "SGLSESSID=6ocktlfnk3mruet50nvigmqvl4";
+        var SGL_JS_CURRURL          = "/index.php/rental/rentalsearch/action/results_list/";
+        var SGL_JS_THEME            = "default";
+        var SGL_JS_ADMINGUI         = "0";
+        var SGL_JS_DATETEMPLATE     = "%Y-%B-%d";
+        var SGL_JS_URL_STRATEGY     = "SGL_UrlParser_SefStrategy";
+        var SGL_JS_FRONT_CONTROLLER = "index.php";
+        var SGL_MSG_ERROR = "0";
+var SGL_MSG_INFO = "1";
+var SGL_MSG_WARNING = "2";
+var SGL_FC = "index.php";
+var SGL_WEBROOT = "https://listingservice.housing.queensu.ca";
+    
+//]]>
+</script>
+
+    <link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/reset.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+<link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/tools.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+<link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/typo.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+<link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/forms.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+<link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/layout.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+<link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/blocks.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+<link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/common.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+<link rel="stylesheet" type="text/css" href="https://listingservice.housing.queensu.ca/optimizer.php?type=css&rev=1447719616&files=themes/default/css/my_layout.css&aParams[theme]=default&aParams[langDir]=ltr&aParams[isFormSubmitted]=&aParams[module]=rental&aParams[defaultModule]=publisher&aParams[manager]=RentalSearchMgr" />
+    <script type="text/javascript" src="https://listingservice.housing.queensu.ca/optimizer.php?type=javascript&rev=1283373918&files=js/SGL.js"></script>
+
+
+
+
+		<script src="https://listingservice.housing.queensu.ca/js/CalendarControl.js" language="javascript"></script>
+    
+		<!--[if lte IE 7]>
+		<link href="/themes/default/css/patch_my_layout.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+
+
+
+    
+<script type='text/javascript'>
+//<![CDATA[
+
+    
+            
+//]]>
+</script>
+
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-309682-42']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>  
+
+    <script type="text/javascript" src="https://listingservice.housing.queensu.ca/themes/default_admin/js/mainAdmin.js"></script>
+    <script type="text/javascript" src="https://listingservice.housing.queensu.ca/themes/default_admin/js/mainPublic.js"></script>
+    <script type="text/javascript" src="https://listingservice.housing.queensu.ca/themes/default_admin/js/hack-IE-hover.js"></script>
+
+    
+
+
+
+</head>
+
+=========================================================================================================
+
+<body>
+<div class="qubanner">
+	
+</div>
+<div class="housingbanner">
+	<div align="center"><img src="/themes/default/images/CHcustomHeader.gif"></div>
+</div>      <div id="nav">
+        <!-- skiplink anchor: navigation -->
+        <a id="navigation" name="navigation"></a>
+        <div class="nav_margins">
+        <div class="hlist">
+          <!-- main navigation: horizontal list -->
+                                   
+<ul><li><a href="https://listingservice.housing.queensu.ca/index.php/publisher/articleview/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmArticleID/7/">Home</a></li>
+<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/action/search/">Rental Search</a></li>
+<li><a href="https://listingservice.housing.queensu.ca/index.php/publisher/articleview/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmArticleID/8/">Terms of Use</a></li>
+</ul>
+                        </div>
+      </div>
+      </div>  <div class="page_margins">
+    <!-- start: skip link navigation -->
+    <!-- end: skip link navigation -->
+    <div class="page">
+			<!--      <div id="banner"></div> -->      <div id="main">
+	                               <style type='text/css'>
+.wide td {padding:4px;} table.wide { border-color:#cfcfcf; } #advTable1 input { margin:2px; } #advTable2 input { margin:2px; }
+</style>
+<form name='searchFrm' method="post" action="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/" style="border: 1px solid #cfcfcf;">
+<table class="wide">
+	<tr>
+		<td align="center" colspan='2'>
+			<span style='font-size:12px'>Please click boxes to filter (limit) the listings to show only the properties of interest to you.</span>
+					<div style='float:left; width:80%'><div style='font-weight:bold; padding-bottom:2px; font-size:11px; padding-top:4px;'>Filter by Category Type(s)</div>
+					<div style='padding:4px; font-size:12px; margin:0px; float:left; width:40%'><input type='checkbox' name='rentalsearch[property_types][1]' value='1'> Apartment (75)</div><div style='padding:4px; font-size:12px; margin:0px; float:left; width:40%'><input type='checkbox' name='rentalsearch[property_types][4]' value='4'> House (29)</div><div style='padding:4px; font-size:12px; margin:0px; float:left; width:40%'><input type='checkbox' name='rentalsearch[property_types][6]' value='6'> Room (35)</div></div>
+</div><!--<div style='float:left'>					<div style='font-weight:bold; padding-bottom:2px; font-size:11px; padding-top:8px;'>Lease Type(s)</div>{foreach:lease_types,k,p}<div style='padding:4px; font-size:12px; margin:0px'>{if:this.plugin(#get_obj_arprop#,rentalsearch,#lease_types#,k)}<input type='checkbox' name='rentalsearch[lease_types][{k}]' value='{k}' checked>{else:}<input type='checkbox' name='rentalsearch[lease_types][{k}]' value='{k}'>{end:} {p}</div>{end:}</div>
+</div>	-->			</td>
+				</tr>
+				<tr>
+						<td valign="top"><div style='font-weight:bold; padding-bottom:4px; font-size:11px;'>Filter by Lease Type(s)</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][1]' value='1'> 12 Month Lease</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][2]' value='1'> 8 Month Lease</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][3]' value='1'> Sublet</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][4]' value='1'> Assignment</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][5]' value='1'> Other (eg. monthly, short-term)</div></td>
+					</tr>
+				<tr>
+					<td colspan='2' style='text-align:left; font-size:12px; padding-top:8px; padding-bottom:8px;'>
+						Only show properties with <select style="font-size: 8pt; width: 45px;" size="1" name="rentalsearch[bedrooms]">
+							
+<option value="ALL">--</option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>						</select> Bedroom(s) &nbsp;(<input type="checkbox" value="1" name="rentalsearch[more_bedrooms]"> or more)</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center" style='font-size:12px'>
+						Enter additional keyword(s) to filter the results by:
+					</td>
+				<tr>
+					<td colspan='2' style='text-align:center'>
+						<input type="text" size="45" style="width:90%" name="rentalsearch[keywords]" value=""><br />
+						<span style='font-size:10px'>Results will match any of the keywords entered in the filter categories selected (or all categories if no filter is selected)</span>
+					</td>
+				</tr>
+			<tr>
+									<td colspan='2'>&nbsp;</td>
+									</tr>
+									</tr>
+										<td colspan='2' style='text-align:left; font-size:12px; padding-top:8px; padding-bottom:8px;'>
+											Show <select style="font-size: 8pt; width: 45px;" size="1" name="rentalsearch[perpage]">
+												
+<option value="10">10</option>
+<option value="20">20</option>
+<option value="30">30</option>
+<option value="40">40</option>
+<option value="50">50</option>											</select>results per-page.</td>
+									</tr>				<!-- <tr>
+<td colspan="2" align="center">
+Enter a specific property number:
+</td>
+</tr>
+<tr>
+<td colspan='2'>  
+	<input type="text" size='15' name='rentalsearch[Key]' />
+<br/><br/>    </td>
+						</tr> -->
+			</table>			<script type='text/javascript'>
+
+						if (typeof(window.showAdv)=='undefined') showAdv = function (bc)
+						{
+							document.getElementById("advTable"+bc).style.display='';
+							document.getElementById("advExpand"+bc).style.display='none';
+							document.getElementById("advCollapse"+bc).style.display='';      
+							document.getElementById("advInput"+bc).value="1";
+						}
+
+						if (typeof(window.hideAdv)=='undefined') hideAdv = function (bc)
+						{
+							document.getElementById("advTable"+bc).style.display='none';     
+							document.getElementById("advExpand"+bc).style.display='';      
+							document.getElementById("advCollapse"+bc).style.display='none';      
+							document.getElementById("advInput"+bc).value="0";
+						}
+
+						</script>
+						<input type="hidden" name="rentalsearch[advanced]" id="advInput1" value="">			
+			<table class='wide' width='100%'>
+				<tr bgcolor="#FFFFFF" style='font-size:12px'>
+					<th style='text-align:left; background-color:#dfdfdf; padding:4px; border:1px solid #efefef'>
+						<div style='float:left; padding:0px; padding-right:4px; margin:0px;'>Advanced</div>
+						<div style='width:85px; float:left; padding:0px; margin:0px;' id='advExpand1'>&nbsp;&nbsp;
+							<a href="javascript:showAdv(1)">[ + show ]</a>
+						</div>
+						<div style='width:85px; display:none; float:left; padding:0px; margin:0px;' id='advCollapse1'>&nbsp;&nbsp;
+							<a href="javascript:hideAdv(1)">[ - hide ]</a>
+						</div>
+					</th>
+				</tr>
+				<tr>
+					<td style='padding:0px'>
+						<table style='display:none;' border='0' id='advTable1' width='100%'><tr><td colspan='2'>
+							<span style='font-size:12px'><strong>Select desired amenities to limit the search results</strong>:</span><br /><br />
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[heat_included]' id= 'rentalsearch[heat_included]' value='Heat Included' ><label for='rentalsearch[heat_included]'>Heat Included</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[electricity_included]' id= 'rentalsearch[electricity_included]' value='Electricity Included' ><label for='rentalsearch[electricity_included]'>Electricity Included</label><br />
+</div>
+<!--						<div style='float:left; width:50%;font-size:12px;'>{generateCheckbox(#rentalsearch[water_included]#,#Water Included#,rentalsearch.water_included):h}</div>
+-->						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[furnished]' id= 'rentalsearch[furnished]' value='Furnished' ><label for='rentalsearch[furnished]'>Furnished</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[parking_available]' id= 'rentalsearch[parking_available]' value='Parking Available' ><label for='rentalsearch[parking_available]'>Parking Available</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[air_conditioned]' id= 'rentalsearch[air_conditioned]' value='Air Conditioned' ><label for='rentalsearch[air_conditioned]'>Air Conditioned</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[laundry_onsite]' id= 'rentalsearch[laundry_onsite]' value='Laundry Onsite' ><label for='rentalsearch[laundry_onsite]'>Laundry Onsite</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[laundry_hookup]' id= 'rentalsearch[laundry_hookup]' value='Laundry Hookup' ><label for='rentalsearch[laundry_hookup]'>Laundry Hookup</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[accessibility_features]' id= 'rentalsearch[accessibility_features]' value='Accessibility Features' ><label for='rentalsearch[accessibility_features]'>Accessibility Features</label><br />
+</div>
+					</td></tr>
+						<tr>
+							<td>
+								<span style='font-size:12px'><br /><strong>Filter results by additional sorting and limit parameters</strong>:</span><br /><br />							
+								</td>
+								</tr>
+                <tr>
+                  <td style='font-size:12px;'><div style='float:left; clear:left'><input class='noBorder' type='checkbox' name='rentalsearch[lcp_only]' id= 'rentalsearch[lcp_only]' value='Limit to Landlord Contract Program properties' ><label for='rentalsearch[lcp_only]'>Limit to Landlord Contract Program properties</label><br />
+</div>:&nbsp;&nbsp;<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a><br /><br />
+                      <div style='float:left'><input class='noBorder' type='checkbox' name='rentalsearch[queens_only]' id= 'rentalsearch[queens_only]' value='Limit to Queens Housing owned properties' ><label for='rentalsearch[queens_only]'>Limit to Queens Housing owned properties</label><br />
+</div>:&nbsp;&nbsp;<img align='absmiddle' src='/images/queens_logo_tiny.gif' title="Queen's Community Housing" /><br />
+      						</td>
+                </tr>								<tr>
+									<td style='text-align:left; font-size:12px' colspan='2'>
+										Additional Sorting:
+										 <select size="1" name="rentalsearch[searchopt]" id="searchopt">
+											
+<option value="">None</option>
+<option value="price_lo">Price LOW -&gt; HIGH</option>
+<option value="dist_near">Distance NEAR -&gt; FAR</option>
+<option value="date_early">Available EARLY -&gt; LATE</option>
+<option value="posted_early">Date Listed EARLY -&gt; LATE</option>
+<option value="price_high">Price HIGH -&gt; LOW</option>
+<option value="dist_far">Distance FAR -&gt; NEAR</option>
+<option value="date_late">Available LATE -&gt; EARLY</option>
+<option value="posted_late">Date Listed LATE -&gt; EARLY</option>											</select>
+									</td>
+								</tr>
+									<tr>
+										<td style='text-align:left; font-size:12px' colspan='2'>
+											Choose a price range:
+											$<input type="text" size="5" name="rentalsearch[rent_min]" value=""> to $<input type="text" size="5" name="rentalsearch[rent_max]" value="">										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+			</table> 
+		</td>
+	</tr>
+</table>
+<br />
+<div style='text-align:center; width:100%'>
+	<!-- <input type="button" onclick="javascript:document.location.href='{makeUrl(#search#,#rentalsearch#,#rental#)}'" value="&larr; {translate(#New Search#)}" style='font-size:12px' />
+	&nbsp; -->
+	<!-- <input type="submit" onclick="" value="{translate(#Search Again#)} &rarr;" style='font-size:12px;'> -->
+	<input type="submit" onclick="" value="Search Again &rarr;" style='font-size:12px;'>
+
+	<!-- <input type="button" onclick="javascript:document.location.href='{makeUrl(#search#,#rentalsearch#,#rental#)}'" value="{translate(#Start Over#)}" /> -->
+</div>
+</form>
+                		<!-- <h1 class="pageTitle">{translate(pageTitle)}</h1> --><br />
+<!-- Do not remove, MSIE fix --><style type='text/css'>
+ /* .pager td, div.pager { width:80%; text-align:center; } .wide td { font-size:14px; } */
+</style>
+<script type='text/javascript'>
+function openAWindow( pageToLoad, winName, width, height, center)
+{
+    xposition=0; yposition=0;
+    if ((parseInt(navigator.appVersion) >= 4 ) && (center)){
+        xposition = (screen.width - width) / 2;
+        yposition = (screen.height - height) / 2;
+    }
+	
+	//0 => no
+	//1 => yes
+    var args = "";
+    	args += "width=" + width + "," + "height=" + height + ","
+		+ "location=0,"
+		+ "menubar=0,"
+		+ "resizable=0,"
+		+ "scrollbars=0,"
+		+ "statusbar=false,dependent,alwaysraised,"
+		+ "status=false,"
+		+ "titlebar=no,"
+		+ "toolbar=0,"
+		+ "hotkeys=0,"
+		+ "screenx=" + xposition + ","  //NN Only
+		+ "screeny=" + yposition + ","  //NN Only
+		+ "left=" + xposition + ","     //IE Only
+		+ "top=" + yposition;           //IE Only
+		//fullscreen=yes, add for full screen
+    	var dmcaWin = window.open(pageToLoad,winName,args );
+    	dmcaWin.focus();
+    //window.showModalDialog(pageToLoad,"","dialogWidth:650px;dialogHeight:500px");
+}
+</script>
+<div style='text-align:center;'>Results for your filtered selections are shown below.<br /><br />Your Filtered Selection Has Produced <b>137 Matches</b>.</div><br />
+
+<div align="center"><div class="pager">
+<table>
+    <tr>
+        <td>
+            <b><u>1</u></b>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/2/" title="Page 2">2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/3/" title="Page 3">3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/4/" title="Page 4">4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/5/" title="Page 5">5</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/6/" title="Page 6">6</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/7/" title="Page 7">7</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/2/" title="Next">next &raquo;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        </td>
+    </tr>
+</table>
+</div>
+</div>
+<br />
+<style type='text/css'>.wide td {padding:4px;} table.wide{width:100%;}</style>
+<form>
+  <table class="wide">
+				    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					 <b>17 Van Order Dr - Unit 09-301</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96793/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96793/1447088374367-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $828.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 1.81 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Erin  call (343)&nbsp;363-3307					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96793/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=17+Van+Order+Dr%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96793','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					 <b>15 MacPherson - Unit 16-302</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $490.00<br />
+											<strong>Bedrooms</strong>: 1 of 2 (shared)<br />
+						
+					<strong>Distance</strong>: 1.99 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Yingjun  call (647)&nbsp;608-9333					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96764/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=15+MacPherson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96764','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					 <b>15 MacPherson - Unit FURNISHED 2 BEDROOM</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96696/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96696/1444914498828-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $980.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 1.99 km from 99 University Ave.<br />					<strong>Available</strong>: January 3, 2016<br />					<strong>Contact</strong>: 
+ call 533-2501					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96696/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=15+MacPherson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96696','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					 <b>17 Van Order Dr - Unit 8-103</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96622/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96622/1443540961362-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $828.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 2.00 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Md Saifuzzaman call (613)&nbsp;770-7157					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96622/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=17+Van+Order+Dr%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96622','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					 <b>244 Sir John A MacDonald - Unit 04D</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96602/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96602/1442597920557-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $508.85<br />
+												<strong>Bedrooms</strong>: 1<br />					
+					<strong>Distance</strong>: 1.00 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Ali  call (613)&nbsp;483-4730					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96602/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=244+Sir+John+A+MacDonald%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96602','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>169 Willingdon </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96733/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96733/1445896219106-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $725.00<br />
+												<strong>Bedrooms</strong>: 4<br />					
+					<strong>Distance</strong>: 1.03 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96733/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=169+Willingdon%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96733','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>260 Johnson - Unit 4</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $499.00<br />
+											<strong>Bedrooms</strong>: 1 of 2 (shared)<br />
+						
+					<strong>Distance</strong>: 0.52 km from 99 University Ave.<br />					<strong>Available</strong>: November 1, 2015<br />					<strong>Contact</strong>: 
+Daphne Dean call (613)&nbsp;546-2519					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96742/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=260+Johnson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>84 Gore Street - Unit 1A</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $346.00<br />
+												<strong>Bedrooms</strong>: Bachelor<br />					
+					<strong>Distance</strong>: 1.00 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Daphne Dean call (613)&nbsp;546-2519					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96741/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=84+Gore+Street%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>400 Albert - Unit Basement</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $600.00<br />
+												<strong>Bedrooms</strong>: Bachelor<br />					
+					<strong>Distance</strong>: 0.00 km from 99 University Ave.<br />					<strong>Available</strong>: October 21, 2015<br />					<strong>Contact</strong>: 
+Beth &amp; Jim Leake call (613)&nbsp;544-2838					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96721/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=400+Albert%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>336 Brock </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $610.00<br />
+											<strong>Bedrooms</strong>: 1 of 6 (shared)<br />
+						
+					<strong>Distance</strong>: 0.00 km from 99 University Ave.<br />					<strong>Available</strong>: November 1, 2012<br />					<strong>Contact</strong>: 
+Terri Buller call (613)&nbsp;217-1113					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96762/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=336+Brock%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>157 Queen </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96738/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96738/1446085094621-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,560.00<br />
+												<strong>Bedrooms</strong>: 4<br />					
+					<strong>Distance</strong>: 0.93 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Terri Buller					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96738/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=157+Queen%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>157 Queen </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96739/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96739/1446085278546-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $600.00<br />
+											<strong>Bedrooms</strong>: 3 of 4 (shared)<br />
+						
+					<strong>Distance</strong>: 0.93 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Terri Buller cell: (613) 217-1113 					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96739/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=157+Queen%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96739','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>249 Division </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96740/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96740/1446085378484-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $625.00<br />
+												<strong>Bedrooms</strong>: 5<br />					
+					<strong>Distance</strong>: 0.89 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Terri Buller cell: (613) 217-1113 					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96740/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=249+Division%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96740','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>558 Princess - Unit 3</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96800/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96800/1447106393132-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,566.00<br />
+												<strong>Bedrooms</strong>: 3<br />					
+					<strong>Distance</strong>: 0.88 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2015<br />					<strong>Contact</strong>: 
+Lanny or Treena Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96800/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=558+Princess%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96800','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>311 Collingwood </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96799/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96799/1447105718597-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $3,126.00<br />
+												<strong>Bedrooms</strong>: 6<br />					
+					<strong>Distance</strong>: 0.62 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+Lanny or Treena Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96799/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=311+Collingwood%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96799','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>583 Johnson - Unit 4</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96772/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96772/1446741950331-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,366.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 0.67 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+Treena or Lanny Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96772/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=583+Johnson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96772','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>169 Earl </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96778/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96778/1446765874129-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $707.00<br />
+												<strong>Bedrooms</strong>: 12<br />					
+					<strong>Distance</strong>: 0.46 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+Treena or Lanny Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96778/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=169+Earl%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96778','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>558 Princess - Unit 2</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96766/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96766/1446671600272-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $2,092.00<br />
+												<strong>Bedrooms</strong>: 4<br />					
+					<strong>Distance</strong>: 0.88 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+R&amp;T Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96766/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=558+Princess%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96766','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>22 Nelson </b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96765/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96765/1446671436942-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $3,738.00<br />
+												<strong>Bedrooms</strong>: 7<br />					
+					<strong>Distance</strong>: 0.70 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+R&amp;T Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96765/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=22+Nelson%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			 <b>272 1/2 Princess - Unit 16</b>
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96782/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96782/1446834260606-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,780.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 0.72 km from 99 University Ave.<br />					<strong>Available</strong>: November 1, 2015<br />					<strong>Contact</strong>: 
+ Keystone Property Mgmt call (613)&nbsp;561-4444					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96782/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=272+1%2F2+Princess%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+			  </table>
+</form>
+<br />
+<div align="center"><div class="pager">
+<table>
+    <tr>
+        <td>
+            <b><u>1</u></b>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/2/" title="Page 2">2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/3/" title="Page 3">3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/4/" title="Page 4">4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/5/" title="Page 5">5</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/6/" title="Page 6">6</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/7/" title="Page 7">7</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results_list/pageID/2/" title="Next">next &raquo;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        </td>
+    </tr>
+</table>
+</div>
+</div>
+<br />
+<!-- <div style='text-align:center; width:100%'>                <input type="button" onclick="javascript:document.location.href='{makeUrl(#search#,#rentalsearch#,#rental#)}'" value="{translate(#New Search#)}" /></div>
+-->
+
+<p>&nbsp;<strong><span style="font-size: 1.4em;"><span style="font-family: Arial;">Community Housing Accommodations Listing Service (ALS)  </span></span></strong></p>
+<p><span style="font-size: 0.8em;"><span style="font-family: Verdana;"><strong><span style="color: rgb(187, 0, 0);">Queen's does not endorse or warrant the quality of the rental units provided through this listing service</span></strong><span style="color: rgb(187, 0, 0);">. </span></span></span><span style="font-size: 0.8em;"><span style="font-family: Verdana;">It is a tool to help students in need of rental accommodation connect with landlords who have rental properties available. <br />
+</span></span></p>
+<p><span style="font-size: 0.8em;"><span style="font-family: Verdana;">Some landlords have special agreements with the University whereby they have had a specific unit inspected by an independent third party within the last 12 months to certify that the unit met minimum property standards per City of Kingston By-Law 2005-100. These units are identified by the tri colour flag in the summary and detail information:<br />
+</span></span></p>
+<p><span style="font-size: 0.8em;"><span style="font-family: Verdana;">We strongly encourage students to become informed consumers by reading available materials, asking questions, etc.It is the student's responsibility to ensure that prospective accommodation is appropriate, suitable and safe.<br />
+</span></span></p>	                               <style type='text/css'>
+.wide td {padding:4px;} table.wide { border-color:#cfcfcf; } #advTable1 input { margin:2px; } #advTable2 input { margin:2px; }
+</style>
+<form name='searchFrm' method="post" action="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/results/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/" style="border: 1px solid #cfcfcf;">
+<table class="wide">
+	<tr>
+		<td align="center" colspan='2'>
+			<span style='font-size:12px'>Please click boxes to filter (limit) the listings to show only the properties of interest to you.</span>
+					<div style='float:left; width:80%'><div style='font-weight:bold; padding-bottom:2px; font-size:11px; padding-top:4px;'>Filter by Category Type(s)</div>
+					<div style='padding:4px; font-size:12px; margin:0px; float:left; width:40%'><input type='checkbox' name='rentalsearch[property_types][1]' value='1'> Apartment (75)</div><div style='padding:4px; font-size:12px; margin:0px; float:left; width:40%'><input type='checkbox' name='rentalsearch[property_types][4]' value='4'> House (29)</div><div style='padding:4px; font-size:12px; margin:0px; float:left; width:40%'><input type='checkbox' name='rentalsearch[property_types][6]' value='6'> Room (35)</div></div>
+</div><!--<div style='float:left'>					<div style='font-weight:bold; padding-bottom:2px; font-size:11px; padding-top:8px;'>Lease Type(s)</div>{foreach:lease_types,k,p}<div style='padding:4px; font-size:12px; margin:0px'>{if:this.plugin(#get_obj_arprop#,rentalsearch,#lease_types#,k)}<input type='checkbox' name='rentalsearch[lease_types][{k}]' value='{k}' checked>{else:}<input type='checkbox' name='rentalsearch[lease_types][{k}]' value='{k}'>{end:} {p}</div>{end:}</div>
+</div>	-->			</td>
+				</tr>
+				<tr>
+						<td valign="top"><div style='font-weight:bold; padding-bottom:4px; font-size:11px;'>Filter by Lease Type(s)</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][1]' value='1'> 12 Month Lease</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][2]' value='1'> 8 Month Lease</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][3]' value='1'> Sublet</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][4]' value='1'> Assignment</div><div style='padding:4px; margin:0px; font-size:12px; width:45%; float:left'><input type='checkbox' name='rentalsearch[lease_types][5]' value='1'> Other (eg. monthly, short-term)</div></td>
+					</tr>
+				<tr>
+					<td colspan='2' style='text-align:left; font-size:12px; padding-top:8px; padding-bottom:8px;'>
+						Only show properties with <select style="font-size: 8pt; width: 45px;" size="1" name="rentalsearch[bedrooms]">
+							
+<option value="ALL">--</option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>						</select> Bedroom(s) &nbsp;(<input type="checkbox" value="1" name="rentalsearch[more_bedrooms]"> or more)</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center" style='font-size:12px'>
+						Enter additional keyword(s) to filter the results by:
+					</td>
+				<tr>
+					<td colspan='2' style='text-align:center'>
+						<input type="text" size="45" style="width:90%" name="rentalsearch[keywords]" value=""><br />
+						<span style='font-size:10px'>Results will match any of the keywords entered in the filter categories selected (or all categories if no filter is selected)</span>
+					</td>
+				</tr>
+			<tr>
+									<td colspan='2'>&nbsp;</td>
+									</tr>
+									</tr>
+										<td colspan='2' style='text-align:left; font-size:12px; padding-top:8px; padding-bottom:8px;'>
+											Show <select style="font-size: 8pt; width: 45px;" size="1" name="rentalsearch[perpage]">
+												
+<option value="10">10</option>
+<option value="20">20</option>
+<option value="30">30</option>
+<option value="40">40</option>
+<option value="50">50</option>											</select>results per-page.</td>
+									</tr>				<!-- <tr>
+<td colspan="2" align="center">
+Enter a specific property number:
+</td>
+</tr>
+<tr>
+<td colspan='2'>  
+	<input type="text" size='15' name='rentalsearch[Key]' />
+<br/><br/>    </td>
+						</tr> -->
+			</table>			<script type='text/javascript'>
+
+						if (typeof(window.showAdv)=='undefined') showAdv = function (bc)
+						{
+							document.getElementById("advTable"+bc).style.display='';
+							document.getElementById("advExpand"+bc).style.display='none';
+							document.getElementById("advCollapse"+bc).style.display='';      
+							document.getElementById("advInput"+bc).value="1";
+						}
+
+						if (typeof(window.hideAdv)=='undefined') hideAdv = function (bc)
+						{
+							document.getElementById("advTable"+bc).style.display='none';     
+							document.getElementById("advExpand"+bc).style.display='';      
+							document.getElementById("advCollapse"+bc).style.display='none';      
+							document.getElementById("advInput"+bc).value="0";
+						}
+
+						</script>
+						<input type="hidden" name="rentalsearch[advanced]" id="advInput2" value="">			
+			<table class='wide' width='100%'>
+				<tr bgcolor="#FFFFFF" style='font-size:12px'>
+					<th style='text-align:left; background-color:#dfdfdf; padding:4px; border:1px solid #efefef'>
+						<div style='float:left; padding:0px; padding-right:4px; margin:0px;'>Advanced</div>
+						<div style='width:85px; float:left; padding:0px; margin:0px;' id='advExpand2'>&nbsp;&nbsp;
+							<a href="javascript:showAdv(2)">[ + show ]</a>
+						</div>
+						<div style='width:85px; display:none; float:left; padding:0px; margin:0px;' id='advCollapse2'>&nbsp;&nbsp;
+							<a href="javascript:hideAdv(2)">[ - hide ]</a>
+						</div>
+					</th>
+				</tr>
+				<tr>
+					<td style='padding:0px'>
+						<table style='display:none;' border='0' id='advTable2' width='100%'><tr><td colspan='2'>
+							<span style='font-size:12px'><strong>Select desired amenities to limit the search results</strong>:</span><br /><br />
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[heat_included]' id= 'rentalsearch[heat_included]' value='Heat Included' ><label for='rentalsearch[heat_included]'>Heat Included</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[electricity_included]' id= 'rentalsearch[electricity_included]' value='Electricity Included' ><label for='rentalsearch[electricity_included]'>Electricity Included</label><br />
+</div>
+<!--						<div style='float:left; width:50%;font-size:12px;'>{generateCheckbox(#rentalsearch[water_included]#,#Water Included#,rentalsearch.water_included):h}</div>
+-->						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[furnished]' id= 'rentalsearch[furnished]' value='Furnished' ><label for='rentalsearch[furnished]'>Furnished</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[parking_available]' id= 'rentalsearch[parking_available]' value='Parking Available' ><label for='rentalsearch[parking_available]'>Parking Available</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[air_conditioned]' id= 'rentalsearch[air_conditioned]' value='Air Conditioned' ><label for='rentalsearch[air_conditioned]'>Air Conditioned</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[laundry_onsite]' id= 'rentalsearch[laundry_onsite]' value='Laundry Onsite' ><label for='rentalsearch[laundry_onsite]'>Laundry Onsite</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[laundry_hookup]' id= 'rentalsearch[laundry_hookup]' value='Laundry Hookup' ><label for='rentalsearch[laundry_hookup]'>Laundry Hookup</label><br />
+</div>
+						<div style='float:left; width:50%;font-size:12px;'><input class='noBorder' type='checkbox' name='rentalsearch[accessibility_features]' id= 'rentalsearch[accessibility_features]' value='Accessibility Features' ><label for='rentalsearch[accessibility_features]'>Accessibility Features</label><br />
+</div>
+					</td></tr>
+						<tr>
+							<td>
+								<span style='font-size:12px'><br /><strong>Filter results by additional sorting and limit parameters</strong>:</span><br /><br />							
+								</td>
+								</tr>
+                <tr>
+                  <td style='font-size:12px;'><div style='float:left; clear:left'><input class='noBorder' type='checkbox' name='rentalsearch[lcp_only]' id= 'rentalsearch[lcp_only]' value='Limit to Landlord Contract Program properties' ><label for='rentalsearch[lcp_only]'>Limit to Landlord Contract Program properties</label><br />
+</div>:&nbsp;&nbsp;<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a><br /><br />
+                      <div style='float:left'><input class='noBorder' type='checkbox' name='rentalsearch[queens_only]' id= 'rentalsearch[queens_only]' value='Limit to Queens Housing owned properties' ><label for='rentalsearch[queens_only]'>Limit to Queens Housing owned properties</label><br />
+</div>:&nbsp;&nbsp;<img align='absmiddle' src='/images/queens_logo_tiny.gif' title="Queen's Community Housing" /><br />
+      						</td>
+                </tr>								<tr>
+									<td style='text-align:left; font-size:12px' colspan='2'>
+										Additional Sorting:
+										 <select size="1" name="rentalsearch[searchopt]" id="searchopt">
+											
+<option value="">None</option>
+<option value="price_lo">Price LOW -&gt; HIGH</option>
+<option value="dist_near">Distance NEAR -&gt; FAR</option>
+<option value="date_early">Available EARLY -&gt; LATE</option>
+<option value="posted_early">Date Listed EARLY -&gt; LATE</option>
+<option value="price_high">Price HIGH -&gt; LOW</option>
+<option value="dist_far">Distance FAR -&gt; NEAR</option>
+<option value="date_late">Available LATE -&gt; EARLY</option>
+<option value="posted_late">Date Listed LATE -&gt; EARLY</option>											</select>
+									</td>
+								</tr>
+									<tr>
+										<td style='text-align:left; font-size:12px' colspan='2'>
+											Choose a price range:
+											$<input type="text" size="5" name="rentalsearch[rent_min]" value=""> to $<input type="text" size="5" name="rentalsearch[rent_max]" value="">										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+			</table> 
+		</td>
+	</tr>
+</table>
+<br />
+<div style='text-align:center; width:100%'>
+	<!-- <input type="button" onclick="javascript:document.location.href='{makeUrl(#search#,#rentalsearch#,#rental#)}'" value="&larr; {translate(#New Search#)}" style='font-size:12px' />
+	&nbsp; -->
+	<!-- <input type="submit" onclick="" value="{translate(#Search Again#)} &rarr;" style='font-size:12px;'> -->
+	<input type="submit" onclick="" value="Search Again &rarr;" style='font-size:12px;'>
+
+	<!-- <input type="button" onclick="javascript:document.location.href='{makeUrl(#search#,#rentalsearch#,#rental#)}'" value="{translate(#Start Over#)}" /> -->
+</div>
+</form>
+                      </div>
+    </div>
+  </div>
+      <div id="footer">Accommodation System by<br /><a href="http://www.dragonflyit.ca/"><img src="https://listingservice.housing.queensu.ca/themes/default/images/dragonflylogo.jpg" border=0 alt="Dragonfly Information Technology Inc."></a>
+      </div>    </body>
+</html>

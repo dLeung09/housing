@@ -1,0 +1,637 @@
+
+  <table class="wide">
+				    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					  --- 17 Van Order Dr - Unit 09-301
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96793/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96793/1447088374367-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $828.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 1.81 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Erin  call (343)&nbsp;363-3307					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96793/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=17+Van+Order+Dr%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96793','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					  --- 15 MacPherson - Unit 16-302
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $490.00<br />
+											<strong>Bedrooms</strong>: 1 of 2 (shared)<br />
+						
+					<strong>Distance</strong>: 1.99 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Yingjun  call (647)&nbsp;608-9333					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96764/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=15+MacPherson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96764','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					  --- 15 MacPherson - Unit FURNISHED 2 BEDROOM
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96696/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96696/1444914498828-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $980.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 1.99 km from 99 University Ave.<br />					<strong>Available</strong>: January 3, 2016<br />					<strong>Contact</strong>: 
+ call 533-2501					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96696/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=15+MacPherson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96696','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					  --- 17 Van Order Dr - Unit 8-103
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96622/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96622/1443540961362-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $828.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 2.00 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Md Saifuzzaman call (613)&nbsp;770-7157					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96622/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=17+Van+Order+Dr%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96622','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+							<img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/queens_logo_tiny.gif' title="Queen's Community Housing" />
+					  --- 244 Sir John A MacDonald - Unit 04D
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96602/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96602/1442597920557-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $508.85<br />
+												<strong>Bedrooms</strong>: 1<br />					
+					<strong>Distance</strong>: 1.00 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Ali  call (613)&nbsp;483-4730					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96602/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=244+Sir+John+A+MacDonald%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96602','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 169 Willingdon 
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96733/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96733/1445896219106-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $725.00<br />
+												<strong>Bedrooms</strong>: 4<br />					
+					<strong>Distance</strong>: 1.03 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96733/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=169+Willingdon%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96733','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 260 Johnson - Unit 4
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $499.00<br />
+											<strong>Bedrooms</strong>: 1 of 2 (shared)<br />
+						
+					<strong>Distance</strong>: 0.52 km from 99 University Ave.<br />					<strong>Available</strong>: November 1, 2015<br />					<strong>Contact</strong>: 
+Daphne Dean call (613)&nbsp;546-2519					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96742/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=260+Johnson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 84 Gore Street - Unit 1A
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $346.00<br />
+												<strong>Bedrooms</strong>: Bachelor<br />					
+					<strong>Distance</strong>: 1.00 km from 99 University Ave.<br />					<strong>Available</strong>: January 1, 2016<br />					<strong>Contact</strong>: 
+Daphne Dean call (613)&nbsp;546-2519					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96741/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=84+Gore+Street%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 400 Albert - Unit Basement
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $600.00<br />
+												<strong>Bedrooms</strong>: Bachelor<br />					
+					<strong>Distance</strong>: 0.00 km from 99 University Ave.<br />					<strong>Available</strong>: October 21, 2015<br />					<strong>Contact</strong>: 
+Beth &amp; Jim Leake call (613)&nbsp;544-2838					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96721/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=400+Albert%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 336 Brock 
+						</td>
+			</tr>
+						<tr>
+					    				<td colspan='2' align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $610.00<br />
+											<strong>Bedrooms</strong>: 1 of 6 (shared)<br />
+						
+					<strong>Distance</strong>: 0.00 km from 99 University Ave.<br />					<strong>Available</strong>: November 1, 2012<br />					<strong>Contact</strong>: 
+Terri Buller call (613)&nbsp;217-1113					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96762/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=336+Brock%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 157 Queen 
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96738/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96738/1446085094621-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,560.00<br />
+												<strong>Bedrooms</strong>: 4<br />					
+					<strong>Distance</strong>: 0.93 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Terri Buller					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96738/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=157+Queen%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 157 Queen 
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96739/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96739/1446085278546-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $600.00<br />
+											<strong>Bedrooms</strong>: 3 of 4 (shared)<br />
+						
+					<strong>Distance</strong>: 0.93 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Terri Buller cell: (613) 217-1113 					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96739/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=157+Queen%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96739','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 249 Division 
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96740/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96740/1446085378484-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $625.00<br />
+												<strong>Bedrooms</strong>: 5<br />					
+					<strong>Distance</strong>: 0.89 km from 99 University Ave.<br />					<strong>Available</strong>: December 1, 2015<br />					<strong>Contact</strong>: 
+Terri Buller cell: (613) 217-1113 					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96740/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=249+Division%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96740','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 558 Princess - Unit 3
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96800/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96800/1447106393132-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,566.00<br />
+												<strong>Bedrooms</strong>: 3<br />					
+					<strong>Distance</strong>: 0.88 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2015<br />					<strong>Contact</strong>: 
+Lanny or Treena Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96800/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=558+Princess%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96800','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 311 Collingwood 
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96799/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96799/1447105718597-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $3,126.00<br />
+												<strong>Bedrooms</strong>: 6<br />					
+					<strong>Distance</strong>: 0.62 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+Lanny or Treena Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96799/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=311+Collingwood%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96799','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 583 Johnson - Unit 4
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96772/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96772/1446741950331-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,366.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 0.67 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+Treena or Lanny Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96772/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=583+Johnson%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96772','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 169 Earl 
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96778/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96778/1446765874129-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Room<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $707.00<br />
+												<strong>Bedrooms</strong>: 12<br />					
+					<strong>Distance</strong>: 0.46 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+Treena or Lanny Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96778/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=169+Earl%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96778','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 558 Princess - Unit 2
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96766/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96766/1446671600272-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $2,092.00<br />
+												<strong>Bedrooms</strong>: 4<br />					
+					<strong>Distance</strong>: 0.88 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+R&amp;T Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96766/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=558+Princess%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						<li><a href="javascript:openAWindow('https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/compose/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;/1/frmAdID/96766','property_map',590,630,true);">Send E-Mail</a>      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 22 Nelson 
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96765/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96765/1446671436942-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: House<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $3,738.00<br />
+												<strong>Bedrooms</strong>: 7<br />					
+					<strong>Distance</strong>: 0.70 km from 99 University Ave.<br />					<strong>Available</strong>: May 1, 2016<br />					<strong>Contact</strong>: 
+R&amp;T Garrison call (613)&nbsp;544-4677					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96765/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=22+Nelson%2C+Kingston%2C+ON%2C+Canada&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+    <tr>
+				<td colspan='3' align="center" valign="center" style='padding:0px; padding-left:4px; height:30px; background-color:#efefef'>
+												<a href="http://housing.queensu.ca/community_housing/landlordcontractprogram.asp" target="_blank"><img align='absmiddle' src='https://listingservice.housing.queensu.ca/images/LCP_logo_small.gif' title="Landlord Contract Program Unit" /></a>			  --- 272 1/2 Princess - Unit 16
+						</td>
+			</tr>
+						<tr>
+					    				<td width="100" valign='top'>
+				<a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96782/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/"><img hspace="0" vspace="0" src='https://listingservice.housing.queensu.ca/images/Rental/96782/1446834260606-thumb.jpg' /></a>
+				</td>
+				<td align="center" valign="top">
+									<div style='padding:4px; float:left; line-height:1.1em; width:100%'>
+										<strong>Type</strong>: Apartment<br />
+									<!--	<strong>Lease</strong>: {this.plugin(#get_obj_arprop#,lease_types,prop[lease_type])}<br/> -->
+					<strong>Rent</strong>: $1,780.00<br />
+												<strong>Bedrooms</strong>: 2<br />					
+					<strong>Distance</strong>: 0.72 km from 99 University Ave.<br />					<strong>Available</strong>: November 1, 2015<br />					<strong>Contact</strong>: 
+ Keystone Property Mgmt call (613)&nbsp;561-4444					</div>
+					</td><td width='80' valign='top'>
+					<div style='padding:4px; float:top; width:140px'>
+						<ul>
+						<li><a href="https://listingservice.housing.queensu.ca/index.php/rental/rentalsearch/action/more_info/frmRentalID/96782/?SGLSESSID=6ocktlfnk3mruet50nvigmqvl4&amp;amp;/1/">More Info</a><br /></li>
+						<!-- {if:!isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false;">Add to Favorites</a><span style='display:none'>* <u>Added</u></span></li>{end:}
+						{if:isFavorites}<li><a href="#" onclick="this.style.display='none'; this.nextSibling.style.display=''; return false; this.parentNode.parentNode.parentNode.parentNode.parentNode.display='none'">Remove</a><span style='display:none'>* <u>Removed</u></span></li>{end:} -->
+						<li><a href="javascript:openAWindow('http://maps.google.ca/?f=d&saddr=272+1%2F2+Princess%2C+Kingston%2C+ON%2C+CA&daddr=99+University+Avenue,+Kingston,+Ontario&z=14','property_map',850,630,true);">View on Map</a></li>
+						      
+						</ul>
+					</div>
+		                </td>
+      </tr>
+		<tr>
+	  <td colspan='2' style='font-size:10px;padding:0px;'>&nbsp;</td>
+    </tr>
+			  </table>
