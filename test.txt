@@ -1,20 +1,21 @@
-Entry:	Address	Type	Rent	Number of Rooms	Date Available	Contact
-1:	336 Brock 	Room	$610.00	1 of 6 (shared)	November 1, 2012	Terri Buller call (613)&nbsp;217-1113
-2:	558 Princess - Unit 2	Apartment	$2,092.00	4	May 1, 2016	R&amp;T Garrison call (613)&nbsp;544-4677
-3:	15 MacPherson - Unit FURNISHED 2 BEDROOM	Apartment	$980.00	2	January 3, 2016	call 533-2501
-4:	558 Princess - Unit 3	Apartment	$1,566.00	3	May 1, 2015	Lanny or Treena Garrison call (613)&nbsp;544-4677
-5:	400 Albert - Unit Basement	Apartment	$600.00	Bachelor	October 21, 2015	Beth &amp; Jim Leake call (613)&nbsp;544-2838
-6:	311 Collingwood 	House	$3,126.00	6	May 1, 2016	Lanny or Treena Garrison call (613)&nbsp;544-4677
-7:	17 Van Order Dr - Unit 8-103	Apartment	$828.00	2	January 1, 2016	Md Saifuzzaman call (613)&nbsp;770-7157
-8:	583 Johnson - Unit 4	Apartment	$1,366.00	2	May 1, 2016	Treena or Lanny Garrison call (613)&nbsp;544-4677
-9:	249 Division 	Room	$625.00	5	December 1, 2015	Terri Buller cell: (613) 217-1113
-10:	244 Sir John A MacDonald - Unit 04D	Apartment	$508.85	1	December 1, 2015	Ali  call (613)&nbsp;483-4730
-11:	84 Gore Street - Unit 1A	Apartment	$346.00	Bachelor	January 1, 2016	Daphne Dean call (613)&nbsp;546-2519
-12:	169 Willingdon 	Room	$725.00	4	January 1, 2016	
-13:	17 Van Order Dr - Unit 09-301	Apartment	$828.00	2	January 1, 2016	Erin  call (343)&nbsp;363-3307
-14:	272 1/2 Princess - Unit 16	Apartment	$1,780.00	2	November 1, 2015	Keystone Property Mgmt call (613)&nbsp;561-4444
-15:	22 Nelson 	House	$3,738.00	7	May 1, 2016	R&amp;T Garrison call (613)&nbsp;544-4677
-16:	260 Johnson - Unit 4	Room	$499.00	1 of 2 (shared)	November 1, 2015	Daphne Dean call (613)&nbsp;546-2519
-17:	15 MacPherson - Unit 16-302	Apartment	$490.00	1 of 2 (shared)	January 1, 2016	Yingjun  call (647)&nbsp;608-9333
-18:	169 Earl 	Room	$707.00	12	May 1, 2016	Treena or Lanny Garrison call (613)&nbsp;544-4677
-19:	157 Queen 	House	$600.00	3 of 4 (shared)	December 1, 2015	Terri Buller cell: (613) 217-1113
+Entry Address                                           Type      Rent      Number of Rooms Date Available     Contact                                           
+   1: 17 Van Order Dr - Unit 09-301                     Apartment $828.00   2               January 1, 2016    Erin  call (343)&nbsp;363-3307                    
+   2: 336 Brock                                         Room      $610.00   1 of 6 (shared) November 1, 2012   Terri Buller call (613)&nbsp;217-1113             
+   3: 157 Queen                                         House     $1,560.00 4               December 1, 2015   Terri Buller                                      
+   4: 157 Queen                                         House     $600.00   3 of 4 (shared) December 1, 2015   Terri Buller cell: (613) 217-1113                 
+   5: 249 Division                                      Room      $625.00   5               December 1, 2015   Terri Buller cell: (613) 217-1113                 
+   6: 558 Princess - Unit 3                             Apartment $1,566.00 3               May 1, 2015        Lanny or Treena Garrison call (613)&nbsp;544-4677 
+   7: 311 Collingwood                                   House     $3,126.00 6               May 1, 2016        Lanny or Treena Garrison call (613)&nbsp;544-4677 
+   8: 583 Johnson - Unit 4                              Apartment $1,366.00 2               May 1, 2016        Treena or Lanny Garrison call (613)&nbsp;544-4677 
+   9: 169 Earl                                          Room      $707.00   12              May 1, 2016        Treena or Lanny Garrison call (613)&nbsp;544-4677 
+  10: 558 Princess - Unit 2                             Apartment $2,092.00 4               May 1, 2016        R&amp;T Garrison call (613)&nbsp;544-4677         
+  11: 22 Nelson                                         House     $3,738.00 7               May 1, 2016        R&amp;T Garrison call (613)&nbsp;544-4677         
+  12: 15 MacPherson - Unit 16-302                       Apartment $490.00   1 of 2 (shared) January 1, 2016    Yingjun  call (647)&nbsp;608-9333                 
+  13: 272 1/2 Princess - Unit 16                        Apartment $1,780.00 2               November 1, 2015   Keystone Property Mgmt call (613)&nbsp;561-4444   
+  14: 15 MacPherson - Unit FURNISHED 2 BEDROOM          Apartment $980.00   2               January 3, 2016    call 533-2501                                     
+  15: 17 Van Order Dr - Unit 8-103                      Apartment $828.00   2               January 1, 2016    Md Saifuzzaman call (613)&nbsp;770-7157           
+  16: 244 Sir John A MacDonald - Unit 04D               Apartment $508.85   1               December 1, 2015   Ali  call (613)&nbsp;483-4730                     
+  17: 169 Willingdon                                    Room      $725.00   4               January 1, 2016                                                      
+  18: 260 Johnson - Unit 4                              Room      $499.00   1 of 2 (shared) November 1, 2015   Daphne Dean call (613)&nbsp;546-2519              
+  19: 84 Gore Street - Unit 1A                          Apartment $346.00   Bachelor        January 1, 2016    Daphne Dean call (613)&nbsp;546-2519              
+  20: 400 Albert - Unit Basement                        Apartment $600.00   Bachelor        October 21, 2015   Beth &amp; Jim Leake call (613)&nbsp;544-2838     
