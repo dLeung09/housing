@@ -108,6 +108,13 @@ sub saveToFile
 
     my $num = 1;
 
+    my $address;
+    my $type;
+    my $rent;
+    my $num_rooms;
+    my $date_avail;
+    my $contact;
+
     open(my $file, '>', $$output_file) or die "cannot open file $$output_file";
     {
         printf $file "%-5s %-50s%-10s%-10s%-16s%-19s%-50s\n", 'Entry', 'Address', 'Type', 'Rent', 'Number of Rooms', 'Date Available', 'Contact';
@@ -115,7 +122,14 @@ sub saveToFile
 
         for my $index (sort keys(%$info_hash_ref))
         {
-            printf $file "%4s: %-50s%-10s%-10s%-16s%-19s%-50s\n", $num, $$info_hash_ref{$index}{'Address'}, $$info_hash_ref{$index}{'Type'}, $$info_hash_ref{$index}{'Rent'}, $$info_hash_ref{$index}{'NumRooms'}, $$info_hash_ref{$index}{'DateAvail'}, $$info_hash_ref{$index}{'Contact'};
+            $address    = $$info_hash_ref{$index}{'Address'};
+            $type       = $$info_hash_ref{$index}{'Type'};
+            $rent       = $$info_hash_ref{$index}{'Rent'};
+            $num_rooms  = $$info_hash_ref{$index}{'NumRooms'};
+            $date_avail = $$info_hash_ref{$index}{'DateAvail'};
+            $contact    = $$info_hash_ref{$index}{'Contact'};
+
+            printf $file "%4s: %-50s%-10s%-10s%-16s%-19s%-50s\n", $num, $address, $type, $rent, $num_rooms, $date_avail, $contact;
 
             $num++;
         }
