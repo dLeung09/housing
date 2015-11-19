@@ -4,7 +4,37 @@ use strict;
 use warnings;
 use Data::Dumper;
 
+# GLOBAL VARIABLES
+##################
+
+
+# MAIN CODE
+############
+
+#{
+#}
+
+# SUBROUTINES
+##############
+
+#sub checkArgs
+#{
+#}
+
+#sub readFile
+#{
+#}
+
+#sub buildHashTable
+#{
+#}
+
+#sub saveToFile
+#{
+#}
+
 my $input_file = $ARGV[0];
+my $output_file = $ARGV[1];
 my $file_string;
 
 open(my $fh, '<', $input_file) or die "cannot open file $input_file";
@@ -71,14 +101,18 @@ while ($file_string =~ s/(.*?)\<b\>(.*?)\<\/b\>(.*?)/$1 --- $3/s)
 
 my $num = 1;
 
-printf "%-5s %-50s%-10s%-10s%-16s%-19s%-50s\n", 'Entry', 'Address', 'Type', 'Rent', 'Number of Rooms', 'Date Available', 'Contact';
-
-for my $index (sort keys(%info_hash))
+open(my $file, '>', $output_file) or die "cannot open file $output_file";
 {
-    #print "$index:\t$address\t$info_hash{$address}{'Type'}\t$info_hash{$address}{'Rent'}\t$info_hash{$address}{'NumRooms'}\t$info_hash{$address}{'DateAvail'}\t$info_hash{$address}{'Contact'}\n";
-    printf "%4s: %-50s%-10s%-10s%-16s%-19s%-50s\n", $num, $info_hash{$index}{'Address'}, $info_hash{$index}{'Type'}, $info_hash{$index}{'Rent'}, $info_hash{$index}{'NumRooms'}, $info_hash{$index}{'DateAvail'}, $info_hash{$index}{'Contact'};
+    printf $file "%-5s %-50s%-10s%-10s%-16s%-19s%-50s\n", 'Entry', 'Address', 'Type', 'Rent', 'Number of Rooms', 'Date Available', 'Contact';
+    printf $file "----------------------------------------------------------------------------------------------------------------------------------------------------------------\n";
 
-    $num++;
+    for my $index (sort keys(%info_hash))
+    {
+        printf $file "%4s: %-50s%-10s%-10s%-16s%-19s%-50s\n", $num, $info_hash{$index}{'Address'}, $info_hash{$index}{'Type'}, $info_hash{$index}{'Rent'}, $info_hash{$index}{'NumRooms'}, $info_hash{$index}{'DateAvail'}, $info_hash{$index}{'Contact'};
+
+        $num++;
+    }
+    close $file;
 }
 
 #print $file_string;

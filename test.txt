@@ -1,4 +1,5 @@
 Entry Address                                           Type      Rent      Number of Rooms Date Available     Contact                                           
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
    1: 17 Van Order Dr - Unit 09-301                     Apartment $828.00   2               January 1, 2016    Erin  call (343)&nbsp;363-3307                    
    2: 336 Brock                                         Room      $610.00   1 of 6 (shared) November 1, 2012   Terri Buller call (613)&nbsp;217-1113             
    3: 157 Queen                                         House     $1,560.00 4               December 1, 2015   Terri Buller                                      
