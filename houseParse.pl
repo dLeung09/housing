@@ -25,16 +25,38 @@ sub checkArgs
     my $input_file  = shift;
     my $output_file = shift;
 
-    if ($#ARGV != 1)
+    if (scalar(@ARGV) != 2)
     {
-        print "Usage: ./houseParse.pl <input_file> <output_file>\n";
-        exit;
+        showHelpAndExit();
     }
-    else
+
+    for my $arg (@ARGV)
     {
-        $$input_file  = $ARGV[0];
-        $$output_file = $ARGV[1];
+        showHelpAndExit() if "$arg" eq "--help";
     }
+
+    $$input_file  = $ARGV[0];
+    $$output_file = $ARGV[1];
+}
+
+sub showHelpAndExit
+{
+    print "\n";
+    print <<EOO;
+usage: 
+  $0 [--help] <input_file> <output_file>>
+
+where
+
+  <input_file> contains the search results extracted from the Queen's Housing Listing service
+
+  <output_file> is the output (text) file that will contain the properly formatted housing
+  information
+
+  --help
+
+EOO
+    exit 1;
 }
 
 sub readFile
