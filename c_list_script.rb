@@ -51,21 +51,21 @@ scraper.get(ADDRESS) do |search_page|
         # Save the results
         results << [name, url, price, location]
     end
+end
 
-    CSV.open("test_output.csv", "w+") do |csv_file|
-        results.each do |row|
-            csv_file << row
-        end
+CSV.open("test_output.csv", "w+") do |csv_file|
+    results.each do |row|
+        csv_file << row
     end
+end
 
-    #   TODO: Save to a human readable format (.txt?) as well
-    File.open("text_output.txt", "w+") do |txt_file|
-        results.each do |row|
-            name = row[0]
-            url = row[1]
-            price = row[2]
-            location = row[3]
-            txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
-        end
+#   TODO: Save to a human readable format (.txt?) as well
+File.open("text_output.txt", "w+") do |txt_file|
+    results.each do |row|
+        name = row[0]
+        url = row[1]
+        price = row[2]
+        location = row[3]
+        txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
     end
 end
