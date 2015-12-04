@@ -201,35 +201,69 @@ class Scraper
     def parse_args
         options = {}
         OptionParser.new do |opt|
-            opt.on('', '--title-only', 'Search for query in title only') { |b| options[:title_only] = b }
+            opt.on('-t', '--title-only', 'Search for query in title only') { |b|
+                options[:title_only] = b
+            }
 
-            opt.on('', '--has-pic', 'Only show results with a picture') { |b| options[:has_pic] = b }
+            opt.on('-q', '--query QUERY', 'Search for results that include QUERY') { |o|
+                options[:query] = o
+            }
 
-            opt.on('', '--posted-today', 'Only show results posted today') { |b| option[:posted_today] = b }
+            opt.on('-p', '--has-pic', 'Only show results with a picture') { |b|
+                options[:has_pic] = b
+            }
 
-            opt.on('', '--nearby', 'Only show nearby results') { |b| option[:nearby] = b }
+            opt.on('--posted-today', 'Only show results posted today') { |b|
+                option[:posted_today] = b
+            }
 
-            opt.on('', '--min-price MIN_PRICE', 'Filter out results for less than MIN_PRICE') { |o| option[:min_price] = o }
+            opt.on('', '--nearby', 'Only show nearby results') { |b|
+                option[:nearby] = b
+            }
 
-            opt.on('', '--max-price MAX_PRICE', 'Filter out results for more than MAX_PRICE') { |o| option[:max_price] = o }
+            opt.on('-min', '--min-price MIN_PRICE', 'Filter out results for less than MIN_PRICE') { |o|
+                option[:min_price] = o
+            }
 
-            opt.on('', '--bedrooms NUM', 'Filter out results with less than NUM bedrooms') { |o| option[:bedrooms] = o }
+            opt.on('-max', '--max-price MAX_PRICE', 'Filter out results for more than MAX_PRICE') { |o|
+                option[:max_price] = o
+            }
 
-            opt.on('', '--bathrooms NUM', 'Filter out results with less than NUM bathrooms') { |o| option[:bathrooms] = o }
+            opt.on('', '--bedrooms NUM', 'Filter out results with less than NUM bedrooms') { |o|
+                option[:bedrooms] = o
+            }
 
-            opt.on('', '--min-sq-ft NUM', 'Filter out results with less than NUM square feet') { |o| option[:min_ft] = o }
+            opt.on('', '--bathrooms NUM', 'Filter out results with less than NUM bathrooms') { |o|
+                option[:bathrooms] = o
+            }
 
-            opt.on('', '--max-sq-ft NUM', 'Filter out results with more than NUM square feet') { |o| option[:max_ft] = o }
+            opt.on('', '--min-sq-ft NUM', 'Filter out results with less than NUM square feet') { |o|
+                option[:min_ft] = o
+            }
 
-            opt.on('', '--allow-cat', 'Filter out results that do NOT allow cats') { |o| option[:pets_cat] = o }
+            opt.on('', '--max-sq-ft NUM', 'Filter out results with more than NUM square feet') { |o|
+                option[:max_ft] = o
+            }
 
-            opt.on('', '--allow-dog', 'Filter out results that do NOT allow dogs') { |o| option[:pets_dog] = o }
+            opt.on('', '--allow-cat', 'Filter out results that do NOT allow cats') { |b|
+                option[:pets_cat] = b
+            }
 
-            opt.on('', '--furnished', 'Filter out results that are NOT furnished') { |o| option[:furnished] = o }
+            opt.on('', '--allow-dog', 'Filter out results that do NOT allow dogs') { |b|
+                option[:pets_dog] = b
+            }
 
-            opt.on('', '--no-smoking', 'Filter out results that allow smoking') { |o| option[:no_smoking] = o }
+            opt.on('-f', '--furnished', 'Filter out results that are NOT furnished') { |b|
+                option[:furnished] = b
+            }
 
-            opt.on('', '--wheelchair', 'Filter out results that are NOT wheelchair accessible') { |o| option[:wheelchair] = o }
+            opt.on('-s', '--no-smoking', 'Filter out results that allow smoking') { |b|
+                option[:no_smoking] = b
+            }
+
+            opt.on('-w', '--wheelchair', 'Filter out results that are NOT wheelchair accessible') { |b|
+                option[:wheelchair] = b
+            }
 
             #search.checkbox_with( :id => 'apartment_1' ).check
             #search.checkbox_with( :id => 'condo_2' ).check
@@ -243,11 +277,13 @@ class Scraper
             #search.checkbox_with( :id => 'manufactured_10' ).check
             #search.checkbox_with( :id => 'assisted_living_11' ).check
             #search.checkbox_with( :id => 'land_12' ).check
+
             #search.checkbox_with( :id => 'w/d_in_unit_1' ).check
-            #search.checkbox_with( :id => 'w/d_hookups_4' ).check
             #search.checkbox_with( :id => 'laundry_in_bldg_2' ).check
             #search.checkbox_with( :id => 'laundry_on_site_3' ).check
+            #search.checkbox_with( :id => 'w/d_hookups_4' ).check
             #search.checkbox_with( :id => 'no_laundry_on_site_5' ).check
+
             #search.checkbox_with( :id => 'carport_1' ).check
             #search.checkbox_with( :id => 'attached_garage_2' ).check
             #search.checkbox_with( :id => 'detached_garage_3' ).check
@@ -255,8 +291,10 @@ class Scraper
             #search.checkbox_with( :id => 'street_parking_5' ).check
             #search.checkbox_with( :id => 'valet_parking_6' ).check
             #search.checkbox_with( :id => 'no_parking_7' ).check
-            #search.field_with( :id => 'sale_date' ).options[0].click
-            opt.on('-q', '--query QUERY', 'Search for results that include QUERY') { |o| options[:query] = o }
+
+            opt.on('', '--open-house DATE', 'Filter results by open house date') { |o|
+                options[:sale_date] = o
+            }
         end
     end
 
