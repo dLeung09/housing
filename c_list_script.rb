@@ -8,16 +8,17 @@ require 'date'
 
 ##### TODO #####
 #
-#   - Create an array for @search_form fields with strict index (e.g., fields = [ query, max_price, min_price, url, ... ] )
-#       |-> In progress (Completed?)
-#   - Parameterize program
-#       |-> In progress
-#           |--> Deal with multiple checkbox
-#   - Sanitize program parameters
-#   - Come up with 'Usage' message
-#   - Include a warning that default website is used, if none passed to program
-#   - Introduce 'usage' method (private?)
 #   - Fix parameterization of 'save_results' method
+#   - Create an array for @search_form fields with strict index (e.g., fields = [ query, max_price, min_price, url, ... ] )
+#       |-> Complete
+#       |-> Next Step: Optimize/refactor code
+#   - Parameterize program
+#       |-> Complete
+#       |-> BUG: Multiple interactive sessions cause failure.
+#           |--> Takes second interactive session tag as input to first interactive session.
+#   - Sanitize program parameters
+#   - Customize with 'Usage' message
+#   - Include a warning that default website is used, if none passed to program
 #   - Use external file to map page elements to website
 #   - Use hash/external file to map form fields to website
 #   - Fix method comments (RE: Params/Returns)
@@ -104,32 +105,233 @@ class Scraper
             end
 
             # Multiple selection checkbox
-            #search.checkbox_with( :id => 'apartment_1' ).check
-            #search.checkbox_with( :id => 'condo_2' ).check
-            #search.checkbox_with( :id => 'cottage/cabin_3' ).check
-            #search.checkbox_with( :id => 'duplex_4' ).check
-            #search.checkbox_with( :id => 'flat_5' ).check
-            #search.checkbox_with( :id => 'house_6' ).check
-            #search.checkbox_with( :id => 'in-law_7' ).check
-            #search.checkbox_with( :id => 'loft_8' ).check
-            #search.checkbox_with( :id => 'townhouse_9' ).check
-            #search.checkbox_with( :id => 'manufactured_10' ).check
-            #search.checkbox_with( :id => 'assisted_living_11' ).check
-            #search.checkbox_with( :id => 'land_12' ).check
+            if @search_fields[:housing_type]
+                completion_flag = false
+                lower_hash = {}
 
-            #search.checkbox_with( :id => 'w/d_in_unit_1' ).check
-            #search.checkbox_with( :id => 'w/d_hookups_4' ).check
-            #search.checkbox_with( :id => 'laundry_in_bldg_2' ).check
-            #search.checkbox_with( :id => 'laundry_on_site_3' ).check
-            #search.checkbox_with( :id => 'no_laundry_on_site_5' ).check
+                puts <<-EOS
+    Type the number of each housing-type that should be included in the search, and press <Enter>.
+    Type "0" when done.
 
-            #search.checkbox_with( :id => 'carport_1' ).check
-            #search.checkbox_with( :id => 'attached_garage_2' ).check
-            #search.checkbox_with( :id => 'detached_garage_3' ).check
-            #search.checkbox_with( :id => 'off-street_parking_4' ).check
-            #search.checkbox_with( :id => 'street_parking_5' ).check
-            #search.checkbox_with( :id => 'valet_parking_6' ).check
-            #search.checkbox_with( :id => 'no_parking_7' ).check
+        1  - Apartment
+        2  - Condo
+        3  - Cottage/Cabin
+        4  - Duplex
+        5  - Flat
+        6  - House
+        7  - In-Law
+        8  - Loft
+        9  - Townhouse
+        10 - Manufactured
+        11 - Assisted Living
+        12 - Land
+        0  - DONE
+EOS
+                until completion_flag do
+                    print 'Select -> '
+                    input = gets.to_i
+
+                    case input
+                    when 0
+
+                        completion_flag = true
+
+                        lower_hash.each do |type, value|
+                            model = type.to_s
+                            model.gsub!(/_/, ' ') if model =~ /_/
+                            model.capitalize!
+                            puts "#{model} selected."
+                        end
+
+                    when 1
+                        lower_hash[:apartment] = true
+                        search.checkbox_with( :id => 'apartment_1' ).check
+                    when 2
+                        lower_hash[:condo] = true
+                        search.checkbox_with( :id => 'condo_2' ).check
+                    when 3
+                        lower_hash[:cottage_cabin] = true
+                        search.checkbox_with( :id => 'cottage/cabin_3' ).check
+                    when 4
+                        lower_hash[:duplex] = true
+                        search.checkbox_with( :id => 'duplex_4' ).check
+                    when 5
+                        lower_hash[:flat] = true
+                        search.checkbox_with( :id => 'flat_5' ).check
+                    when 6
+                        lower_hash[:house] = true
+                        search.checkbox_with( :id => 'house_6' ).check
+                    when 7
+                        lower_hash[:in_law] = true
+                        search.checkbox_with( :id => 'in-law_7' ).check
+                    when 8
+                        lower_hash[:loft] = true
+                        search.checkbox_with( :id => 'loft_8' ).check
+                    when 9
+                        lower_hash[:townhouse] = true
+                        search.checkbox_with( :id => 'townhouse_9' ).check
+                    when 10
+                        lower_hash[:manufactured] = true
+                        search.checkbox_with( :id => 'manufactured_10' ).check
+                    when 11
+                        lower_hash[:assisted_living] = true
+                        search.checkbox_with( :id => 'assisted_living_11' ).check
+                    when 12
+                        lower_hash[:land] = true
+                        search.checkbox_with( :id => 'land_12' ).check
+                    else
+                        puts <<-EOS
+Invalid input.
+
+    1  - Apartment
+    2  - Condo
+    3  - Cottage/Cabin
+    4  - Duplex
+    5  - Flat
+    6  - House
+    7  - In-Law
+    8  - Loft
+    9  - Townhouse
+    10 - Manufactured
+    11 - Assisted Living
+    12 - Land
+    0  - DONE
+EOS
+                    end
+                end
+            end
+
+            if @search_fields[:laundry]
+                completion_flag = false
+                lower_hash = {}
+
+                puts <<-EOS
+    Type the number of each laundry options that should be included in the search, and press <Enter>.
+    Type "0" when done.
+
+        1  - W/D in Unit
+        2  - Laundry in Building
+        3  - Laundry on Site
+        4  - W/D Hookups
+        5  - No Laundry on Site
+        0  - DONE
+EOS
+                until completion_flag do
+                    print 'Select -> '
+                    input = gets.to_i
+
+                    case input
+                    when 0
+
+                        completion_flag = true
+
+                        lower_hash.each do |type, value|
+                            model = type.to_s
+                            model.gsub!(/_/, ' ') if model =~ /_/
+                            model.capitalize!
+                            puts "#{model} selected."
+                        end
+
+                    when 1
+                        lower_hash[:w_d_in_unit] = true
+                        search.checkbox_with( :id => 'w/d_in_unit_1' ).check
+                    when 2
+                        lower_hash[:laundry_in_bldg] = true
+                        search.checkbox_with( :id => 'laundry_in_bldg_2' ).check
+                    when 3
+                        lower_hash[:laundry_on_site] = true
+                        search.checkbox_with( :id => 'laundry_on_site_3' ).check
+                    when 4
+                        lower_hash[:w_d_hookups] = true
+                        search.checkbox_with( :id => 'w/d_hookups_4' ).check
+                    when 5
+                        lower_hash[:no_laundry_on_site] = true
+                        search.checkbox_with( :id => 'no_laundry_on_site_5' ).check
+                    else
+                        puts <<-EOS
+Invalid input.
+
+    1  - W/D in Unit
+    2  - Laundry in Building
+    3  - Laundry on Site
+    4  - W/D Hookups
+    5  - No Laundry on Site
+    0  - DONE
+EOS
+                    end
+                end
+            end
+
+            if @search_fields[:parking]
+                completion_flag = false
+                lower_hash = {}
+
+                puts <<-EOS
+    Type the number of each parking options that should be included in the search, and press <Enter>.
+    Type "0" when done.
+
+    1  - Carport
+    2  - Attached Garage
+    3  - Detached Garage
+    4  - Off-Street Parking
+    5  - Street Parking
+    6  - Valet Parking
+    7  - No Parking
+    0  - DONE
+EOS
+                until completion_flag do
+                    print 'Select -> '
+                    input = gets.to_i
+
+                    case input
+                    when 0
+
+                        completion_flag = true
+
+                        lower_hash.each do |type, value|
+                            model = type.to_s
+                            model.gsub!(/_/, ' ') if model =~ /_/
+                            model.capitalize!
+                            puts "#{model} selected."
+                        end
+
+                    when 1
+                        lower_hash[:carport] = true
+                        search.checkbox_with( :id => 'carport_1' ).check
+                    when 2
+                        lower_hash[:attached_garage] = true
+                        search.checkbox_with( :id => 'attached_garage_2' ).check
+                    when 3
+                        lower_hash[:detached_garage] = true
+                        search.checkbox_with( :id => 'detached_garage_3' ).check
+                    when 4
+                        lower_hash[:off_street_parking] = true
+                        search.checkbox_with( :id => 'off-street_parking_4' ).check
+                    when 5
+                        lower_hash[:street_parking] = true
+                        search.checkbox_with( :id => 'street_parking_5' ).check
+                    when 6
+                        lower_hash[:valet_parking] = true
+                        search.checkbox_with( :id => 'valet_parking_6' ).check
+                    when 7
+                        lower_hash[:no_parking] = true
+                        search.checkbox_with( :id => 'no_parking_7' ).check
+                    else
+                        puts <<-EOS
+Invalid input.
+
+    1  - Carport
+    2  - Attached Garage
+    3  - Detached Garage
+    4  - Off-Street Parking
+    5  - Street Parking
+    6  - Valet Parking
+    7  - No Parking
+    0  - DONE
+EOS
+                    end
+                end
+            end
         end
 
         @search_form = form
@@ -366,32 +568,17 @@ class Scraper
                 options[:sale_date] = sale_date
             }
 
-            #search.checkbox_with( :id => 'apartment_1' ).check
-            #search.checkbox_with( :id => 'condo_2' ).check
-            #search.checkbox_with( :id => 'cottage/cabin_3' ).check
-            #search.checkbox_with( :id => 'duplex_4' ).check
-            #search.checkbox_with( :id => 'flat_5' ).check
-            #search.checkbox_with( :id => 'house_6' ).check
-            #search.checkbox_with( :id => 'in-law_7' ).check
-            #search.checkbox_with( :id => 'loft_8' ).check
-            #search.checkbox_with( :id => 'townhouse_9' ).check
-            #search.checkbox_with( :id => 'manufactured_10' ).check
-            #search.checkbox_with( :id => 'assisted_living_11' ).check
-            #search.checkbox_with( :id => 'land_12' ).check
+            opt.on('--housing-type', 'Opens an interactive session to filter search results by housing type') { |b|
+                options[:housing_type] = b
+            }
 
-            #search.checkbox_with( :id => 'w/d_in_unit_1' ).check
-            #search.checkbox_with( :id => 'laundry_in_bldg_2' ).check
-            #search.checkbox_with( :id => 'laundry_on_site_3' ).check
-            #search.checkbox_with( :id => 'w/d_hookups_4' ).check
-            #search.checkbox_with( :id => 'no_laundry_on_site_5' ).check
+            opt.on('--laundry', 'Opens an interactive session to filter search results by laundry options') { |b|
+                options[:laundry] = b
+            }
 
-            #search.checkbox_with( :id => 'carport_1' ).check
-            #search.checkbox_with( :id => 'attached_garage_2' ).check
-            #search.checkbox_with( :id => 'detached_garage_3' ).check
-            #search.checkbox_with( :id => 'off-street_parking_4' ).check
-            #search.checkbox_with( :id => 'street_parking_5' ).check
-            #search.checkbox_with( :id => 'valet_parking_6' ).check
-            #search.checkbox_with( :id => 'no_parking_7' ).check
+            opt.on('--parking', 'Opens an interactive session to filter search results by parking options') { |b|
+                options[:laundry] = b
+            }
         end.parse!
 
         options
