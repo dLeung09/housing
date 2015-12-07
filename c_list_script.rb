@@ -9,13 +9,8 @@ require 'date'
 ##### TODO #####
 #
 #   - Fix parameterization of 'save_results' method
-#   - Create an array for @search_form fields with strict index (e.g., fields = [ query, max_price, min_price, url, ... ] )
-#       |-> Complete
-#       |-> Next Step: Optimize/refactor code
-#   - Parameterize program
-#       |-> Complete
-#       |-> BUG: Multiple interactive sessions cause failure.
-#           |--> Takes second interactive session tag as input to first interactive session.
+#   - Refactor @search_fields building
+#       |-> In Progress
 #   - Sanitize program parameters
 #   - Customize with 'Usage' message
 #   - Include a warning that default website is used, if none passed to program
@@ -418,47 +413,97 @@ EOS
         scraper
     end ## init Method
 
-    ### --Parse Program Arguments-- ###
+    ### --Build Hash for Short Flag Arguments-- ###
     #   Params: <none>
-    #   Returns: Hash filled with search parameters.
+    #   Returns: Hash filled with syntax details for short flags.
     ###
-    def parse_args
-        options = {}
+    def build_bool_flags
+        full_hash = {}
+        temp = {}
 
-        OptionParser.new do |opt|
-            opt.on('-c', '--allow-cat', 'Filter out results that do NOT allow cats') { |b|
-                options[:pets_cat] = b
-            }
+        temp[:short] = '-c'
+        temp[:long] = '--allow-cat'
+        temp[:desc] = 'Filter out results that do NOT allow cats'
 
-            opt.on('-d', '--allow-dog', 'Filter out results that do NOT allow dogs') { |b|
-                options[:pets_dog] = b
-            }
+        full_hash[:pets_cat] = temp.clone
 
-            opt.on('-f', '--furnished', 'Filter out results that are NOT furnished') { |b|
-                options[:is_furnished] = b
-            }
+        temp[:short] = '-d'
+        temp[:long] = '--allow-dog'
+        temp[:desc] = 'Filter out results that do NOT allow dogs'
 
-            opt.on('-h', '--help', 'Show this help message') { puts opt; exit }
+        full_hash[:pets_dog] = temp.clone
 
-            opt.on('-p', '--has-pic', 'Only show results with a picture') { |b|
-                options[:has_pic] = b
-            }
+        temp[:short] = '-f'
+        temp[:long] = '--furnished'
+        temp[:desc] = 'Filter out results that are NOT furnished'
 
-            opt.on('-q', '--query QUERY', 'Search for results that include QUERY') { |o|
-                options[:query] = o
-            }
+        full_hash[:is_furnished] = temp.clone
 
-            opt.on('-s', '--no-smoking', 'Filter out results that allow smoking') { |b|
-                options[:no_smoking] = b
-            }
+        temp[:short] = '-p'
+        temp[:long] = '--has-pic'
+        temp[:desc] = 'Only show results with a picture'
 
-            opt.on('-t', '--title-only', 'Search for query in title only') { |b|
-                options[:srch_type] = b
-            }
+        full_hash[:has_pic] = temp.clone
 
-            opt.on('-w', '--wheelchair', 'Filter out results that are NOT wheelchair accessible') { |b|
-                options[:wheelch_acces] = b
-            }
+        temp[:short] = '-q'
+        temp[:long] = '--query QUERY'
+        temp[:desc] = 'Search for results that include QUERY'
+
+        full_hash[:query] = temp.clone
+
+        temp[:short] = '-s'
+        temp[:long] = '--no-smoking'
+        temp[:desc] = 'Filter out results that allow smoking'
+
+        full_hash[:no_smoking] = temp.clone
+
+        temp[:short] = '-t'
+        temp[:long] = '--title-only'
+        temp[:desc] = 'Search for query in title only'
+
+        full_hash[:srch_type] = temp.clone
+
+        temp[:short] = '-w'
+        temp[:long] = '--wheelchair'
+        temp[:desc] = 'Filter out results that are NOT wheelchair accessible'
+
+        full_hash[:wheelch_access] = temp.clone
+
+        temp[:short] = nil
+        temp[:long] = '--nearby'
+        temp[:desc] = 'Only show nearby results'
+
+        full_hash[:search_nearby] = temp.clone
+
+        temp[:short] = nil
+        temp[:long] = '--posted-today'
+        temp[:desc] = 'Only show results posted today'
+
+        full_hash[:posted_today] = temp.clone
+
+        temp[:short] = nil
+        temp[:long] = '--housing-type'
+        temp[:desc] = 'Opens an interactive session to filter search results by housing type'
+
+        full_hash[:housing_type] = temp.clone
+
+        temp[:short] = nil
+        temp[:long] = '--laundry'
+        temp[:desc] = 'Opens an interactive session to filter search results by laundry options'
+
+        full_hash[:laundry] = temp.clone
+
+        temp[:short] = nil
+        temp[:long] = '--parking'
+        temp[:desc] = 'Opens an interactive session to filter search results by parking options'
+
+        full_hash[:parking] = temp.clone
+
+        full_hash
+    end ## build_bool_flags Method
+
+    def build_input_flags
+        full_hash = {}
 
             opt.on('--bathrooms NUM', 'Filter out results with less than NUM bathrooms') { |o|
                 unless o.is_a? Numeric
@@ -534,12 +579,111 @@ EOS
                 options[:max_sq_ft] = o
             }
 
-            opt.on('--nearby', 'Only show nearby results') { |b|
-                options[:search_nearby] = b
+        full_hash
+    end # build_input_flags Method
+
+    ### --Parse Program Arguments-- ###
+    #   Params: <none>
+    #   Returns: Hash filled with search parameters.
+    ###
+    def parse_args
+        options = {}
+        bool_flags = build_bool_flags
+        input_flags = build_input_flags
+
+        OptionParser.new do |opt|
+
+            opt.on('-h', '--help', 'Show this help message') { puts opt; exit }
+
+            bool_flags.each do |key, lower_hash|
+                long = lower_hash[:long]
+                desc = lower_hash[:desc]
+
+                if lower_hash[:short]
+                    short = lower_hash[:short]
+                    opt.on("#{short}", "#{long}", "#{desc}") { |b|
+                        options[key] = b
+                    }
+                else
+                    opt.on("#{long}", "#{desc}") { |b|
+                        options[key] = b
+                    }
+
+                end
+            end
+
+            opt.on('--bathrooms NUM', 'Filter out results with less than NUM bathrooms') { |o|
+                unless o.is_a? Numeric
+                    puts 'NUM must be a number.'
+                    puts opt
+                    exit
+                end
+
+                o = Integer(o)
+                if (o < 0 || o > 8)
+                    puts 'NUM must be between 0 and 8 (inclusive).'
+                    puts opt
+                    exit
+                end
+
+                options[:bathrooms] = o
             }
 
-            opt.on('--posted-today', 'Only show results posted today') { |b|
-                options[:posted_today] = b
+            opt.on('--bedrooms NUM', 'Filter out results with less than NUM bedrooms') { |o|
+                unless o.is_a? Numeric
+                    puts 'NUM must be a number.'
+                    puts opt
+                    exit
+                end
+
+                o = Integer(o)
+                if (o < 0 || o > 8)
+                    puts 'NUM must be between 0 and 8 (inclusive).'
+                    puts opt
+                    exit
+                end
+
+                options[:bedrooms] = o
+            }
+
+            opt.on('--min-price MIN_PRICE', 'Filter out results for less than MIN_PRICE') { |o|
+                unless o.is_a? Numeric
+                    puts 'MIN_PRICE must be a number.'
+                    puts opt
+                    exit
+                end
+
+                options[:min_price] = o
+            }
+
+            opt.on('--max-price MAX_PRICE', 'Filter out results for more than MAX_PRICE') { |o|
+                unless o.is_a? Numeric
+                    puts 'MAX_PRICE must be a number.'
+                    puts opt
+                    exit
+                end
+
+                options[:max_price] = o
+            }
+
+            opt.on('--min-sq-ft NUM', 'Filter out results with less than NUM square feet') { |o|
+                unless o.is_a? Numeric
+                    puts 'NUM must be a number.'
+                    puts opt
+                    exit
+                end
+
+                options[:min_sq_ft] = o
+            }
+
+            opt.on('--max-sq-ft NUM', 'Filter out results with more than NUM square feet') { |o|
+                unless o.is_a? Numeric
+                    puts 'NUM must be a number.'
+                    puts opt
+                    exit
+                end
+
+                options[:max_sq_ft] = o
             }
 
             opt.on('--open-house YYYY-MM-DD', 'Filter results by open house date') { |o|
@@ -568,17 +712,6 @@ EOS
                 options[:sale_date] = sale_date
             }
 
-            opt.on('--housing-type', 'Opens an interactive session to filter search results by housing type') { |b|
-                options[:housing_type] = b
-            }
-
-            opt.on('--laundry', 'Opens an interactive session to filter search results by laundry options') { |b|
-                options[:laundry] = b
-            }
-
-            opt.on('--parking', 'Opens an interactive session to filter search results by parking options') { |b|
-                options[:laundry] = b
-            }
         end.parse!
 
         options
