@@ -222,127 +222,150 @@ class Scraper
         full_hash = {}
         temp = {}
 
-        temp[:short] = '-c'
-        temp[:long] = '--allow-cat'
-        temp[:desc] = 'Filter out results that do NOT allow cats'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => '-c',
+                :long => '--allow-cat',
+                :desc => 'Filter out results that do NOT allow cats',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:pets_cat] = temp.clone
 
-        temp[:short] = '-d'
-        temp[:long] = '--allow-dog'
-        temp[:desc] = 'Filter out results that do NOT allow dogs'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => '-d',
+                :long => '--allow-dog',
+                :desc => 'Filter out results that do NOT allow dogs',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:pets_dog] = temp.clone
 
-        temp[:short] = '-f'
-        temp[:long] = '--furnished'
-        temp[:desc] = 'Filter out results that are NOT furnished'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => '-f',
+                :long => '--furnished',
+                :desc => 'Filter out results that are NOT furnished',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:is_furnished] = temp.clone
 
-        temp[:short] = '-p'
-        temp[:long] = '--has-pic'
-        temp[:desc] = 'Only show results with a picture'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => '-p',
+                :long => '--has-pic',
+                :desc => 'Only show results with a picture',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:hasPic] = temp.clone
 
-        temp[:short] = '-q'
-        temp[:long] = '--query QUERY'
-        temp[:desc] = 'Search for results that include QUERY'
-        temp[:hash] = :query
-        temp[:sym_hash] = nil
+        temp = {:short => '-q',
+                :long => '--query QUERY',
+                :desc => 'Search for results that include QUERY',
+                :hash => :query,
+                :sym_hash => nil
+        }
 
         full_hash[:query] = temp.clone
 
-        temp[:short] = '-s'
-        temp[:long] = '--no-smoking'
-        temp[:desc] = 'Filter out results that allow smoking'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => '-s',
+                :long => '--no-smoking',
+                :desc => 'Filter out results that allow smoking',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:no_smoking] = temp.clone
 
-        temp[:short] = '-t'
-        temp[:long] = '--title-only'
-        temp[:desc] = 'Search for query in title only'
-        temp[:hash] = :query
-        temp[:sym_hash] = nil
+        temp = {:short => '-t',
+                :long => '--title-only',
+                :desc => 'Search for query in title only',
+                :hash => :query,
+                :sym_hash => nil
+        }
 
         full_hash[:srchType] = temp.clone
 
-        temp[:short] = '-w'
-        temp[:long] = '--wheelchair'
-        temp[:desc] = 'Filter out results that are NOT wheelchair accessible'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => '-w',
+                :long => '--wheelchair',
+                :desc => 'Filter out results that are NOT wheelchair accessible',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:wheelchaccess] = temp.clone
 
-        temp[:short] = nil
-        temp[:long] = '--nearby'
-        temp[:desc] = 'Only show nearby results'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => nil,
+                :long => '--nearby',
+                :desc => 'Only show nearby results',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:searchNearby] = temp.clone
 
-        temp[:short] = nil
-        temp[:long] = '--posted-today'
-        temp[:desc] = 'Only show results posted today'
-        temp[:hash] = :checkbox
-        temp[:sym_hash] = nil
+        temp = {:short => nil,
+                :long => '--posted-today',
+                :desc => 'Only show results posted today',
+                :hash => :checkbox,
+                :sym_hash => nil
+        }
 
         full_hash[:postedToday] = temp.clone
 
-        temp[:short] = nil
-        temp[:long] = '--housing-type'
-        temp[:desc] = 'Opens an interactive session to filter search results by housing type'
-        temp[:hash] = :mult
+        sym_hash = [{:apartment_1 => 'Apartment'},
+                    {:condo_2 => 'Condo'},
+                    {'cottage/cabin_3'.to_sym => 'Cottage/Cabin'},
+                    {:duplex_4 => 'Duplex'},
+                    {:flat_5 => 'Flat'},
+                    {:house_6 => 'House'},
+                    {'in-law_7'.to_sym => 'In-Law'},
+                    {:loft_8 => 'Loft'},
+                    {:townhouse_9 => 'Townhouse'},
+                    {:manufactured_10 => 'Manufactured'},
+                    {:assisted_living_11 => 'Assisted Living'},
+                    {:land_12 => 'Land'}
+        ]
 
-        sym_hash = [{:apartment_1 => 'Apartment'}, {:condo_2 => 'Condo'},
-                    {'cottage/cabin_3'.to_sym => 'Cottage/Cabin'}, {:duplex_4 => 'Duplex'},
-                    {:flat_5 => 'Flat'}, {:house_6 => 'House'}, {'in-law_7'.to_sym => 'In-Law'},
-                    {:loft_8 => 'Loft'}, {:townhouse_9 => 'Townhouse'},
-                    {:manufactured_10 => 'Manufactured'}, {:assisted_living_11 => 'Assisted Living'},
-                    {:land_12 => 'Land'}]
-
-        temp[:sym_hash] = sym_hash.clone
+        temp = {:short => nil,
+                :long => '--housing-type',
+                :desc => 'Opens an interactive session to filter search results by housing type',
+                :hash => :mult,
+                :sym_hash => sym_hash.clone
+        }
 
         full_hash[:housing_type] = temp.clone
 
-        temp[:short] = nil
-        temp[:long] = '--laundry'
-        temp[:desc] = 'Opens an interactive session to filter search results by laundry options'
-        temp[:hash] = :mult
+        sym_hash = [{'w/d_in_unit_1'.to_sym => 'W/D in Unit'},
+                    {:laundry_in_bldg_2 => 'Laundry in Building'},
+                    {:laundry_on_site_3 => 'Laundry on Site'},
+                    {'w/d_hookups_4'.to_sym => 'W/D Hookups'},
+                    {:no_laundry_on_site_5 => 'No Laundry on Site'}
+        ]
 
-        sym_hash = [{'w/d_in_unit_1'.to_sym => 'W/D in Unit'}, {:laundry_in_bldg_2 => 'Laundry in Building'},
-                    {:laundry_on_site_3 => 'Laundry on Site'}, {'w/d_hookups_4'.to_sym => 'W/D Hookups'},
-                    {:no_laundry_on_site_5 => 'No Laundry on Site'}]
-
-        temp[:sym_hash] = sym_hash.clone
+        temp = {:short => nil,
+                :long => '--laundry',
+                :desc => 'Opens an interactive session to filter search results by laundry options',
+                :hash => :mult,
+                :sym_hash => sym_hash.clone
+        }
 
         full_hash[:laundry] = temp.clone
 
-        temp[:short] = nil
-        temp[:long] = '--parking'
-        temp[:desc] = 'Opens an interactive session to filter search results by parking options'
-        temp[:hash] = :mult
-
-        sym_hash = [{:carport_1 => 'Carport'}, {:attached_garage_2 => 'Attached Garage'},
+        sym_hash = [{:carport_1 => 'Carport'},
+                    {:attached_garage_2 => 'Attached Garage'},
                     {:detached_garage_3 => 'Detached_Garage'},
                     {'off-street_parking_4'.to_sym => 'Off-Street Parking'},
-                    {:street_parking_5 => 'Street Parking'}, {:valet_parking_6 => 'Valet Parking'},
-                    {:no_parking_7 => 'No Parking'}]
+                    {:street_parking_5 => 'Street Parking'},
+                    {:valet_parking_6 => 'Valet Parking'},
+                    {:no_parking_7 => 'No Parking'}
+        ]
 
-        temp[:sym_hash] = sym_hash.clone
+        temp = {:short => nil,
+                :long => '--parking',
+                :desc => 'Opens an interactive session to filter search results by parking options',
+                :hash => :mult,
+                :sym_hash => sym_hash.clone
+        }
 
         full_hash[:parking] = temp.clone
 
@@ -357,57 +380,63 @@ class Scraper
         full_hash = {}
         temp = {}
 
-        temp[:tag] = '--bathrooms NUM'
-        temp[:desc] = 'Filter out results with less than NUM bathrooms'
-        temp[:range_low] = '0'
-        temp[:range_high] = '8'
-        temp[:var] = 'NUM'
-        temp[:hash] = :drop
+        temp = {:tag => '--bathrooms NUM',
+                :desc => 'Filter out results with less than NUM bathrooms',
+                :range_low => '0',
+                :range_high => '8',
+                :var => 'NUM',
+                :hash => :drop
+        }
 
         full_hash[:bathrooms] = temp.clone
 
-        temp[:tag] = '--bedrooms NUM'
-        temp[:desc] = 'Filter out results with less than NUM bedrooms'
-        temp[:range_low] = '0'
-        temp[:range_high] = '8'
-        temp[:var] = 'NUM'
-        temp[:hash] = :drop
+        temp = {:tag => '--bedrooms NUM',
+                :desc => 'Filter out results with less than NUM bedrooms',
+                :range_low => '0',
+                :range_high => '8',
+                :var => 'NUM',
+                :hash => :drop
+        }
 
         full_hash[:bedrooms] = temp.clone
 
-        temp[:tag] = '--min-price MIN_PRICE'
-        temp[:desc] = 'Filter out results for less than MIN_PRICE'
-        temp[:range_low] = nil
-        temp[:range_high] = nil
-        temp[:var] = 'MIN_PRICE'
-        temp[:hash] = :fill
+        temp = {:tag => '--min-price MIN_PRICE',
+                :desc => 'Filter out results for less than MIN_PRICE',
+                :range_low => nil,
+                :range_high => nil,
+                :var => 'MIN_PRICE',
+                :hash => :fill
+        }
 
         full_hash[:min_price] = temp.clone
 
-        temp[:tag] = '--max-price MAX_PRICE'
-        temp[:desc] = 'Filter out results for more than MAX_PRICE'
-        temp[:range_low] = nil
-        temp[:range_high] = nil
-        temp[:var] = 'MAX_PRICE'
-        temp[:hash] = :fill
+        temp = {:tag => '--max-price MAX_PRICE',
+                :desc => 'Filter out results for more than MAX_PRICE',
+                :range_low => nil,
+                :range_high => nil,
+                :var => 'MAX_PRICE',
+                :hash => :fill
+        }
 
         full_hash[:max_price] = temp.clone
 
-        temp[:tag] = '--min-sq-ft NUM'
-        temp[:desc] = 'Filter out results with less than NUM square feet'
-        temp[:range_low] = nil
-        temp[:range_high] = nil
-        temp[:var] = 'NUM'
-        temp[:hash] = :fill
+        temp = {:tag => '--min-sq-ft NUM',
+                :desc => 'Filter out results with less than NUM square feet',
+                :range_low => nil,
+                :range_high => nil,
+                :var => 'NUM',
+                :hash => :fill
+        }
 
         full_hash[:minSqft] = temp.clone
 
-        temp[:tag] = '--max-sq-ft NUM'
-        temp[:desc] = 'Filter out results with more than NUM square feet'
-        temp[:range_low] = nil
-        temp[:range_high] = nil
-        temp[:var] = 'NUM'
-        temp[:hash] = :fill
+        temp = {:tag => '--max-sq-ft NUM',
+                :desc => 'Filter out results with more than NUM square feet',
+                :range_low => nil,
+                :range_high => nil,
+                :var => 'NUM',
+                :hash => :fill
+        }
 
         full_hash[:maxSqft] = temp.clone
 
@@ -431,7 +460,8 @@ class Scraper
             @drop_fields[hash_key.to_sym] = hash_value
         when :mult
             temp = {:input => hash_value[:input],
-                    :array => hash_value[:array]}
+                    :array => hash_value[:array]
+            }
             @mult_fields[hash_key.to_sym] = temp.clone
         when :query
             @query[hash_key.to_sym] = hash_value

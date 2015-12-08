@@ -403,103 +403,103 @@ Name: student house near queens
 	Price: $3300
 	Location:   (409 earl)   pic 
 
-Name: GREAT LOCATION/PRICE-PATIO/PARKING-DEC/JAN
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351165909.html
-	Price: $799
-	Location:   (ott > 688a MORIN ST.)   pic map 
+Name: Small county house
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351347587.html
+	Price: $1000
+	Location:   (wtn > Mannsville)   pic map 
 
-Name: December Specials- Take a LOOK
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351165081.html
-	Price: $775
-	Location:   (wtn > ontario village)   pic map 
+Name: House for rent 3/4bd 3 bath
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351347546.html
+	Price: $1050
+	Location:   (syr > Auburn)   map 
 
-Name: Startling view from the 16th floor, One bedroom condo.
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351162448.html
+Name: For Rent - Upstairs Apartment of Two Family Home
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351307378.html
+	Price: $650
+	Location:   (syr > Fulton, NY)   pic map 
+
+Name: City apartment
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5321674804.html
+	Price: $700
+	Location:   (syr > Onondaga)   pic map 
+
+Name: Special Promotion -- 1 month free (on select units), For a limited time
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351328376.html
+	Price: $925
+	Location:    pic map 
+
+Name: SPECIAL PROMO: Argyle & Bank Street (Bachelor), For a limited time onl
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351325009.html
+	Price: $757
+	Location:    pic map 
+
+Name: Special Promotions 1917- 1919 St Laurent Fully Renovated!
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351322739.html
+	Price: $725
+	Location:    pic map 
+
+Name: 2 Bedroom unique apartment
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5314530485.html
+	Price: $950
+	Location:   (syr > 825a Westcott Street)   pic map 
+
+Name: Liverpool townhouse
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5343155387.html
+	Price: $900
+	Location:   (syr > 100 carol dr)   pic map 
+
+Name: Special Promotions 1917- 1919 St Laurent Fully Renovated!
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351319711.html
+	Price: $795
+	Location:    pic map 
+
+Name: LAST ONE LEFT! LARGE ONE BEDROOM AVAILABLE JUNE 1, 2016
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351323515.html
+	Price: $810
+	Location:   (syr > Syracuse)   pic map 
+
+Name: 2/1 Apt. Ogdensburg N. Y. $500.00 monthly, water view
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351314303.html
+	Price: $500
+	Location:   (wtn > 1068 Washington Street)   map 
+
+Name: LAST ONE LEFT! LARGE 2 BEDROOM AVAILABLE JUNE 1, 2016
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351309359.html
+	Price: $530
+	Location:   (syr > Syracuse)   pic map 
+
+Name: Tell Santa your new address here at Woodcliff
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351281137.html
+	Price: $795
+	Location:    pic map 
+
+Name: GREAT NEWLY BUILT HOME W/ UTILITES
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5318708530.html
 	Price: $1500
-	Location:   (ott > Soho Parkdale)   pic map 
+	Location:   (wtn > PHILADELPHIA)   pic map 
 
-Name: NEW EDINBURGH-5 APPLIANCES-PATIO-LARGE-LOCATION/PRICE-PARKING--DEC/JAN
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351162261.html
-	Price: $1350
-	Location:   (ott > 126 PUTMAN AVE.)   pic map 
+Name: LAST ONE LEFT! LARGE 4 BEDROOM APARTMENT AVAILABLE JUNE 1, 2016
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351301533.html
+	Price: $535
+	Location:   (syr > Syracuse)   pic map 
 
-Name: Lyncourt Great neighborhood!
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5337061498.html
-	Price: $600
-	Location:   (syr > 206 darlington rd)   map 
+Name: 4 bedroom December Special
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351299911.html
+	Price: $1095
+	Location:    pic map 
 
-Name: Sublet 1917- 1919 - St Laurent
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351138144.html
+Name: 2 bedroom apartment for rent in Gatineau (close to DOWNt Ottawa)
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351294445.html
+	Price: $738
+	Location:   (ott > Gatineau)   map 
+
+Name: Home for the Holidays
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351294374.html
 	Price: $995
 	Location:    pic map 
 
-Name: NEW EDINBURGH -- IVY CR. 2 BDRM +EXTRA DEN -- JAN.1
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351153281.html
-	Price: $1200
-	Location:   (ott > 211 IVY CR.)   pic map 
-
-Name: LARGE 3 BEDROOM 1.5 BATH
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351151876.html
-	Price: $900
-	Location:   (wtn > 619 Sherman St)   pic map 
-
-Name: 1 Bedroom suite
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5351149496.html
-	Price: $1650
-	Location:   (ott > Centre Town)   pic map 
-
-Name: ELECTRIC INCLUDED FOR FIRST 3 MOS WITH SIX (6) MONTH LEASE
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5330786436.html
-	Price: $800
-	Location:   (wtn > Ontario Village)   pic map 
-
-Name: Very nice Eastwood apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5341105486.html
-	Price: $800
-	Location:    pic 
-
-Name: **FULLY FURNISHED, FREE WIFI, CABLE, TV, ALL UTILITIES, NO CONTRACTS
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5339265405.html
-	Price: $995
-	Location:   (syr > FARMINGTON)   pic map 
-
-Name: Apartment for Rent
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351105469.html
-	Price: $560
-	Location:   (syr > Syracuse)   pic map 
-
-Name: one bed room
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5346125361.html
-	Price: $500
-	Location:   (syr > 721 n. salina st)    
-
-Name: clean, quiet,and largebachelor close to OU, All inclued$780Jan1st
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5346608593.html
-	Price: $780
-	Location:   (ott > sandy hill)   pic map 
-
-Name: 10 mins walk to OttawaU/BleuCordon, all incluBachelor in basementJan1
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5346628908.html
-	Price: $680
-	Location:   (ott > sandyhill)   pic map 
-
-Name: Cozy Two Bedroom Apartment with Fireplace!!
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351105327.html
-	Price: $914
-	Location:   (syr > Liverpool)   pic map 
-
-Name: Townhome for Rent
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351093921.html
-	Price: $800
-	Location:   (syr > Camillus)   pic map 
-
-Name: 1 yr Lease- 6 months ALL utilities included!
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5351122497.html
-	Price: $775
-	Location:   (wtn > ontario village)   pic map 
-
-Name: Apartment for rent
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351092004.html
-	Price: $480575
-	Location:   (syr > 477 james street)   map 
+Name: LAST ONE LEFT! HUGE 5 BEDROOM HOUSE AVAILABLE JUNE 1, 2016
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5351291853.html
+	Price: $540
+	Location:   (syr > Syracuse)   map 
 
