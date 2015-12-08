@@ -3,6 +3,16 @@ Name: Name
 	Price: Price
 	Location: Location
 
+Name: ALL INCLUSIVE! WEST END! JAN 1
+	URL: http://kingston.craigslist.ca/apa/5349357866.html
+	Price: $1100
+	Location:    pic 
+
+Name: Large 1 Bedroom Apartment Downtown Kingston
+	URL: http://kingston.craigslist.ca/apa/5338694369.html
+	Price: $950
+	Location:   (216 Rideau Street)   pic map 
+
 Name: Spacious 4 Bedroom Apartment Blocks From Queen's University!
 	URL: http://kingston.craigslist.ca/apa/5333104781.html
 	Price: $2200
@@ -13,10 +23,20 @@ Name: Recently Renovated 4 Bedroom House in Central Location!
 	Price: $1560
 	Location:   (320 Nelson Street)   pic map 
 
+Name: Large 4 Bedroom Apartment Downtown Kingston
+	URL: http://kingston.craigslist.ca/apa/5328790509.html
+	Price: $2500
+	Location:   (361 Barrie Street)   pic map 
+
 Name: Two Bedroom Apartment on Russell Street
 	URL: http://kingston.craigslist.ca/apa/5324545122.html
 	Price: $825
 	Location:   (54 Russell Street)   pic map 
+
+Name: 2 BEDROOM APARTMENT DOWNTOWN KINGSTON
+	URL: http://kingston.craigslist.ca/apa/5312280283.html
+	Price: $1000
+	Location:   (273 Division Street)   pic map 
 
 Name: STUDENTS! 2 BEDROOM SUBLET DOWNTOWN KINGSTON!
 	URL: http://kingston.craigslist.ca/apa/5318306471.html
@@ -32,6 +52,11 @@ Name: 4 Bedroom Apartment Blocks from Queen's University!
 	URL: http://kingston.craigslist.ca/apa/5333106359.html
 	Price: $2200
 	Location:   (368 Brock Street)   map 
+
+Name: Beautiful 2 Bedroom Apartment Downtown Kingston
+	URL: http://kingston.craigslist.ca/apa/5333113285.html
+	Price: $1350
+	Location:   (216 Rideau Street)   pic map 
 
 Name: Gorgeous 1 Bedroom Apartment Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5333110017.html
@@ -68,6 +93,11 @@ Name: Students:great 5 br House Downtown/Hub
 	Price: $2500
 	Location:   (131 colborne)   pic map 
 
+Name: Students:We offer nice 3,4,5,6 br Houses Downtown QUEENS 4500 per room
+	URL: http://kingston.craigslist.ca/apa/5346479208.html
+	Price: $500
+	Location:   (barrie)   pic 
+
 Name: Nicest 4 br House close to Queens west and COLLEGE
 	URL: http://kingston.craigslist.ca/apa/5346445405.html
 	Price: $2000
@@ -82,6 +112,16 @@ Name: 2 +1 Bedroom Bungalow
 	URL: http://kingston.craigslist.ca/apa/5345757394.html
 	Price: $1325
 	Location:   (Central)   pic map 
+
+Name: Students:Nicest 4 br HOUSE CLOSE TO QUEENS WEST AND COLLEGE
+	URL: http://kingston.craigslist.ca/apa/5345184552.html
+	Price: $2000
+	Location:   (CHURCHILL)   pic map 
+
+Name: Students:Nicest 6 br House,xl+large Rooms,only $500/room
+	URL: http://kingston.craigslist.ca/apa/5345170950.html
+	Price: $3000
+	Location:   (366 barrie)   pic map 
 
 Name: Queen's students-house rent-294 Union St.
 	URL: http://kingston.craigslist.ca/apa/5345116896.html
@@ -103,6 +143,11 @@ Name: NICE 4-BED APT FOR RENT (5 MIN. WALK TO QUEEN'S)
 	Price: $2400
 	Location:   (319 William)   map 
 
+Name: Basement Apt for Rent
+	URL: http://kingston.craigslist.ca/apa/5341937981.html
+	Price: $850
+	Location:   (Kingston)   pic map 
+
 Name: INCLUSIVE - DOWNTOWN FURNISHED 4 MONTH LEASE
 	URL: http://kingston.craigslist.ca/apa/5340235958.html
 	Price: $2000
@@ -113,20 +158,95 @@ Name: INCLUSIVE - DOWNTOWN W PARKING AND LAUNDRY
 	Price: $950
 	Location:   (179 Pine St., Kingston)   pic 
 
+Name: FOR RENT: East End Three Bedroom Townhouse
+	URL: http://kingston.craigslist.ca/apa/5339315201.html
+	Price: $1450
+	Location:   (Kingston East)   pic map 
+
+Name: Downtown 2 bedroom apartment.
+	URL: http://kingston.craigslist.ca/apa/5339170371.html
+	Price: $1150
+	Location:   (36 Markland St.)   pic 
+
+Name: 255 Queen St. Students or Graduate Students Welcome. 2Bd+Den INCLUSIVE
+	URL: http://kingston.craigslist.ca/apa/5337565082.html
+	Price: $1400
+	Location:   (255 Queen St.)   map 
+
 Name: Sydenham Ward Bachelor in Historic Limestone (Furnished)
 	URL: http://kingston.craigslist.ca/apa/5335990720.html
 	Price: $649
 	Location:   (Downtown)   map 
+
+Name: 532 Frontenac St
+	URL: http://kingston.craigslist.ca/apa/5335888273.html
+	Price: $2500
+	Location:   (532 Frontenac)   pic map 
 
 Name: Pet friendly 2bdr - utilities included! $985
 	URL: http://kingston.craigslist.ca/apa/5334728750.html
 	Price: $985
 	Location:   (276 Conacher Dr)   pic 
 
+Name: Students: Nice 6 BR house near Queen's main campus & downtown
+	URL: http://kingston.craigslist.ca/apa/5333939759.html
+	Price: $3000
+	Location:    pic map 
+
+Name: short term, furnished, great location, single house
+	URL: http://kingston.craigslist.ca/apa/5333546622.html
+	Price: $1800
+	Location:   (near Kingston center)   map 
+
+Name: Gorgeous downtown townhouse for rent
+	URL: http://kingston.craigslist.ca/apa/5329948964.html
+	Price: $1800
+	Location:    pic map 
+
+Name: Students:Nicest 6 br House Downtown Queens,xxl,xl rooms,renod
+	URL: http://kingston.craigslist.ca/apa/5327920351.html
+	Price: $3150
+	Location:   (366 barrie)   pic map 
+
+Name: Nicest 4 Br House Close to College/Queens West
+	URL: http://kingston.craigslist.ca/apa/5327927793.html
+	Price: $1900
+	Location:   (churchill)   pic map 
+
+Name: Nicest 3 br Apt Southside Queens,can be Furnished
+	URL: http://kingston.craigslist.ca/apa/5327904389.html
+	Price: $1350
+	Location:   (25 graham)   pic map 
+
+Name: Beautiful 3 br Apartment Southside Queens
+	URL: http://kingston.craigslist.ca/apa/5326371092.html
+	Price: $1350
+	Location:   (graham)   pic map 
+
+Name: Nicest 4 br House Kingston close west Queens and St.Lawrence College
+	URL: http://kingston.craigslist.ca/apa/5326388107.html
+	Price: $2000
+	Location:   (churchill)   pic map 
+
+Name: Students:Nicest 6be House next to Hub+Queens
+	URL: http://kingston.craigslist.ca/apa/5326379361.html
+	Price: $3150
+	Location:   (366 barrie)   pic map 
+
+Name: Students:Nicest Victorian 5br Home Downtown,can be furnished
+	URL: http://kingston.craigslist.ca/apa/5326359927.html
+	Price: $2400
+	Location:   (399 division)   pic map 
+
 Name: Single Apartment for rent
 	URL: http://kingston.craigslist.ca/apa/5323537922.html
 	Price: $925
 	Location:   (309B Earl)   pic map 
+
+Name: large 2 Bedroom, Kingston
+	URL: http://kingston.craigslist.ca/apa/5318228219.html
+	Price: $1050
+	Location:   (Downtown)   pic map 
 
 Name: DECEMBER SPECIAL! SIGN BY DECEMBER 1 AND SAVE $60 OFF FIRST MONTH!!!
 	URL: http://kingston.craigslist.ca/apa/5317106473.html
@@ -142,6 +262,16 @@ Name: Students:great 4 br House,renod,Downtown Queens!
 	URL: http://kingston.craigslist.ca/apa/5315356124.html
 	Price: $1900
 	Location:   (209 ordnance)   pic map 
+
+Name: Nicest 3 br Apartment Southside Downtown
+	URL: http://kingston.craigslist.ca/apa/5315345671.html
+	Price: $1290
+	Location:   (graham)   pic map 
+
+Name: Heritage home Downtown Kingston
+	URL: http://kingston.craigslist.ca/apa/5314877419.html
+	Price: $2500
+	Location:   (Kingston)   pic map 
 
 Name: 2 Bedroom Homestead Waterfront Apartment for January 1, 2016
 	URL: http://kingston.craigslist.ca/apa/5302500701.html
@@ -163,15 +293,50 @@ Name: HISTORIC DOWNTOWN KINGSTON, TWO BDR, QUEENS/RMC
 	Price: $775
 	Location:   (Chestnut)   pic map 
 
+Name: Beautiful 3 br APT Southside close to QUEENS
+	URL: http://kingston.craigslist.ca/apa/5307704859.html
+	Price: $1350
+	Location:   (graham ave 25)   pic map 
+
+Name: 4 Br house Downtown avail Jan 1st or May 1st
+	URL: http://kingston.craigslist.ca/apa/5307694693.html
+	Price: $1900
+	Location:   (209 ordnance)   pic map 
+
+Name: Students:4+5 br Houses for Rent Downtown,furnished avail
+	URL: http://kingston.craigslist.ca/apa/5307688094.html
+	Price: $1900
+	Location:   (chatham)   pic map 
+
+Name: Nicest 4 br House 2 baths close Queens west and College!!
+	URL: http://kingston.craigslist.ca/apa/5307679097.html
+	Price: $1900
+	Location:   (churchill street)   pic map 
+
 Name: Queen's Charming 2 Bed Sydenham Ward
 	URL: http://kingston.craigslist.ca/apa/5296599421.html
 	Price: $1050
 	Location:   (Downtown)   pic map 
 
+Name: Quiet, 2 bedroom, Beautiful view of the St. Lawrence River
+	URL: http://kingston.craigslist.ca/apa/5306378725.html
+	Price: $1100
+	Location:     
+
+Name: Completely Renovated Three Bedroom + Den Apartment! |
+	URL: http://kingston.craigslist.ca/apa/5306111164.html
+	Price: $1175
+	Location:    pic map 
+
 Name: 176 Montreal St
 	URL: http://kingston.craigslist.ca/apa/5267224810.html
 	Price: $1250
 	Location:   (176 Montreal)   pic map 
+
+Name: 348 Chelsea Road
+	URL: http://kingston.craigslist.ca/apa/5257131586.html
+	Price: $1500
+	Location:   (348 Chelsea Road)   pic map 
 
 Name: Convenient yet Quiet Downtown Condo - Utilities Included
 	URL: http://kingston.craigslist.ca/apa/5300288981.html
@@ -218,288 +383,123 @@ Name: Very Large 2 Bedroom in Limestone Sydenham Ward House
 	Price: $1490
 	Location:   (149 Earl Street)   pic map 
 
-Name: Furnished apartment
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349718509.html
-	Price: $1500
-	Location:   (ott > Kanata)   pic map 
+Name: student house near queens
+	URL: http://kingston.craigslist.ca/apa/5283381493.html
+	Price: $3300
+	Location:   (409 earl)   pic 
 
-Name: Studio Apartments near the Britannia Beach!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349672827.html
-	Price: $865
-	Location:   (ott > Britannia)   pic map 
+Name: Cozy beautiful bungalow
+	URL: http://kingston.craigslist.ca/apa/5282453659.html
+	Price: $975
+	Location:   (Newboro)   pic map 
 
-Name: 3 Bedroom for September 1st!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349690491.html
-	Price: $1450
-	Location:   (ott > Britannia)   pic map 
-
-Name: Great two bedroom one bath freshly remodeled
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5343503717.html
-	Price: $875
-	Location:   (syr > North Syracuse)   pic 
-
-Name: 3 bedroom house for rent
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5342462535.html
+Name: 3 bedroom in Eastwood
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5350178776.html
 	Price: $900
-	Location:   (syr > Oswego)   pic map 
+	Location:   (syr > Eastwood)    
 
-Name: Luxury 2 Bedroom Apartments Downtown Syracuse
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349692376.html
-	Price: $1995
-	Location:   (syr > 324 W. Water St)   pic map 
+Name: Studio Condo, Byward Market, All-inclusive, $1325
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5337518230.html
+	Price: $1325
+	Location:   (ott > Byward Market)   pic map 
 
-Name: Luxury 2 Bedroom Apartments Downtown Syracuse
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349690542.html
-	Price: $1995
-	Location:   (syr > 324 W. Water St)   pic map 
-
-Name: looking for a sub letter
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349677196.html
-	Price: $725
-	Location:   (syr > 115 comstock ave, apt 5, syracuse, ny)   map 
-
-Name: Quiet country 1 bedroom apt
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5313694914.html
-	Price: $600
-	Location:   (wtn > Bradley street)   pic map 
-
-Name: Prime Location - Glebe Annex Row House
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349647392.html
-	Price: $1950
-	Location:    pic map 
-
-Name: *Beautiful 1 Bedroom Apartment near Algonquin College!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349635523.html
-	Price: $899
-	Location:   (ott > Britannia)   pic map 
-
-Name: FREE DECEMBER RENT!!! Call today! River Run Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5318368136.html
-	Price: $750
-	Location:   (syr > River Run Apartments)   pic 
-
-Name: NEW EDINBURGH-5 APPLIANCES-PATIO-LARGE-LOCATION/PRICE-PARKING--DEC/JAN
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349635212.html
-	Price: $1350
-	Location:   (ott > 126 PUTMAN AVE.)   pic map 
-
-Name: FREE DECEMBER RENT!!! Call today! River Run Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5318370860.html
-	Price: $675
-	Location:   (syr > River Run Apartments)   pic 
-
-Name: NEW EDINBURGH -- IVY CR. 2 BDRM +EXTRA DEN -- JAN.1
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349631958.html
-	Price: $1200
-	Location:   (ott > 211 IVY CR.)   pic map 
-
-Name: FREE DIRECTV, HBO, NFL Sunday Ticket, Fiber Optic Internet
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5349615741.html
-	Price: $995
-	Location:   (wtn > Sackets Harbor, NY)   pic map 
-
-Name: 265 Daly - Dec 15th- 2 BD
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5340084272.html
-	Price: $1300
-	Location:   (ott > 265 Daly)   pic map 
-
-Name: July/Aug 1 -2 Bed -(305 Nelson)
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5340152719.html
-	Price: $820
-	Location:    pic map 
-
-Name: Dec/Jan 1 B--2 BD-Walkley & Bank
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5340159728.html
-	Price: $700
-	Location:   (ott > 1245 Walkley)   pic map 
-
-Name: 3 BD Dec 15-Jan 1 (Ottawa U/Sandy Hill area)
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5340276043.html
-	Price: $1800
-	Location:   (ott > 286 Wilbrod)   pic map 
-
-Name: Beautiful 2 Bedroom MOVE-IN READY / Thistlewood Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5344980335.html
-	Price: $625
-	Location:   (syr > Jordan, NY)   pic map 
-
-Name: Beautiful 2 Bedroom MOVE-IN READY/ Thistlewood Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5344918350.html
-	Price: $625
-	Location:   (syr > Jordan, NY)   pic map 
-
-Name: Beautiful 2 Bedroom MOVE-IN READY/ Thistlewood Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5323498916.html
-	Price: $625
-	Location:   (syr > Jordan, NY)   pic map 
-
-Name: Beautiful 2 Bedroom MOVE-IN READY / Thistlewood Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5323322136.html
-	Price: $625
-	Location:   (syr > Jordan, NY)   pic map 
-
-Name: Beautiful 2 Bedroom MOVE-IN READY / Thistlewood Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5331609323.html
-	Price: $625
-	Location:   (syr > Jordan, NY)   pic map 
-
-Name: Prime Westboro/Wellington location! (Central Ottawa)
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349623814.html
-	Price: $2275
+Name: Large 1 Bedroom near All Amenities
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5350171653.html
+	Price: $895
 	Location:   (ott > Ottawa)   pic map 
 
-Name: Adorable East Syracuse Single Family Home For Rent...
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349623516.html
-	Price: $1000
-	Location:   (syr > East Syracuse)   pic map 
-
-Name: Furnished Apartment, ALL UTILITIES, DIRECTV & INTERNET INCLUDED!
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5331943948.html
-	Price: $1100
-	Location:   (wtn > Sackets Harbor, NY)   pic map 
-
-Name: Sedgwick Mansion Apartment (8)
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349619061.html
-	Price: $675
-	Location:   (syr > Syracuse)   pic map 
-
-Name: Sedgwick Mansion Apartment (1)
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349618108.html
-	Price: $715
-	Location:   (syr > Syracuse)   pic map 
-
-Name: PENTHOUSE IN SEDGWICK MANSION
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349616745.html
-	Price: $875
-	Location:   (syr > SYRACUSE)   pic map 
-
-Name: Pet Friendly, Spacious 2 Bedroom Apartment!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349615829.html
-	Price: $1100
-	Location:   (ott > Britannia)   pic map 
-
-Name: STAINLESS STEEL APPLIANCES, CLAW-FOOT TUBS, CIRCULAR STAIRCASE - WOWWW
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349613889.html
-	Price: $3200
-	Location:   (syr > 871 Lancaster Ave, Syracuse University)   pic map 
-
-Name: FULLY FURNISHED 4-BEDROOM ON LANCASTER!!!
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349579079.html
-	Price: $2000
-	Location:   (syr > 1046 Lancaster Ave, Syracuse University)   pic map 
-
-Name: FULLY FURNISHED ALL WOOD HOME, ABSOLUTELY GORGEOUS
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349607198.html
-	Price: $2750
-	Location:   (syr > 1048 LANCASTER AVE, SYRACUSE UNIVERSITY)   pic map 
-
-Name: FULLY FURNISHED 3-BEDROOM JST STEPS FROM CAMPUS!!!
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349598136.html
-	Price: $1650
-	Location:   (syr > 743 Ackerman Ave, Syracuse University)   pic map 
-
-Name: Armory Square Downtown
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5333821928.html
-	Price: $1400
-	Location:   (syr > Armory Square)   pic map 
-
-Name: Downtown Style Loft Living in Tipp Hill
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5346683430.html
-	Price: $1050
-	Location:   (syr > Tipp Hill)   pic map 
-
-Name: 1 bedroom apartment for rent - 307 Stevens Ave, Vanier
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349565005.html
-	Price: $875
-	Location:   (ott > Vanier, ON)   pic 
-
-Name: Two Bedroom Apartment on LePage Avenue
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349584706.html
-	Price: $975
-	Location:    pic map 
-
-Name: One Bedroom apartment on LePage Avenue
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349579427.html
-	Price: $850
-	Location:    pic map 
-
-Name: 1.5 bedroom apartment in downtown heritage building
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349575610.html
+Name: Home For Rent
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5338960969.html
 	Price: $950
 	Location:    pic map 
 
-Name: GORGEOUS 4-BEDROOM WITH BRAND NEW KITCHEN!!
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349573448.html
-	Price: $2000
-	Location:   (syr > 944 Westcott St, Syracuse University)   pic map 
+Name: Home for the Holidays!!!
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5344188464.html
+	Price: $1000
+	Location:   (syr > Fulton)   pic map 
 
-Name: Hotel Studio Suite, all utilities incl. Pets allowed!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349550749.html
-	Price: $2100
-	Location:   (ott > Ottawa, ON)   pic map 
+Name: One-bedroom apartment in Auburn
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5329632233.html
+	Price: $575
+	Location:   (syr > 111 Osborne St., Auburn, NY)   map 
 
-Name: Waterfront Home
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5326584284.html
-	Price: $1100
-	Location:   (wtn > Evans Mills)   pic map 
+Name: TOWNHOUSE / condo for rent
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5350127061.html
+	Price: $1550
+	Location:   (ott > 1128 Chimney Hill Way, Ottawa, ON)   pic map 
 
-Name: AWESOME 5-BEDROOM WITH PORCH, BBQ, WALK-IN CLOSETS
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349552729.html
-	Price: $2000
-	Location:   (syr > 100 Buckingham Ave, Syracuse University)   pic map 
+Name: Luxurious, Beautiful, 4 bedroom Apartment in Centretown! 1 room left!
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5310198970.html
+	Price: $675
+	Location:   (ott > 107 Arlington Avenue)   pic map 
 
-Name: very nice 2bedroom Nedrow
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5340546359.html
-	Price: $699
-	Location:   (syr > Salina St)   pic map 
+Name: Luxurious, Beautiful, 4 bedroom Apartment in Centretown! 1 room left!
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5310199666.html
+	Price: $725
+	Location:   (ott > 107 Arlington Avenue)   pic map 
 
-Name: Beautiful 1 bedroom near Green Hills Farms
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349534588.html
-	Price: $750
-	Location:    pic 
+Name: Now only 550!!!!******Spacious studio, EVERYTHING included
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5341544863.html
+	Price: $550
+	Location:   (wtn > Adams)   map 
 
-Name: 3rd Floor Artist's Loft As Big As A House!!
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5335867408.html
-	Price: $1395
-	Location:   (wtn > Downtown Watertown)   pic map 
+Name: Beautiful 3 BR upper near Lemoyne/Upstate
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5331944115.html
+	Price: $825
+	Location:   (syr > Syracuse eastside)   pic 
 
-Name: 3 Bedroom Side by Side Duplex by Oneida Lake For Rent
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5313857108.html
-	Price: $1275
-	Location:   (syr > Cicero)   pic map 
-
-Name: MUST SEE! Beautiful Newly Renovated Home
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5310635480.html
-	Price: $1495
-	Location:   (wtn > Brownville)   pic 
-
-Name: 3 Bedroom Westboro Apartment
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349470862.html
-	Price: $1500
-	Location:    pic map 
-
-Name: 2 Bedroom Westboro Apartment
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349463848.html
-	Price: $1300
-	Location:    pic map 
-
-Name: 2100 sq in desirable location, don't wait!!!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349446867.html
-	Price: $1700
-	Location:   (ott > Ottawa)   pic map 
-
-Name: 2 Bedroom Apartments in Carson Hill
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349456110.html
+Name: 1600 SF -Spacious 3 Bedroom home
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5350114999.html
 	Price: $1050
+	Location:   (syr > franklin park -East syracus)   pic map 
+
+Name: 2 Bedroom Pet Friendly Apartment in Eastwood
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5350103333.html
+	Price: $825
 	Location:    pic map 
 
-Name: 2Bedroom Apartment Beechwood Village
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349436235.html
-	Price: $1100
-	Location:    pic map 
+Name: Cute Sunny Bachelor Exp'l Farm Merivale/Carling/Baseline Central
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5347022322.html
+	Price: $699
+	Location:   (ott > 1113 Merivale)   pic map 
 
-Name: LARGE, CENTRETOWN APT., MACLAREN O`CONNOR, BANK JAN 1ST
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5344639952.html
+Name: Sunny Large Quiet 2Bed top floor Experimental Farm
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5347028538.html
+	Price: $949
+	Location:   (ott > 1113 Merivale Road, Ottawa, ON K1Z)   pic map 
+
+Name: 2 bedroom
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5344283106.html
+	Price: $625
+	Location:   (syr > Syracuse,ny)   pic 
+
+Name: Large 2 bedroom, heat and water included
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5316398073.html
+	Price: $750
+	Location:   (wtn > LeRay St., Black River, NY)   pic map 
+
+Name: Heat and water included in this updated apartment, minutes from Fort D
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5345456624.html
+	Price: $700
+	Location:   (wtn > Black River)   pic map 
+
+Name: Affordable-Great location-newly remodeled 2 bedroom
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5345475420.html
+	Price: $625
+	Location:   (wtn > West Carthage, NY)   pic map 
+
+Name: 3 Bedroom For Rent
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5350067926.html
+	Price: $645
+	Location:   (wtn > Gouverneur)   pic 
+
+Name: Pet friendly
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5350071946.html
+	Price: $795
+	Location:   (wtn > Castorland, NY)   pic map 
+
+Name: Beautiful 1bdrm condo on ByWard Market -- Feb. 1st, 2016
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5350058731.html
 	Price: $1250
-	Location:   (ott > MacLaren/O'Connor/Bank)   pic map 
+	Location:   (ott > Downtown)   pic map 
 

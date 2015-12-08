@@ -10,14 +10,18 @@ require 'date'
 #
 #   - Fix parameterization of 'save_results' method
 #   - Refactor @search_fields building
-#       |-> In Progress
+#       |-> Building hash (Complete)
+#       |-> Fill in form (In Progress)
 #   - Sanitize program parameters
 #   - Customize with 'Usage' message
 #   - Include a warning that default website is used, if none passed to program
+#       |-> Make optional parameter for website
+#       |-> Check for valid website
 #   - Use external file to map page elements to website
+#       |-> Read file into arrays
+#       |-> Introduce arguments to associated functions
 #   - Use hash/external file to map form fields to website
-#   - Fix method comments (RE: Params/Returns)
-#   - Fix error strings in argument validation
+#   - Extend to multiple sites
 #   - Optional: optimizations (e.g., limit to certain radius)
 #   - Optional: Add other configurations to 'init'
 
@@ -42,16 +46,14 @@ class Scraper
     public
 
     ### --Retrieve and fill form-- ###
-    #   Params: address - URL where search form is located
-    #           scraper - Previously initialized Mechanize object
+    #   Params: <none>
     #   Returns: Completed search form
-    #   NOTE: May need to pass more arguments for search queries
     ###
     def fill_form
         # Validate argument variables
-        raise "First argument of fill_form must be a Mechanize object" unless @scraper.respond_to?(:get)
+        raise "Mechanize object not initialized properly." unless @scraper.respond_to?(:get)
 
-        raise "Second argument of fill_form must be a String" unless @website.respond_to?(:to_str)
+        raise "Please specify a valid website URL." unless @website.respond_to?(:to_str)
 
         # Begin scraping
         search_page = @scraper.get(@website.clone)
@@ -335,13 +337,12 @@ EOS
 
 
     ### --Submit form and parse results-- ###
-    #   Params: form - form to submit to get parsable results
+    #   Params: <none>
     #   Returns: An array with results
     ###
-    #def get_results(form)
     def get_results()
         # Validate argument variables
-        raise "Argument of get_results must be a web-page form" unless @search_form.respond_to?(:submit)
+        raise "Search form is invalid!" unless @search_form.respond_to?(:submit)
 
         # Submit form to get results
         result_page = @search_form.submit
@@ -413,9 +414,9 @@ EOS
         scraper
     end ## init Method
 
-    ### --Build Hash for Short Flag Arguments-- ###
+    ### --Build Hash for Boolean Flag Arguments-- ###
     #   Params: <none>
-    #   Returns: Hash filled with syntax details for short flags.
+    #   Returns: Hash filled with syntax details for boolean flags.
     ###
     def build_bool_flags
         full_hash = {}
@@ -502,82 +503,61 @@ EOS
         full_hash
     end ## build_bool_flags Method
 
+    ### --Build Hash for Input Flag Arguments-- ###
+    #   Params: <none>
+    #   Returns: Hash filled with syntax details for flags that require immediate input.
+    ###
     def build_input_flags
         full_hash = {}
+        temp = {}
 
-            opt.on('--bathrooms NUM', 'Filter out results with less than NUM bathrooms') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
+        temp[:tag] = '--bathrooms NUM'
+        temp[:desc] = 'Filter out results with less than NUM bathrooms'
+        temp[:range_low] = '0'
+        temp[:range_high] = '8'
+        temp[:var] = 'NUM'
 
-                o = Integer(o)
-                if (o < 0 || o > 8)
-                    puts 'NUM must be between 0 and 8 (inclusive).'
-                    puts opt
-                    exit
-                end
+        full_hash[:bathrooms] = temp.clone
 
-                options[:bathrooms] = o
-            }
+        temp[:tag] = '--bedrooms NUM'
+        temp[:desc] = 'Filter out results with less than NUM bedrooms'
+        temp[:range_low] = '0'
+        temp[:range_high] = '8'
+        temp[:var] = 'NUM'
 
-            opt.on('--bedrooms NUM', 'Filter out results with less than NUM bedrooms') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
+        full_hash[:bedrooms] = temp.clone
 
-                o = Integer(o)
-                if (o < 0 || o > 8)
-                    puts 'NUM must be between 0 and 8 (inclusive).'
-                    puts opt
-                    exit
-                end
+        temp[:tag] = '--min-price MIN_PRICE'
+        temp[:desc] = 'Filter out results for less than MIN_PRICE'
+        temp[:range_low] = nil
+        temp[:range_high] = nil
+        temp[:var] = 'MIN_PRICE'
 
-                options[:bedrooms] = o
-            }
+        full_hash[:min_price] = temp.clone
 
-            opt.on('--min-price MIN_PRICE', 'Filter out results for less than MIN_PRICE') { |o|
-                unless o.is_a? Numeric
-                    puts 'MIN_PRICE must be a number.'
-                    puts opt
-                    exit
-                end
+        temp[:tag] = '--max-price MAX_PRICE'
+        temp[:desc] = 'Filter out results for more than MAX_PRICE'
+        temp[:range_low] = nil
+        temp[:range_high] = nil
+        temp[:var] = 'MAX_PRICE'
 
-                options[:min_price] = o
-            }
+        full_hash[:max_price] = temp.clone
 
-            opt.on('--max-price MAX_PRICE', 'Filter out results for more than MAX_PRICE') { |o|
-                unless o.is_a? Numeric
-                    puts 'MAX_PRICE must be a number.'
-                    puts opt
-                    exit
-                end
+        temp[:tag] = '--min-sq-ft NUM'
+        temp[:desc] = 'Filter out results with less than NUM square feet'
+        temp[:range_low] = nil
+        temp[:range_high] = nil
+        temp[:var] = 'NUM'
 
-                options[:max_price] = o
-            }
+        full_hash[:min_sq_ft] = temp.clone
 
-            opt.on('--min-sq-ft NUM', 'Filter out results with less than NUM square feet') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
+        temp[:tag] = '--max-sq-ft NUM'
+        temp[:desc] = 'Filter out results with more than NUM square feet'
+        temp[:range_low] = nil
+        temp[:range_high] = nil
+        temp[:var] = 'NUM'
 
-                options[:min_sq_ft] = o
-            }
-
-            opt.on('--max-sq-ft NUM', 'Filter out results with more than NUM square feet') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
-
-                options[:max_sq_ft] = o
-            }
+        full_hash[:max_sq_ft] = temp.clone
 
         full_hash
     end # build_input_flags Method
@@ -612,79 +592,47 @@ EOS
                 end
             end
 
-            opt.on('--bathrooms NUM', 'Filter out results with less than NUM bathrooms') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
+            input_flags.each do |key, lower_hash|
+                tag = lower_hash[:tag]
+                desc = lower_hash[:desc]
+                var = lower_hash[:var]
 
-                o = Integer(o)
-                if (o < 0 || o > 8)
-                    puts 'NUM must be between 0 and 8 (inclusive).'
-                    puts opt
-                    exit
-                end
+                opt.on("#{tag}", "#{desc}") { |o|
+                    unless /\A[+-]?\d+\z/.match(o)
+                        puts "#{var} must be a integer."
+                        puts opt
+                        exit
+                    end
 
-                options[:bathrooms] = o
-            }
+                    o = Integer(o)
 
-            opt.on('--bedrooms NUM', 'Filter out results with less than NUM bedrooms') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
+                    if (lower_hash[:range_low] && lower_hash[:range_high])
+                        range_low = lower_hash[:range_low]
+                        range_high = lower_hash[:range_high]
+                            if (o < range_low || o > range_high)
+                                puts "#{var} must be between #{range_low} and #{range_high} (inclusive)."
+                                puts opt
+                                exit
+                            end
+                    elsif (lower_hash[:range_low])
+                        range_low = lower_hash[:range_low]
+                            if (o < range_low)
+                                puts "#{var} must be less than #{range_low}."
+                                puts opt
+                                exit
+                            end
+                    elsif (lower_hash[:range_high])
+                        range_high = lower_hash[:range_high]
+                            if (o > range_high)
+                                puts "#{var} must be less than #{range_high}."
+                                puts opt
+                                exit
+                            end
+                    end
 
-                o = Integer(o)
-                if (o < 0 || o > 8)
-                    puts 'NUM must be between 0 and 8 (inclusive).'
-                    puts opt
-                    exit
-                end
-
-                options[:bedrooms] = o
-            }
-
-            opt.on('--min-price MIN_PRICE', 'Filter out results for less than MIN_PRICE') { |o|
-                unless o.is_a? Numeric
-                    puts 'MIN_PRICE must be a number.'
-                    puts opt
-                    exit
-                end
-
-                options[:min_price] = o
-            }
-
-            opt.on('--max-price MAX_PRICE', 'Filter out results for more than MAX_PRICE') { |o|
-                unless o.is_a? Numeric
-                    puts 'MAX_PRICE must be a number.'
-                    puts opt
-                    exit
-                end
-
-                options[:max_price] = o
-            }
-
-            opt.on('--min-sq-ft NUM', 'Filter out results with less than NUM square feet') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
-
-                options[:min_sq_ft] = o
-            }
-
-            opt.on('--max-sq-ft NUM', 'Filter out results with more than NUM square feet') { |o|
-                unless o.is_a? Numeric
-                    puts 'NUM must be a number.'
-                    puts opt
-                    exit
-                end
-
-                options[:max_sq_ft] = o
-            }
+                    options [key] = o
+                }
+            end
 
             opt.on('--open-house YYYY-MM-DD', 'Filter results by open house date') { |o|
                 sale_date = o
