@@ -8,11 +8,6 @@ require 'date'
 
 ##### TODO #####
 #
-#   - Fix parameterization of 'save_results' method
-#   - Refactor @search_fields building
-#       |-> Building hash (Complete)
-#       |-> Fill in form (Complete*)  - *Testing still required*
-#   - Sanitize program parameters
 #   - Customize with 'Usage' message
 #   - Include a warning that default website is used, if none passed to program
 #       |-> Make optional parameter for website
@@ -24,6 +19,7 @@ require 'date'
 #   - Extend to multiple sites
 #   - Optional: optimizations (e.g., limit to certain radius)
 #   - Optional: Add other configurations to 'init'
+#   - Optional: Save backup for use offline
 
 ##### GLOBAL VARIABLES #####
 
@@ -59,10 +55,11 @@ class Scraper
 
         raise "Please specify a valid website URL." unless @website.respond_to?(:to_str)
 
+        # Parse arguments
+        parse_args
+
         # Begin scraping
         search_page = @scraper.get(@website.clone)
-
-        parse_args
 
         # Work with the form. Used block to wrap all form fields in separate scope.
         form = search_page.form_with( :id => 'searchform' ) do |search|
@@ -176,25 +173,51 @@ class Scraper
     #   Returns: <none>
     ###
     #def save_results(results, *file)
-    def save_results(*file)
+    def save_results(*files)
         # Validate argument variables
         raise "First argument of save_results must be an array" unless @search_results.respond_to?(:each)
 
-        CSV.open("test_output.csv", "w+") do |csv_file|
-            @search_results.each do |row|
-                csv_file << row
+        files.each do |file|
+            if /.*\.csv\z/.match(file)
+                puts "Saving to CSV file:\n\t#{file}"
+                CSV.open(file, "w+") do |csv_file|
+                    @search_results.each do |row|
+                        csv_file << row
+                    end
+                end
+            else
+                puts "Unrecognized file format.\nSaving as text file."
+                if file =~ /\A(.*?)\.(.*?)\z/
+                    file = "#{$1}.txt"
+                end
+                File.open(file, "w+") do |txt_file|
+                    @search_results.each do |row|
+                        name = row[0]
+                        url = row[1]
+                        price = row[2]
+                        location = row[3]
+                        txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
+                    end
+                end
             end
         end
 
-        File.open("text_output.txt", "w+") do |txt_file|
-            @search_results.each do |row|
-                name = row[0]
-                url = row[1]
-                price = row[2]
-                location = row[3]
-                txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
-            end
-        end
+        #CSV.open("test_output.csv", "w+") do |csv_file|
+            #@search_results.each do |row|
+                #csv_file << row
+            #end
+        #end
+
+        #File.open("text_output.txt", "w+") do |txt_file|
+            #@search_results.each do |row|
+                #name = row[0]
+                #url = row[1]
+                #price = row[2]
+                #location = row[3]
+                #txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
+            #end
+        #end
+
     end
 
 
@@ -616,6 +639,6 @@ end ## Scraper Class
 ##### MAIN #####
 
 c_list = Scraper.new()
-c_list.fill_form.get_results.save_results
+c_list.fill_form.get_results.save_results('test_output.csv', 'text_output.txt')
 
 ##### END #####
