@@ -8,16 +8,20 @@ require 'date'
 
 ##### TODO #####
 #
-#   - Customize with 'Usage' message
-#   - Include a warning that default website is used, if none passed to program
-#       |-> Make optional parameter for website
-#       |-> Check for valid website
+#   - Add flags to specify output file name/format
+#       |-> Use interactive session?
 #   - Use external file to map page elements to website
 #       |-> Read file into arrays
 #       |-> Introduce arguments to associated functions
 #   - Use hash/external file to map form fields to website
+#       |-> XML, JSON, TXT, ...
 #   - Extend to multiple sites
-#   - Optional: optimizations (e.g., limit to certain radius)
+#       |-> Queen's Housing Service
+#       |-> Kijiji
+#       |-> Others...
+#   - Parse multiple sites in same execution
+#       |-> Dependency on above
+#   - Optional: Distance optimization (e.g., limit to certain radius)
 #   - Optional: Add other configurations to 'init'
 #   - Optional: Save backup for use offline
 
@@ -511,6 +515,9 @@ class Scraper
 
         OptionParser.new do |opt|
 
+            # Customized usage message
+            opt.banner = "Usage: c_list_script.rb [options] [<website>]\n\n"
+
             opt.on('-h', '--help', 'Show this help message') { puts ''; puts opt; exit }
 
             bool_flags.each do |key, lower_hash|
@@ -583,6 +590,7 @@ class Scraper
                 }
             end
 
+            # Special options
             opt.on('--open-house YYYY-MM-DD', 'Filter results by open house date') { |o|
                 sale_date = o
 
@@ -663,11 +671,6 @@ end ## Scraper Class
 ##### MAIN #####
 
 c_list = Scraper.new()
-#file_1 = File.expand_path(__FILE__)
-#file_1.gsub!(__FILE__, 'test_output/test_output.csv')
-#file_2 = File.expand_path(__FILE__)
-#file_2.gsub!(__FILE__, 'test_output/text_output.txt')
-#c_list.fill_form.get_results.save_results(file_1, file_2)
 c_list.fill_form.get_results.save_results('test_output.csv', 'text_output.txt')
 
 ##### END #####
