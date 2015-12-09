@@ -8,11 +8,10 @@ require 'date'
 
 ##### TODO #####
 #
-#   - Add flags to specify output file name/format
-#       |-> Use interactive session?
 #   - Use external file to map page elements to website
 #       |-> Read file into arrays
 #       |-> Introduce arguments to associated functions
+#   - Extract all valuable data points from search results
 #   - Use hash/external file to map form fields to website
 #       |-> XML, JSON, TXT, ...
 #   - Extend to multiple sites
@@ -34,10 +33,8 @@ ADDRESS = 'http://kingston.craigslist.ca/search/apa'
 
 class Scraper
 
-    #def initialize(address=ADDRESS)
     def initialize()
         @scraper = init()
-        #@website = address
         @search_form = nil
         @search_results = []
         @checkbox_fields = {}
@@ -58,10 +55,8 @@ class Scraper
         # Validate argument variables
         raise "Mechanize object not initialized properly." unless @scraper.respond_to?(:get)
 
-        raise "Please specify a valid website URL." unless @website.respond_to?(:to_str)
-
         # Parse arguments
-        #parse_args
+        parse_args
 
         # Begin scraping
         search_page = @scraper.get(@website.clone)
@@ -72,6 +67,24 @@ class Scraper
             # Search query related
             search.query = @query[:query] if @query[:query]
             search.checkbox_with( :name => 'srchType' ).check if (@query[:query] && @query[:srch_type])
+
+            if @query[:output_file]
+                puts <<-EOS
+
+    Please enter the name of each file you would like to be a part of the
+    output, separated by a comma. When you are done please press <Enter>.
+
+    For example, if you want to output a .csv file and a .txt file, type
+    the following:
+
+        file_1.csv, file_2.txt
+
+EOS
+
+                print "    <files>: "
+                input = gets.chomp!
+                @output_files = input.split(", ")
+            end
 
             # Check-box
             @checkbox_fields.each do |key, value|
@@ -177,22 +190,32 @@ class Scraper
     #           results - Array containing results to be saved
     #   Returns: <none>
     ###
-    #def save_results(results, *file)
-    def save_results(*files)
-        # Validate argument variables
-        raise "First argument of save_results must be an array" unless @search_results.respond_to?(:each)
-#file_1 = File.expand_path(__FILE__)
-#file_1.gsub!(__FILE__, 'test_output/test_output.csv')
-#file_2 = File.expand_path(__FILE__)
-#file_2.gsub!(__FILE__, 'test_output/text_output.txt')
+    def save_results
 
-        files.each do |file|
+        unless @output_files
+            puts 'No output file provided.'
+            @output_files = []
+            @output_files << 'output.txt'
+        end
+        #files.each do |file|
+        @output_files.each do |file|
             file = File.expand_path(__FILE__).gsub!('scripts/' << __FILE__, 'test_output/' << file)
             if /.*\.csv\z/.match(file)
                 puts "Saving to CSV file:\n\t#{file}"
                 CSV.open(file, "w+") do |csv_file|
                     @search_results.each do |row|
                         csv_file << row
+                    end
+                end
+            elsif /.*\.txt\z/.match(file)
+                puts "Saving to text file:\n\t#{file}"
+                File.open(file, "w+") do |txt_file|
+                    @search_results.each do |row|
+                        name = row[0]
+                        url = row[1]
+                        price = row[2]
+                        location = row[3]
+                        txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
                     end
                 end
             else
@@ -211,23 +234,6 @@ class Scraper
                 end
             end
         end
-
-        #CSV.open("test_output.csv", "w+") do |csv_file|
-            #@search_results.each do |row|
-                #csv_file << row
-            #end
-        #end
-
-        #File.open("text_output.txt", "w+") do |txt_file|
-            #@search_results.each do |row|
-                #name = row[0]
-                #url = row[1]
-                #price = row[2]
-                #location = row[3]
-                #txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
-            #end
-        #end
-
     end
 
 
@@ -243,8 +249,6 @@ class Scraper
 
         # Mechanize setup to rate limit your scraping to once every half-second
         scraper.history_added = Proc.new { sleep 0.5 }
-
-        parse_args
 
         scraper
     end ## init Method
@@ -283,6 +287,15 @@ class Scraper
         }
 
         full_hash[:is_furnished] = temp.clone
+
+        temp = {:short => '-o',
+                :long => '--output',
+                :desc => 'Opens an interactive sesstion to specify output file',
+                :hash => :query,
+                :sym_hash => nil
+        }
+
+        full_hash[:output_file] = temp.clone
 
         temp = {:short => '-p',
                 :long => '--has-pic',
@@ -518,7 +531,11 @@ class Scraper
             # Customized usage message
             opt.banner = "Usage: c_list_script.rb [options] [<website>]\n\n"
 
-            opt.on('-h', '--help', 'Show this help message') { puts ''; puts opt; exit }
+            opt.on('-h', '--help', 'Show this help message') {
+                puts ''
+                puts opt
+                exit
+            }
 
             bool_flags.each do |key, lower_hash|
                 long = lower_hash[:long]
@@ -621,11 +638,6 @@ class Scraper
 
         end.parse!
 
-        #if (ARGV.length == 0)
-            # Print message
-            #@website = ADDRESS
-        #end
-
         ARGV.each do |arg|
             if arg =~ /\A#{URI::regexp}\z/
                 @website = arg
@@ -671,6 +683,6 @@ end ## Scraper Class
 ##### MAIN #####
 
 c_list = Scraper.new()
-c_list.fill_form.get_results.save_results('test_output.csv', 'text_output.txt')
+c_list.fill_form.get_results.save_results
 
 ##### END #####
