@@ -30,9 +30,10 @@ ADDRESS = 'http://kingston.craigslist.ca/search/apa'
 
 class Scraper
 
-    def initialize(address=ADDRESS)
+    #def initialize(address=ADDRESS)
+    def initialize()
         @scraper = init()
-        @website = address
+        #@website = address
         @search_form = nil
         @search_results = []
         @checkbox_fields = {}
@@ -56,7 +57,7 @@ class Scraper
         raise "Please specify a valid website URL." unless @website.respond_to?(:to_str)
 
         # Parse arguments
-        parse_args
+        #parse_args
 
         # Begin scraping
         search_page = @scraper.get(@website.clone)
@@ -182,7 +183,7 @@ class Scraper
 #file_2.gsub!(__FILE__, 'test_output/text_output.txt')
 
         files.each do |file|
-            file = File.expand_path(__FILE__).gsub!(__FILE__, 'test_output/' << file)
+            file = File.expand_path(__FILE__).gsub!('scripts/' << __FILE__, 'test_output/' << file)
             if /.*\.csv\z/.match(file)
                 puts "Saving to CSV file:\n\t#{file}"
                 CSV.open(file, "w+") do |csv_file|
@@ -238,6 +239,8 @@ class Scraper
 
         # Mechanize setup to rate limit your scraping to once every half-second
         scraper.history_added = Proc.new { sleep 0.5 }
+
+        parse_args
 
         scraper
     end ## init Method
@@ -609,6 +612,22 @@ class Scraper
             }
 
         end.parse!
+
+        #if (ARGV.length == 0)
+            # Print message
+            #@website = ADDRESS
+        #end
+
+        ARGV.each do |arg|
+            if arg =~ /\A#{URI::regexp}\z/
+                @website = arg
+            end
+        end
+
+        unless @website
+            puts 'URL invalid or not provided. Reverting to default address'
+            @website = ADDRESS
+        end
     end ## parse_args Method
 
     ### --Print Help Message for Interactive Session-- ###
