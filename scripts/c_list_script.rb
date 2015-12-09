@@ -176,8 +176,13 @@ class Scraper
     def save_results(*files)
         # Validate argument variables
         raise "First argument of save_results must be an array" unless @search_results.respond_to?(:each)
+#file_1 = File.expand_path(__FILE__)
+#file_1.gsub!(__FILE__, 'test_output/test_output.csv')
+#file_2 = File.expand_path(__FILE__)
+#file_2.gsub!(__FILE__, 'test_output/text_output.txt')
 
         files.each do |file|
+            file = File.expand_path(__FILE__).gsub!(__FILE__, 'test_output/' << file)
             if /.*\.csv\z/.match(file)
                 puts "Saving to CSV file:\n\t#{file}"
                 CSV.open(file, "w+") do |csv_file|
@@ -186,7 +191,7 @@ class Scraper
                     end
                 end
             else
-                puts "Unrecognized file format.\nSaving as text file."
+                puts "Unrecognized file format.\nSaving as text file:\n\t#{file}"
                 if file =~ /\A(.*?)\.(.*?)\z/
                     file = "#{$1}.txt"
                 end
@@ -639,6 +644,11 @@ end ## Scraper Class
 ##### MAIN #####
 
 c_list = Scraper.new()
+#file_1 = File.expand_path(__FILE__)
+#file_1.gsub!(__FILE__, 'test_output/test_output.csv')
+#file_2 = File.expand_path(__FILE__)
+#file_2.gsub!(__FILE__, 'test_output/text_output.txt')
+#c_list.fill_form.get_results.save_results(file_1, file_2)
 c_list.fill_form.get_results.save_results('test_output.csv', 'text_output.txt')
 
 ##### END #####
