@@ -8,12 +8,22 @@ require 'date'
 
 ##### TODO #####
 #
+#   - Extract all valuable data points from search results (get_results)
+#       |-> Determine what information can be obtained directly from result
+#           |--> Complete
+#       |-> Clean-up data (Regular expressions?)
+#           |--> In Progress
+#       |-> Get contact information for posting
+#           |--> Navigate to result page
+#       |-> Possible refactoring opportunity
+#           |--> What fields are available?
+#           |--> Make new class for results?
+#           |--> Saving results
 #   - Use external file to map page elements to website
 #       |-> Read file into arrays
 #       |-> Introduce arguments to associated functions
-#   - Extract all valuable data points from search results
 #   - Use hash/external file to map form fields to website
-#       |-> XML, JSON, TXT, ...
+#       |-> XML (uses Nokogiri)
 #   - Extend to multiple sites
 #       |-> Queen's Housing Service
 #       |-> Kijiji
@@ -156,6 +166,7 @@ EOS
     #   Returns: An array with results
     ###
     def get_results()
+
         # Validate argument variables
         raise "Search form is invalid!" unless @search_form.respond_to?(:submit)
 
@@ -172,13 +183,25 @@ EOS
         # Parse the results
         raw_results.each do |result|
             link = result.css('a')[1]
-            name = link.text.strip  # result.link.text.strip
-            url = "http://kingston.craigslist.ca" + link.attributes["href"].value   # result.link.attributes["href"].value
-            price = result.search('span.price').text
-            location = result.search('span.pnr').text
+            datetime = result.css('time')[0]
+
+            name = link.text.strip
+            url = "http://kingston.craigslist.ca" + link.attributes["href"].value
+            price = result.search('span.price').text.strip
+            location = result.search('span.pnr').text.strip
+            date = datetime.text.strip
+            housing = result.search('span.housing').text.strip
+
+            if housing =~ /(\d+)br/
+                bed = $1
+            end
+
+            if housing =~ /(\d+)ft2/
+                size = $1 << 'sq. ft'
+            end
 
             # Save the results
-            results << [name, url, price, location]
+            results << [name, url, price, location, date, bed, size]
         end
 
         @search_results = results
@@ -215,7 +238,30 @@ EOS
                         url = row[1]
                         price = row[2]
                         location = row[3]
-                        txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
+                        date = row[4]
+                        bed = row[5]
+                        size = row[6]
+
+                        txt_file << "Name: #{name}"
+                        txt_file << "\n\t"
+
+                        txt_file << "URL: #{url}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Price: #{price}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Location: #{location}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Date Added: #{date}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Bedrooms: #{bed}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Size: #{size}"
+                        txt_file << "\n\n"
                     end
                 end
             else
