@@ -12,24 +12,34 @@ require 'date'
 #       |-> Determine what information can be obtained directly from result
 #           |--> Complete
 #       |-> Clean-up data (Regular expressions?)
-#           |--> In Progress
+#           |--> Complete
 #       |-> Get contact information for posting
-#           |--> Navigate to result page
+#           |--> Name (In Progress)
+#           |--> Phone Number (In Progress)
+#           |--> Email (Complete)
+#       |-> Get address information from Google
+#           |--> Navigate to map page
 #       |-> Possible refactoring opportunity
 #           |--> What fields are available?
 #           |--> Make new class for results?
 #           |--> Saving results
+#
 #   - Use external file to map page elements to website
 #       |-> Read file into arrays
 #       |-> Introduce arguments to associated functions
+#
 #   - Use hash/external file to map form fields to website
 #       |-> XML (uses Nokogiri)
+#
 #   - Extend to multiple sites
 #       |-> Queen's Housing Service
 #       |-> Kijiji
 #       |-> Others...
+#
 #   - Parse multiple sites in same execution
 #       |-> Dependency on above
+#
+#   - Optional: Mask robot-like behaviour of program (Impossible?)
 #   - Optional: Distance optimization (e.g., limit to certain radius)
 #   - Optional: Add other configurations to 'init'
 #   - Optional: Save backup for use offline
@@ -47,11 +57,11 @@ class Scraper
         @scraper = init()
         @search_form = nil
         @search_results = []
+        @query= {}
         @checkbox_fields = {}
         @fill_fields = {}
         @drop_fields = {}
         @mult_fields = {}
-        @query= {}
     end ## initialize Method
 
 
@@ -182,26 +192,111 @@ EOS
 
         # Parse the results
         raw_results.each do |result|
+            # Attributes that need to be cleaned up after parsing
             link = result.css('a')[1]
             datetime = result.css('time')[0]
 
+            # To be inconvenient, the name is made a link to the page, so
+            #   it needs to be parsed. Also, link doesn't contain base address
+            #   so this needs to be prepended.
             name = link.text.strip
             url = "http://kingston.craigslist.ca" + link.attributes["href"].value
+
+            # Price is in a nice easy location to access
             price = result.search('span.price').text.strip
+
+            # Very strange name for element. Also, this location isn't always
+            #   an address, so that needs to be parsed in another way (use
+            #   Google Maps link?)
             location = result.search('span.pnr').text.strip
+
+            # Strip away the 'pic' and 'map' links that definitely make sense
+            #   to include in this corretly named 'pnr' element...
+            if location =~ /\(([^\)]+)\)/
+                location = $1
+            end
+
+            # Seems like a repition of data on their part, but it's nicely
+            #   formatted already so I won't complain.
             date = datetime.text.strip
+
+            # Another odd name, but contains the number of bedrooms and square
+            #   footage of the place...
             housing = result.search('span.housing').text.strip
 
+            # ...but still needs to be parsed out...
             if housing =~ /(\d+)br/
                 bed = $1
             end
 
+            # ...and this one too, which is labelled quite awkwardly.
             if housing =~ /(\d+)ft2/
                 size = $1 << 'sq. ft'
             end
 
+            # Ok, we have to dive kinda deep here to get the contact info.
+
+            # This is the page with the result entry.
+            #result_entry_page = result_page.link_with(:text => name).click
+
+            # These are used for testing because using the above takes a long time.
+            #result_entry_page = result_page.link_with(:text => '4-Bedroom Unit').click
+            #result_entry_page = result_page.link_with(:text => '1 bedroom apartment with grade level entry,').click
+            result_entry_page = result_page.link_with(:text => 'Awesome loft in heritage building').click
+
+            # We want the 'reply' link, which HOPEFULLY holds all the
+            #   contact information of the posting.
+            reply_page = @scraper.get('http://kingston.craigslist.ca/reply/kng/apa/5353542999')
+
+            # All contact information should be embedded in the 'reply_options'
+            #   element
+            options_element = reply_page.search('div.reply_options')
+
+            # Need to make sure that the contact name is actually provided.
+            # Should check all elements, for robustness.
+            contact_name = '<name_not_provided>'
+            contact_number = '<number_not_provided>'
+
+            index = 0
+
+            options_element.css('b').each do |label|
+
+                # Should work. Hasn't been tested yet, because website thinks I'm a robot (not entirely false).
+                if label.text.strip === 'contact name:'
+                    contact_name = options_element.css('ul')[index].text.strip
+                elsif label.text.strip === 'text'
+                    contact_number = options_element.css('ul')[index].text.strip
+                else
+                    index += 1
+                    next
+                end
+
+                index += 1
+
+                # Commented code currently works if ONLY ONE of name and number are there.
+                # Issue is that name always* comes at index '0', and number will come at
+                #   index '0' if name isn't there, otherwise it gets pushed to index '1'.
+                # Possible solution is to use regular expression on each element of array
+                #   to see if it is a phone number.
+                # Another solution is not take phone number at all, and just make it an
+                #   optimization/stretch goal.
+                #if label.text.strip === 'contact name:'
+                    #contact_name = options_element.css('ul')[0].text.strip
+                #end
+
+                #if label.text.strip === ':'
+                    #contact_number = options_element.css('ul')[0].text.strip
+                    #next
+                    #break
+                #end
+            end
+
+            email = reply_page.search('div.anonemail').text.strip
+
             # Save the results
-            results << [name, url, price, location, date, bed, size]
+            results << [name, url, price, location, date, bed, size, contact_name, contact_number, email]
+
+            break   # Debugging only
         end
 
         @search_results = results
@@ -241,6 +336,9 @@ EOS
                         date = row[4]
                         bed = row[5]
                         size = row[6]
+                        contact = row[7]
+                        number = row[8]
+                        email = row[9]
 
                         txt_file << "Name: #{name}"
                         txt_file << "\n\t"
@@ -261,6 +359,15 @@ EOS
                         txt_file << "\n\t"
 
                         txt_file << "Size: #{size}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Contact name: #{contact}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Contact number: #{number}"
+                        txt_file << "\n\t"
+
+                        txt_file << "Email: #{email}"
                         txt_file << "\n\n"
                     end
                 end
@@ -294,7 +401,7 @@ EOS
         scraper = Mechanize.new
 
         # Mechanize setup to rate limit your scraping to once every half-second
-        scraper.history_added = Proc.new { sleep 0.5 }
+        scraper.history_added = Proc.new { sleep 0.75 }
 
         scraper
     end ## init Method

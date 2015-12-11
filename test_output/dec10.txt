@@ -3,87 +3,95 @@ Name: Name
 	Price: Price
 	Location: Location
 	Date Added: 
-	Bed: 
+	Bedrooms: 
 	Size: 
+
+Name: 1 bedroom apartment with grade level entry,
+	URL: http://kingston.craigslist.ca/apa/5353542999.html
+	Price: $650
+	Location: Godfrey, ON
+	Date Added: Dec 10
+	Bedrooms: 1
+	Size: 1000sq. ft
 
 Name: 4-Bedroom Unit
 	URL: http://kingston.craigslist.ca/apa/5352527954.html
 	Price: $1820
-	Location: (396 Alfred Street - Unit 2)   pic map
+	Location: 396 Alfred Street - Unit 2
 	Date Added: Dec 9
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: ATTENTION STUDENTS!!
 	URL: http://kingston.craigslist.ca/apa/5352498448.html
 	Price: $2670
-	Location: (396 Alfred Street)   pic map
+	Location: 396 Alfred Street
 	Date Added: Dec 9
-	Bed: 6
+	Bedrooms: 6
 	Size: 
 
 Name: Queen's Zone 2
 	URL: http://kingston.craigslist.ca/apa/5352486530.html
 	Price: $1500
-	Location: (Queen's Zone 2)
+	Location: Queen's Zone 2
 	Date Added: Dec 9
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: *** NEW RELEASE *** 6 BEDROOM HOUSE (5 MIN TO QUEEN'S)
 	URL: http://kingston.craigslist.ca/apa/5351716654.html
 	Price: $3690
-	Location: (331 Brock)   map
+	Location: 331 Brock
 	Date Added: Dec 8
-	Bed: 6
+	Bedrooms: 6
 	Size: 1800sq. ft
 
 Name: **NEW RELEASE** 2-BED APT (5 MIN TO QUEEN'S)
 	URL: http://kingston.craigslist.ca/apa/5350249727.html
 	Price: $1310
-	Location: (98 Division Street)   map
+	Location: 98 Division Street
 	Date Added: Dec 8
-	Bed: 2
+	Bedrooms: 2
 	Size: 1000sq. ft
 
 Name: The ROYAL GEORGE premier condo
 	URL: http://kingston.craigslist.ca/apa/5351583741.html
 	Price: $1000
-	Location: (KINGSTON - = - 5 GORE STREET)   pic map
+	Location: KINGSTON - = - 5 GORE STREET
 	Date Added: Dec 8
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Awesome loft in heritage building
 	URL: http://kingston.craigslist.ca/apa/5350762782.html
 	Price: $975
-	Location: (329 Divison)   pic map
+	Location: 329 Divison
 	Date Added: Dec 8
-	Bed: 1
+	Bedrooms: 1
 	Size: 1200sq. ft
 
 Name: Bright Main Floor Apartment
 	URL: http://kingston.craigslist.ca/apa/5350559807.html
 	Price: $1150
-	Location: (Kingston)   pic map
+	Location: Kingston
 	Date Added: Dec 8
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: NICE 3-BED APT. FOR RENT (5 MIN. WALK TO QUEEN'S)
 	URL: http://kingston.craigslist.ca/apa/5350248417.html
 	Price: $1800
-	Location: (359 Johnson)   map
+	Location: 359 Johnson
 	Date Added: Dec 7
-	Bed: 3
+	Bedrooms: 3
 	Size: 1200sq. ft
 
 Name: **NEW RELEASE** 3-BED APT (QUIET FRIENDLY NEIGBOURHOOD)
 	URL: http://kingston.craigslist.ca/apa/5348556032.html
 	Price: $795
-	Location: (40 CARTWRIGHT)   pic map
+	Location: 40 CARTWRIGHT
 	Date Added: Dec 7
-	Bed: 3
+	Bedrooms: 3
 	Size: 900sq. ft
 
 Name: ALL INCLUSIVE! WEST END! JAN 1
@@ -91,175 +99,175 @@ Name: ALL INCLUSIVE! WEST END! JAN 1
 	Price: $1100
 	Location: pic
 	Date Added: Dec 7
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Large 1 Bedroom Apartment Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5338694369.html
 	Price: $950
-	Location: (216 Rideau Street)   pic map
+	Location: 216 Rideau Street
 	Date Added: Dec 7
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: Spacious 4 Bedroom Apartment Blocks From Queen's University!
 	URL: http://kingston.craigslist.ca/apa/5333104781.html
 	Price: $2200
-	Location: (217 Collingwood St.)   pic map
+	Location: 217 Collingwood St.
 	Date Added: Dec 7
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Recently Renovated 4 Bedroom House in Central Location!
 	URL: http://kingston.craigslist.ca/apa/5328871454.html
 	Price: $1560
-	Location: (320 Nelson Street)   pic map
+	Location: 320 Nelson Street
 	Date Added: Dec 7
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Large 4 Bedroom Apartment Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5328790509.html
 	Price: $2500
-	Location: (361 Barrie Street)   pic map
+	Location: 361 Barrie Street
 	Date Added: Dec 7
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Two Bedroom Apartment on Russell Street
 	URL: http://kingston.craigslist.ca/apa/5324545122.html
 	Price: $825
-	Location: (54 Russell Street)   pic map
+	Location: 54 Russell Street
 	Date Added: Dec 7
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: 2 BEDROOM APARTMENT DOWNTOWN KINGSTON
 	URL: http://kingston.craigslist.ca/apa/5312280283.html
 	Price: $1000
-	Location: (273 Division Street)   pic map
+	Location: 273 Division Street
 	Date Added: Dec 7
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: STUDENTS! 2 BEDROOM SUBLET DOWNTOWN KINGSTON!
 	URL: http://kingston.craigslist.ca/apa/5318306471.html
 	Price: $525
-	Location: (78 Wellington Street)   pic map
+	Location: 78 Wellington Street
 	Date Added: Dec 7
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Gorgeous 1 Bedroom Apartment Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5325262583.html
 	Price: $1475
-	Location: (347 King Street E.)   pic map
+	Location: 347 King Street E.
 	Date Added: Dec 7
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: 4 Bedroom Apartment Blocks from Queen's University!
 	URL: http://kingston.craigslist.ca/apa/5333106359.html
 	Price: $2200
-	Location: (368 Brock Street)   map
+	Location: 368 Brock Street
 	Date Added: Dec 7
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Beautiful 2 Bedroom Apartment Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5333113285.html
 	Price: $1350
-	Location: (216 Rideau Street)   pic map
+	Location: 216 Rideau Street
 	Date Added: Dec 7
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Gorgeous 1 Bedroom Apartment Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5333110017.html
 	Price: $1000
-	Location: (356 Montreal Street)   pic map
+	Location: 356 Montreal Street
 	Date Added: Dec 7
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: Spacious 2 Bedroom House Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5338246592.html
 	Price: $1250
-	Location: (19 Drayton Ave.)   pic map
+	Location: 19 Drayton Ave.
 	Date Added: Dec 7
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Students:great 4 br Houses Downtown
 	URL: http://kingston.craigslist.ca/apa/5346502405.html
 	Price: $2000
-	Location: (80 chatham)   pic map
+	Location: 80 chatham
 	Date Added: Dec 5
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Students:great 5 br House Downtown/Hub
 	URL: http://kingston.craigslist.ca/apa/5346487530.html
 	Price: $2500
-	Location: (131 colborne)   pic map
+	Location: 131 colborne
 	Date Added: Dec 5
-	Bed: 5
+	Bedrooms: 5
 	Size: 
 
 Name: Students:We offer nice 3,4,5,6 br Houses Downtown QUEENS 4500 per room
 	URL: http://kingston.craigslist.ca/apa/5346479208.html
 	Price: $500
-	Location: (barrie)   pic
+	Location: barrie
 	Date Added: Dec 5
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Nicest 4 br House close to Queens west and COLLEGE
 	URL: http://kingston.craigslist.ca/apa/5346445405.html
 	Price: $2000
-	Location: (churchill)   pic map
+	Location: churchill
 	Date Added: Dec 5
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Nicest 3 br APT Southside Queens,fully furnished
 	URL: http://kingston.craigslist.ca/apa/5346366344.html
 	Price: $1350
-	Location: (25 graham)   pic map
+	Location: 25 graham
 	Date Added: Dec 5
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: 2 +1 Bedroom Bungalow
 	URL: http://kingston.craigslist.ca/apa/5345757394.html
 	Price: $1325
-	Location: (Central)   pic map
+	Location: Central
 	Date Added: Dec 4
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Students:Nicest 4 br HOUSE CLOSE TO QUEENS WEST AND COLLEGE
 	URL: http://kingston.craigslist.ca/apa/5345184552.html
 	Price: $2000
-	Location: (CHURCHILL)   pic map
+	Location: CHURCHILL
 	Date Added: Dec 4
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Students:Nicest 6 br House,xl+large Rooms,only $500/room
 	URL: http://kingston.craigslist.ca/apa/5345170950.html
 	Price: $3000
-	Location: (366 barrie)   pic map
+	Location: 366 barrie
 	Date Added: Dec 4
-	Bed: 6
+	Bedrooms: 6
 	Size: 
 
 Name: Queen's students-house rent-294 Union St.
 	URL: http://kingston.craigslist.ca/apa/5345116896.html
 	Price: $4200
-	Location: (294 Union St. Kingston ON)   pic map
+	Location: 294 Union St. Kingston ON
 	Date Added: Dec 4
-	Bed: 7
+	Bedrooms: 7
 	Size: 
 
 Name: 1025 Dillingham, close to Lancaster and Holy cross
@@ -267,79 +275,79 @@ Name: 1025 Dillingham, close to Lancaster and Holy cross
 	Price: $2000
 	Location: pic map
 	Date Added: Dec 3
-	Bed: 4
+	Bedrooms: 4
 	Size: 2200sq. ft
 
 Name: Basement Apt for Rent
 	URL: http://kingston.craigslist.ca/apa/5341937981.html
 	Price: $850
-	Location: (Kingston)   pic map
+	Location: Kingston
 	Date Added: Dec 2
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: INCLUSIVE - DOWNTOWN FURNISHED 4 MONTH LEASE
 	URL: http://kingston.craigslist.ca/apa/5340235958.html
 	Price: $2000
-	Location: (462 Barrie St.)   pic map
+	Location: 462 Barrie St.
 	Date Added: Dec 1
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: INCLUSIVE - DOWNTOWN W PARKING AND LAUNDRY
 	URL: http://kingston.craigslist.ca/apa/5340224130.html
 	Price: $950
-	Location: (179 Pine St., Kingston)   pic
+	Location: 179 Pine St., Kingston
 	Date Added: Dec 1
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: FOR RENT: East End Three Bedroom Townhouse
 	URL: http://kingston.craigslist.ca/apa/5339315201.html
 	Price: $1450
-	Location: (Kingston East)   pic map
+	Location: Kingston East
 	Date Added: Nov 30
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: Downtown 2 bedroom apartment.
 	URL: http://kingston.craigslist.ca/apa/5339170371.html
 	Price: $1150
-	Location: (36 Markland St.)   pic
+	Location: 36 Markland St.
 	Date Added: Nov 30
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: 255 Queen St. Students or Graduate Students Welcome. 2Bd+Den INCLUSIVE
 	URL: http://kingston.craigslist.ca/apa/5337565082.html
 	Price: $1400
-	Location: (255 Queen St.)   map
+	Location: 255 Queen St.
 	Date Added: Nov 29
-	Bed: 2
+	Bedrooms: 2
 	Size: 900sq. ft
 
 Name: Sydenham Ward Bachelor in Historic Limestone (Furnished)
 	URL: http://kingston.craigslist.ca/apa/5335990720.html
 	Price: $649
-	Location: (Downtown)   map
+	Location: Downtown
 	Date Added: Nov 28
-	Bed: 
+	Bedrooms: 
 	Size: 250sq. ft
 
 Name: 532 Frontenac St
 	URL: http://kingston.craigslist.ca/apa/5335888273.html
 	Price: $2500
-	Location: (532 Frontenac)   pic map
+	Location: 532 Frontenac
 	Date Added: Nov 28
-	Bed: 5
+	Bedrooms: 5
 	Size: 
 
 Name: Pet friendly 2bdr - utilities included! $985
 	URL: http://kingston.craigslist.ca/apa/5334728750.html
 	Price: $985
-	Location: (276 Conacher Dr)   pic
+	Location: 276 Conacher Dr
 	Date Added: Nov 27
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Students: Nice 6 BR house near Queen's main campus & downtown
@@ -347,15 +355,15 @@ Name: Students: Nice 6 BR house near Queen's main campus & downtown
 	Price: $3000
 	Location: pic map
 	Date Added: Nov 27
-	Bed: 6
+	Bedrooms: 6
 	Size: 
 
 Name: short term, furnished, great location, single house
 	URL: http://kingston.craigslist.ca/apa/5333546622.html
 	Price: $1800
-	Location: (near Kingston center)   map
+	Location: near Kingston center
 	Date Added: Nov 26
-	Bed: 4
+	Bedrooms: 4
 	Size: 3000sq. ft
 
 Name: Gorgeous downtown townhouse for rent
@@ -363,119 +371,119 @@ Name: Gorgeous downtown townhouse for rent
 	Price: $1800
 	Location: pic map
 	Date Added: Nov 24
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: Students:Nicest 6 br House Downtown Queens,xxl,xl rooms,renod
 	URL: http://kingston.craigslist.ca/apa/5327920351.html
 	Price: $3150
-	Location: (366 barrie)   pic map
+	Location: 366 barrie
 	Date Added: Nov 22
-	Bed: 6
+	Bedrooms: 6
 	Size: 
 
 Name: Nicest 4 Br House Close to College/Queens West
 	URL: http://kingston.craigslist.ca/apa/5327927793.html
 	Price: $1900
-	Location: (churchill)   pic map
+	Location: churchill
 	Date Added: Nov 22
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Nicest 3 br Apt Southside Queens,can be Furnished
 	URL: http://kingston.craigslist.ca/apa/5327904389.html
 	Price: $1350
-	Location: (25 graham)   pic map
+	Location: 25 graham
 	Date Added: Nov 22
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: Beautiful 3 br Apartment Southside Queens
 	URL: http://kingston.craigslist.ca/apa/5326371092.html
 	Price: $1350
-	Location: (graham)   pic map
+	Location: graham
 	Date Added: Nov 21
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: Nicest 4 br House Kingston close west Queens and St.Lawrence College
 	URL: http://kingston.craigslist.ca/apa/5326388107.html
 	Price: $2000
-	Location: (churchill)   pic map
+	Location: churchill
 	Date Added: Nov 21
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Students:Nicest 6be House next to Hub+Queens
 	URL: http://kingston.craigslist.ca/apa/5326379361.html
 	Price: $3150
-	Location: (366 barrie)   pic map
+	Location: 366 barrie
 	Date Added: Nov 21
-	Bed: 6
+	Bedrooms: 6
 	Size: 
 
 Name: Students:Nicest Victorian 5br Home Downtown,can be furnished
 	URL: http://kingston.craigslist.ca/apa/5326359927.html
 	Price: $2400
-	Location: (399 division)   pic map
+	Location: 399 division
 	Date Added: Nov 21
-	Bed: 5
+	Bedrooms: 5
 	Size: 
 
 Name: Single Apartment for rent
 	URL: http://kingston.craigslist.ca/apa/5323537922.html
 	Price: $925
-	Location: (309B Earl)   pic map
+	Location: 309B Earl
 	Date Added: Nov 19
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: large 2 Bedroom, Kingston
 	URL: http://kingston.craigslist.ca/apa/5318228219.html
 	Price: $1050
-	Location: (Downtown)   pic map
+	Location: Downtown
 	Date Added: Nov 16
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: DECEMBER SPECIAL! SIGN BY DECEMBER 1 AND SAVE $60 OFF FIRST MONTH!!!
 	URL: http://kingston.craigslist.ca/apa/5317106473.html
 	Price: $960
-	Location: (KINGSTON)
+	Location: KINGSTON
 	Date Added: Nov 15
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: Short and Long Term Downtown,furnished
 	URL: http://kingston.craigslist.ca/apa/5315366610.html
 	Price: $1800
-	Location: (barrie)   pic map
+	Location: barrie
 	Date Added: Nov 14
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Students:great 4 br House,renod,Downtown Queens!
 	URL: http://kingston.craigslist.ca/apa/5315356124.html
 	Price: $1900
-	Location: (209 ordnance)   pic map
+	Location: 209 ordnance
 	Date Added: Nov 14
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Nicest 3 br Apartment Southside Downtown
 	URL: http://kingston.craigslist.ca/apa/5315345671.html
 	Price: $1290
-	Location: (graham)   pic map
+	Location: graham
 	Date Added: Nov 14
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: Heritage home Downtown Kingston
 	URL: http://kingston.craigslist.ca/apa/5314877419.html
 	Price: $2500
-	Location: (Kingston)   pic map
+	Location: Kingston
 	Date Added: Nov 13
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: 2 Bedroom Homestead Waterfront Apartment for January 1, 2016
@@ -483,71 +491,71 @@ Name: 2 Bedroom Homestead Waterfront Apartment for January 1, 2016
 	Price: $1750
 	Location: pic map
 	Date Added: Nov 13
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: For Jan 1, 2016 - Newly Renovated Homestead
 	URL: http://kingston.craigslist.ca/apa/5314075685.html
 	Price: $1739
-	Location: (32 Ontario Street)   pic map
+	Location: 32 Ontario Street
 	Date Added: Nov 13
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: 1 bedroom on Princess/Clergy $650/mo
 	URL: http://kingston.craigslist.ca/apa/5312524725.html
 	Price: $650
-	Location: (Kingston)   pic
+	Location: Kingston
 	Date Added: Nov 12
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: HISTORIC DOWNTOWN KINGSTON, TWO BDR, QUEENS/RMC
 	URL: http://kingston.craigslist.ca/apa/5274071165.html
 	Price: $775
-	Location: (Chestnut)   pic map
+	Location: Chestnut
 	Date Added: Nov 9
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Beautiful 3 br APT Southside close to QUEENS
 	URL: http://kingston.craigslist.ca/apa/5307704859.html
 	Price: $1350
-	Location: (graham ave 25)   pic map
+	Location: graham ave 25
 	Date Added: Nov 9
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: 4 Br house Downtown avail Jan 1st or May 1st
 	URL: http://kingston.craigslist.ca/apa/5307694693.html
 	Price: $1900
-	Location: (209 ordnance)   pic map
+	Location: 209 ordnance
 	Date Added: Nov 9
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Students:4+5 br Houses for Rent Downtown,furnished avail
 	URL: http://kingston.craigslist.ca/apa/5307688094.html
 	Price: $1900
-	Location: (chatham)   pic map
+	Location: chatham
 	Date Added: Nov 9
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Nicest 4 br House 2 baths close Queens west and College!!
 	URL: http://kingston.craigslist.ca/apa/5307679097.html
 	Price: $1900
-	Location: (churchill street)   pic map
+	Location: churchill street
 	Date Added: Nov 9
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Queen's Charming 2 Bed Sydenham Ward
 	URL: http://kingston.craigslist.ca/apa/5296599421.html
 	Price: $1050
-	Location: (Downtown)   pic map
+	Location: Downtown
 	Date Added: Nov 9
-	Bed: 2
+	Bedrooms: 2
 	Size: 850sq. ft
 
 Name: Quiet, 2 bedroom, Beautiful view of the St. Lawrence River
@@ -555,7 +563,7 @@ Name: Quiet, 2 bedroom, Beautiful view of the St. Lawrence River
 	Price: $1100
 	Location: 
 	Date Added: Nov 8
-	Bed: 
+	Bedrooms: 
 	Size: 
 
 Name: Completely Renovated Three Bedroom + Den Apartment! |
@@ -563,246 +571,238 @@ Name: Completely Renovated Three Bedroom + Den Apartment! |
 	Price: $1175
 	Location: pic map
 	Date Added: Nov 8
-	Bed: 3
+	Bedrooms: 3
 	Size: 1100sq. ft
 
 Name: Students:4 and 5 +6 br Houses +rooms for rent Furnished Downtown
 	URL: http://kingston.craigslist.ca/apa/5305936271.html
 	Price: $475
-	Location: (barrie)   pic map
+	Location: barrie
 	Date Added: Nov 8
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Students:We rent Houses+Rooms Furnished Downtown jan 1st
 	URL: http://kingston.craigslist.ca/apa/5305931149.html
 	Price: $475
-	Location: (barrie)   pic
+	Location: barrie
 	Date Added: Nov 8
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: 176 Montreal St
 	URL: http://kingston.craigslist.ca/apa/5267224810.html
 	Price: $1250
-	Location: (176 Montreal)   pic map
+	Location: 176 Montreal
 	Date Added: Nov 5
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: 348 Chelsea Road
 	URL: http://kingston.craigslist.ca/apa/5257131586.html
 	Price: $1500
-	Location: (348 Chelsea Road)   pic map
+	Location: 348 Chelsea Road
 	Date Added: Nov 5
-	Bed: 4
+	Bedrooms: 4
 	Size: 
 
 Name: Convenient yet Quiet Downtown Condo - Utilities Included
 	URL: http://kingston.craigslist.ca/apa/5300288981.html
 	Price: $2050
-	Location: (350 Wellington Street, Kingston Ontario)   map
+	Location: 350 Wellington Street, Kingston Ontario
 	Date Added: Nov 4
-	Bed: 2
+	Bedrooms: 2
 	Size: 1266sq. ft
 
 Name: Water view Semi
 	URL: http://kingston.craigslist.ca/apa/5296827926.html
 	Price: $1345
-	Location: (Kingston)   pic map
+	Location: Kingston
 	Date Added: Nov 2
-	Bed: 3
+	Bedrooms: 3
 	Size: 
 
 Name: 2 bedroom 2 office Division
 	URL: http://kingston.craigslist.ca/apa/5296825167.html
 	Price: $1000
-	Location: (kingston)   pic map
+	Location: kingston
 	Date Added: Nov 2
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
 Name: Downtown Sydenham Ward - Well Maintained 2 Bed
 	URL: http://kingston.craigslist.ca/apa/5283220360.html
 	Price: $1050
-	Location: (Downtonw)   pic
+	Location: Downtonw
 	Date Added: Nov 2
-	Bed: 2
+	Bedrooms: 2
 	Size: 850sq. ft
 
 Name: 418 Earl St
 	URL: http://kingston.craigslist.ca/apa/5246042013.html
 	Price: $2000
-	Location: (418 Earl Street)   pic map
+	Location: 418 Earl Street
 	Date Added: Oct 30
-	Bed: 3
+	Bedrooms: 3
 	Size: 2400sq. ft
 
 Name: One Bedroom Apartment for rent
 	URL: http://kingston.craigslist.ca/apa/5287669274.html
 	Price: $900
-	Location: (682 Willis St)
+	Location: 682 Willis St
 	Date Added: Oct 27
-	Bed: 1
+	Bedrooms: 1
 	Size: 
 
 Name: condo for rent
 	URL: http://kingston.craigslist.ca/apa/5286814681.html
 	Price: $1200
-	Location: (midtown)   pic
+	Location: midtown
 	Date Added: Oct 26
-	Bed: 2
+	Bedrooms: 2
 	Size: 
 
-Name: 2 Bedroom, Spacious, Clean, Downtown Cortland
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352927752.html
-	Price: $600
-	Location: (syr > 202 S. Main Street, Cortland, NY)   pic map
-	Date Added: Dec 9
-	Bed: 2
+Name: Your new Home Awaits You!!!
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5324163659.html
+	Price: $700
+	Location: wtn > Friend's Settlement
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 1062sq. ft
+
+Name: Large 2 bedroom ...Price Lowered!!
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5339312214.html
+	Price: $575
+	Location: syr > West Onondaga st
+	Date Added: Dec 10
+	Bedrooms: 2
 	Size: 
 
-Name: Great location for Syracuse University $550/bedroom
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352926288.html
+Name: Three Bedroom on Shoreline of Lake Ontario
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5353816681.html
+	Price: $850
+	Location: wtn > Sackets Harbor, NY
+	Date Added: Dec 10
+	Bedrooms: 3
+	Size: 
+
+Name: Garden level unit available!
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5312315935.html
+	Price: $695
+	Location: syr > Liverpool
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 1000sq. ft
+
+Name: We Have All The Rent2own Homes In Westside Area
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5353701048.html
+	Price: $795
+	Location: syr > Westside
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 
+
+Name: Avail Now JD Schools
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5322899671.html
+	Price: $750
+	Location: pic map
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 
+
+Name: CHINA TOWN: 2 Floor, 2 Bedroom & 1 Bath Apt.
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349043786.html
+	Price: $1450
+	Location: pic map
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 
+
+Name: Free application fee for limited time , great locations!
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5353811093.html
+	Price: $1061
+	Location: syr > 84 Westbrook Hills Drive
+	Date Added: Dec 10
+	Bedrooms: 
+	Size: 1053sq. ft
+
+Name: 1 BEDROOM & 1 BATH APT.
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349066527.html
+	Price: $850
+	Location: pic map
+	Date Added: Dec 10
+	Bedrooms: 
+	Size: 
+
+Name: $500 Heat Credit
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5346265894.html
+	Price: $650
+	Location: wtn > Copenhagen, NY
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 1062sq. ft
+
+Name: Two Bedroom Apartment Available NOW!
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5346529544.html
+	Price: $650
+	Location: wtn > Copenhagen, NY
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 1062sq. ft
+
+Name: Beautiful New Home in the Country
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5345433485.html
+	Price: $650
+	Location: wtn > Copenhagen, NY
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 1062sq. ft
+
+Name: BRIGHT, AIRY & NEWLY RENOVATED 5 BEDROOM & 4 BATH HOME
+	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5349086345.html
 	Price: $2200
-	Location: (syr > 207 Comstock)   pic map
-	Date Added: Dec 9
-	Bed: 4
-	Size: 
-
-Name: 1 and 2 Bedroom Apts. for Rent
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352920266.html
-	Price: $595
-	Location: (syr > Fulton, NY)   pic map
-	Date Added: Dec 9
-	Bed: 2
-	Size: 
-
-Name: Liverpool
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352919121.html
-	Price: $1250
-	Location: map
-	Date Added: Dec 9
-	Bed: 4
-	Size: 1550sq. ft
-
-Name: 2 Bedroom available at Kimberly Apartments
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352917866.html
-	Price: $660
-	Location: (syr > Mexico, NY)   pic map
-	Date Added: Dec 9
-	Bed: 1
-	Size: 
-
-Name: REAL NICE 2 BEDROOM IN HISTORIC EASTWOOD BUILDING
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5349029355.html
-	Price: $745
-	Location: (syr > Eastwood)   pic map
-	Date Added: Dec 9
-	Bed: 2
-	Size: 650sq. ft
-
-Name: Timing is Everything! One bedroom with $500 off , WOW!
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352912210.html
-	Price: $917
-	Location: (syr > 123 Westbrook Hills Drive)   map
-	Date Added: Dec 9
-	Bed: 1
-	Size: 785sq. ft
-
-Name: ACCEPTING HUD!
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5341571805.html
-	Price: $850
 	Location: pic map
-	Date Added: Dec 9
-	Bed: 3
-	Size: 1560sq. ft
-
-Name: Happy Holiday's! Less than 10 miles from FT Drum! Utilities included!
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5309489312.html
-	Price: $1050
-	Location: (wtn > Mountaineer Estates)   pic map
-	Date Added: Dec 9
-	Bed: 4
-	Size: 1706sq. ft
-
-Name: 1 bedroom - Village Green Condo
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352907907.html
-	Price: $600
-	Location: (syr > Baldwinsville)   pic
-	Date Added: Dec 9
-	Bed: 1
+	Date Added: Dec 10
+	Bedrooms: 5
 	Size: 
 
-Name: 3bd HOME W/ UTILITIES IN VILLAGE
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5321195892.html
-	Price: $850
-	Location: (wtn > PHILADELPHIA)   pic map
-	Date Added: Dec 9
-	Bed: 3
+Name: Start the year off right!
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5341518516.html
+	Price: $725
+	Location: wtn > Copenhagen, NY
+	Date Added: Dec 10
+	Bedrooms: 2
+	Size: 1191sq. ft
+
+Name: Cozy 2 Bedroom Apt
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5353805965.html
+	Price: $800
+	Location: syr > Syracuse
+	Date Added: Dec 10
+	Bedrooms: 2
 	Size: 
 
-Name: GREAT NEWLY BUILT HOME W/ UTILITES
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5320245644.html
-	Price: $1500
-	Location: (wtn > PHILADELPHIA)   pic map
-	Date Added: Dec 9
-	Bed: 3
-	Size: 
+Name: Cozy family home with good sized bedrooms. Charming Four beds\2.5 Hou
+	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5313623467.html
+	Price: $1164
+	Location: syr > New Milford
+	Date Added: Dec 10
+	Bedrooms: 3
+	Size: 1363sq. ft
 
-Name: Newly Furnished, 3 bedroom
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352866888.html
-	Price: $1500
-	Location: (syr > 827 Westcott Street)   pic map
-	Date Added: Dec 9
-	Bed: 3
-	Size: 1370sq. ft
+Name: 3 Bedroom Apartment for ONLY $835!!!
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5329280789.html
+	Price: $835
+	Location: wtn > Friend's Settlement
+	Date Added: Dec 10
+	Bedrooms: 3
+	Size: 1443sq. ft
 
-Name: 1 BDRM APT RENOVATED AVALIABLE FOR MID-JAN/FEB
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5352885071.html
-	Price: $1039
-	Location: (ott > Ottawa)   pic
-	Date Added: Dec 9
-	Bed: 1
-	Size: 680sq. ft
-
-Name: Large, Bright 2nd Floor 1 Bedroom. Everything Included!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5352884586.html
-	Price: $1200
-	Location: (ott > Ottawa)   pic map
-	Date Added: Dec 9
-	Bed: 1
-	Size: 
-
-Name: 3 Bedroom Apartment for January 1st! Stainless Steal Appliances!
-	URL: http://kingston.craigslist.ca//ottawa.craigslist.ca/apa/5352847713.html
-	Price: $1250
-	Location: (ott > Ottawa)   pic map
-	Date Added: Dec 9
-	Bed: 3
-	Size: 
-
-Name: Lovely One Bedroom Apt. For Rent
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352880841.html
-	Price: $500
-	Location: (syr > Eastwood)   pic map
-	Date Added: Dec 9
-	Bed: 1
-	Size: 576sq. ft
-
-Name: $596 /Lg 2br - Country Living at an Affordable Price! Call today!
-	URL: http://kingston.craigslist.ca//syracuse.craigslist.org/apa/5352876658.html
-	Price: $596
-	Location: (syr > Port Byron)   map
-	Date Added: Dec 9
-	Bed: 2
-	Size: 
-
-Name: December Special!
-	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5352876201.html
-	Price: $1095
-	Location: pic map
-	Date Added: Dec 9
-	Bed: 4
-	Size: 1525sq. ft
+Name: What an AMAZING Special!!! Call Us NOW!!!
+	URL: http://kingston.craigslist.ca//watertown.craigslist.org/apa/5318468970.html
+	Price: $990
+	Location: wtn > Friend's Settlement
+	Date Added: Dec 10
+	Bedrooms: 4
+	Size: 1578sq. ft
 
