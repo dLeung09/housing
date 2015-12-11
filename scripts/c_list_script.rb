@@ -11,25 +11,17 @@ require 'date'
 #   - Extract all valuable data points from search results (get_results)
 #       |-> Determine what information can be obtained directly from result
 #           |--> Complete
-#       |-> Clean-up data (Regular expressions?)
+#       |-> Clean-up data
 #           |--> Complete
 #       |-> Get contact information for posting
-#           |--> Name (In Progress)
-#           |--> Phone Number (In Progress)
+#           |--> Name (Complete)
+#           |--> Phone Number (Complete)
 #           |--> Email (Complete)
-#       |-> Get address information from Google
-#           |--> Navigate to map page
 #       |-> Possible refactoring opportunity
-#           |--> What fields are available?
-#           |--> Make new class for results?
-#           |--> Saving results
-#
-#   - Use external file to map page elements to website
-#       |-> Read file into arrays
-#       |-> Introduce arguments to associated functions
-#
-#   - Use hash/external file to map form fields to website
-#       |-> XML (uses Nokogiri)
+#           |--> Refactor 'get_results'
+#           |--> Refactor 'save_results'
+#           |--> Make new class for results - Stretch
+#           |--> Performance considerations - Stretch
 #
 #   - Extend to multiple sites
 #       |-> Queen's Housing Service
@@ -39,10 +31,25 @@ require 'date'
 #   - Parse multiple sites in same execution
 #       |-> Dependency on above
 #
-#   - Optional: Mask robot-like behaviour of program (Impossible?)
+#   - Print a status message on the terminal showing progress
+#
+#   - Use hash/external file to map page elements to website
+#       |-> Read file into arrays
+#       |-> Introduce arguments to associated functions
+#
+#   - Use hash/external file to map form fields to website
+#       |-> XML (use Nokogiri)
+#
+#   - Use hash/external file to map results data to website
+#
 #   - Optional: Distance optimization (e.g., limit to certain radius)
 #   - Optional: Add other configurations to 'init'
+#       |-> Clear cookies, cache, other tracking mechanisms...
 #   - Optional: Save backup for use offline
+#   - Optional: Mask robot-like behaviour of program (Impossible?)
+#   - Optional: Get address information from Google (Impossible?)
+#       |-> Navigate to map page 
+#       |-> Calculate distance
 
 ##### GLOBAL VARIABLES #####
 
@@ -192,6 +199,7 @@ EOS
 
         # Parse the results
         raw_results.each do |result|
+
             # Attributes that need to be cleaned up after parsing
             link = result.css('a')[1]
             datetime = result.css('time')[0]
@@ -216,7 +224,7 @@ EOS
                 location = $1
             end
 
-            # Seems like a repition of data on their part, but it's nicely
+            # Seems like a repetition of data on their part, but it's nicely
             #   formatted already so I won't complain.
             date = datetime.text.strip
 
@@ -234,19 +242,23 @@ EOS
                 size = $1 << 'sq. ft'
             end
 
+            # NOTE: It looks like the entry page may also have this information.
+            #   Maybe it can be parsed from there instead.
+
             # Ok, we have to dive kinda deep here to get the contact info.
 
             # This is the page with the result entry.
-            #result_entry_page = result_page.link_with(:text => name).click
+            result_entry_page = result_page.link_with(:text => name).click
 
             # These are used for testing because using the above takes a long time.
-            #result_entry_page = result_page.link_with(:text => '4-Bedroom Unit').click
-            #result_entry_page = result_page.link_with(:text => '1 bedroom apartment with grade level entry,').click
-            result_entry_page = result_page.link_with(:text => 'Awesome loft in heritage building').click
+            #result_entry_page = result_page.link_with(:text => '4-Bedroom Unit').click    # Email only
+            #result_entry_page = result_page.link_with(:text => '1 bedroom apartment with grade level entry,').click   # Ayanda, and number
+            #result_entry_page = result_page.link_with(:text => 'Awesome loft in heritage building').click    # Just number
 
             # We want the 'reply' link, which HOPEFULLY holds all the
             #   contact information of the posting.
-            reply_page = @scraper.get('http://kingston.craigslist.ca/reply/kng/apa/5353542999')
+            reply_page = result_entry_page.link_with(:text => 'reply').click
+            #reply_page = @scraper.get('http://kingston.craigslist.ca/reply/kng/apa/5353542999')    # Hopefully can remove this later
 
             # All contact information should be embedded in the 'reply_options'
             #   element
@@ -261,11 +273,12 @@ EOS
 
             options_element.css('b').each do |label|
 
-                # Should work. Hasn't been tested yet, because website thinks I'm a robot (not entirely false).
                 if label.text.strip === 'contact name:'
                     contact_name = options_element.css('ul')[index].text.strip
+                    puts "Contact Name: #{contact_name}"
                 elsif label.text.strip === 'text'
                     contact_number = options_element.css('ul')[index].text.strip
+                    puts "Contact Number: #{contact_number}"
                 else
                     index += 1
                     next
@@ -273,25 +286,11 @@ EOS
 
                 index += 1
 
-                # Commented code currently works if ONLY ONE of name and number are there.
-                # Issue is that name always* comes at index '0', and number will come at
-                #   index '0' if name isn't there, otherwise it gets pushed to index '1'.
-                # Possible solution is to use regular expression on each element of array
-                #   to see if it is a phone number.
-                # Another solution is not take phone number at all, and just make it an
-                #   optimization/stretch goal.
-                #if label.text.strip === 'contact name:'
-                    #contact_name = options_element.css('ul')[0].text.strip
-                #end
-
-                #if label.text.strip === ':'
-                    #contact_number = options_element.css('ul')[0].text.strip
-                    #next
-                    #break
-                #end
             end
 
+            # Email SHOULD always be there, so it's pretty easy to get.
             email = reply_page.search('div.anonemail').text.strip
+            puts "Email: #{email}"
 
             # Save the results
             results << [name, url, price, location, date, bed, size, contact_name, contact_number, email]

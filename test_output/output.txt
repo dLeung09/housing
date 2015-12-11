@@ -9,14 +9,14 @@ Name: Name
 	Contact number: 
 	Email: 
 
-Name: Spacious 2 Bedroom House Downtown Kingston
-	URL: http://kingston.craigslist.ca/apa/5338246592.html
-	Price: $1250
-	Location: 19 Drayton Ave.
+Name: Amazing 3 bedroom Apartment
+	URL: http://kingston.craigslist.ca/apa/5354820865.html
+	Price: $750
+	Location: 663 Princess St.
 	Date Added: Dec 10
-	Bedrooms: 2
-	Size: 
+	Bedrooms: 3
+	Size: 1100sq. ft
 	Contact name: <name_not_provided>
-	Contact number: <number_not_provided>
-	Email: 
+	Contact number: ☎ (613) 484-9369
+	Email: skwrc-5350762782@hous.craigslist.org
 
