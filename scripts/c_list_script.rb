@@ -18,8 +18,8 @@ require 'date'
 #           |--> Phone Number (Complete)
 #           |--> Email (Complete)
 #       |-> Possible refactoring opportunity
-#           |--> Refactor 'get_results'
-#           |--> Refactor 'save_results'
+#           |--> Refactor 'get_results' (Complete)
+#           |--> Refactor 'save_results' (In Progress)
 #           |--> Make new class for results - Stretch
 #           |--> Performance considerations - Stretch
 #
@@ -33,6 +33,12 @@ require 'date'
 #
 #   - Print a status message on the terminal showing progress
 #
+#   - Investigate clearing of cookies, cache, other tracking mechanisms...
+#
+######################### ***RELEASE POINT*** #########################
+#
+#   - Add a flag that triggers logic specific to debugging
+#
 #   - Use hash/external file to map page elements to website
 #       |-> Read file into arrays
 #       |-> Introduce arguments to associated functions
@@ -44,6 +50,7 @@ require 'date'
 #
 #   - Optional: Distance optimization (e.g., limit to certain radius)
 #   - Optional: Add other configurations to 'init'
+#       |-> Pending result of investigation
 #       |-> Clear cookies, cache, other tracking mechanisms...
 #   - Optional: Save backup for use offline
 #   - Optional: Mask robot-like behaviour of program (Impossible?)
@@ -194,111 +201,52 @@ EOS
         raw_results = result_page.search('p.row')
 
         # Array to hold each of the elements in .csv file.
-        results = []
-        results << ['Name', 'URL', 'Price', 'Location']
+        @search_results = []
+
+        # Add a description of what each element contains.
+        @search_results << [
+            'Name of entry',
+            'URL of the entry',
+            'Listing price',
+            'Location of building',
+            'Date entry was posted',
+            'Number of bedrooms',
+            'Size of the building (in square feet)',
+            'Landlord\'s name',
+            'Landlord\'s number',
+            'Landlord\'s email'
+        ]
 
         # Parse the results
         raw_results.each do |result|
 
-            # Attributes that need to be cleaned up after parsing
-            link = result.css('a')[1]
-            datetime = result.css('time')[0]
+            # Elements to split into:
+            #   - Posting information (Name, URL, Date added)
+            #   - House details (Price, Location, Bed, Bath, Size)
+            #   - Contact info (Name, Number, Email)
 
-            # To be inconvenient, the name is made a link to the page, so
-            #   it needs to be parsed. Also, link doesn't contain base address
-            #   so this needs to be prepended.
-            name = link.text.strip
-            url = "http://kingston.craigslist.ca" + link.attributes["href"].value
+            posting_details = extract_posting_details(result)
+            name = posting_details[0]
+            url = posting_details[1]
+            date = posting_details[2]
 
-            # Price is in a nice easy location to access
-            price = result.search('span.price').text.strip
-
-            # Very strange name for element. Also, this location isn't always
-            #   an address, so that needs to be parsed in another way (use
-            #   Google Maps link?)
-            location = result.search('span.pnr').text.strip
-
-            # Strip away the 'pic' and 'map' links that definitely make sense
-            #   to include in this corretly named 'pnr' element...
-            if location =~ /\(([^\)]+)\)/
-                location = $1
-            end
-
-            # Seems like a repetition of data on their part, but it's nicely
-            #   formatted already so I won't complain.
-            date = datetime.text.strip
-
-            # Another odd name, but contains the number of bedrooms and square
-            #   footage of the place...
-            housing = result.search('span.housing').text.strip
-
-            # ...but still needs to be parsed out...
-            if housing =~ /(\d+)br/
-                bed = $1
-            end
-
-            # ...and this one too, which is labelled quite awkwardly.
-            if housing =~ /(\d+)ft2/
-                size = $1 << 'sq. ft'
-            end
-
-            # NOTE: It looks like the entry page may also have this information.
-            #   Maybe it can be parsed from there instead.
-
-            # Ok, we have to dive kinda deep here to get the contact info.
-
-            # This is the page with the result entry.
-            result_entry_page = result_page.link_with(:text => name).click
-
-            # These are used for testing because using the above takes a long time.
-            #result_entry_page = result_page.link_with(:text => '4-Bedroom Unit').click    # Email only
-            #result_entry_page = result_page.link_with(:text => '1 bedroom apartment with grade level entry,').click   # Ayanda, and number
-            #result_entry_page = result_page.link_with(:text => 'Awesome loft in heritage building').click    # Just number
-
-            # We want the 'reply' link, which HOPEFULLY holds all the
-            #   contact information of the posting.
-            reply_page = result_entry_page.link_with(:text => 'reply').click
-            #reply_page = @scraper.get('http://kingston.craigslist.ca/reply/kng/apa/5353542999')    # Hopefully can remove this later
-
-            # All contact information should be embedded in the 'reply_options'
-            #   element
-            options_element = reply_page.search('div.reply_options')
-
-            # Need to make sure that the contact name is actually provided.
-            # Should check all elements, for robustness.
-            contact_name = '<name_not_provided>'
-            contact_number = '<number_not_provided>'
-
-            index = 0
-
-            options_element.css('b').each do |label|
-
-                if label.text.strip === 'contact name:'
-                    contact_name = options_element.css('ul')[index].text.strip
-                    puts "Contact Name: #{contact_name}"
-                elsif label.text.strip === 'text'
-                    contact_number = options_element.css('ul')[index].text.strip
-                    puts "Contact Number: #{contact_number}"
-                else
-                    index += 1
-                    next
-                end
-
-                index += 1
-
-            end
-
-            # Email SHOULD always be there, so it's pretty easy to get.
-            email = reply_page.search('div.anonemail').text.strip
-            puts "Email: #{email}"
+            house_details = extract_house_details(result)
+            price = house_details[0]
+            location = house_details[1]
+            bed = house_details[2]
+            size = house_details[3]
+            
+            contact_details = extract_contact_details(result_page.link_with(:text => name).click)
+            contact_name = contact_details[0]
+            contact_number = contact_details[1]
+            email = contact_details[2]
 
             # Save the results
-            results << [name, url, price, location, date, bed, size, contact_name, contact_number, email]
+            @search_results << [name, url, price, location, date, bed, size, contact_name, contact_number, email]
 
             break   # Debugging only
         end
 
-        @search_results = results
         self
     end ## get_results Method
 
@@ -824,6 +772,137 @@ EOS
 
         puts "\t0 - DONE"
     end # isession_help Method
+
+    ### --Extract Details About the Posting-- ###
+    #   Params: result - Result entry that needs to be parsed
+    #   Returns: Array holding the entry name, URL, and the date it was added.
+    ###
+    def extract_posting_details(result)
+
+        # Attributes that need to be cleaned up after parsing
+        link = result.css('a')[1]
+        datetime = result.css('time')[0]
+
+        # To be inconvenient, the name is made a link to the page, so
+        #   it needs to be parsed. Also, link doesn't contain base address
+        #   so this needs to be prepended.
+        name = link.text.strip
+        url = "http://kingston.craigslist.ca" + link.attributes["href"].value
+
+        # Date seems like a repetition of data on their part, but it's nicely
+        #   formatted already so I won't complain.
+        date = datetime.text.strip
+
+        details = [name, url, date]
+
+        details
+    end # extract_posting_details Method
+
+    ### --Initialize Mechanize-- ###
+    #   Params: result - Result entry that needs to be parsed
+    #   Returns: Array holding the price, location, number of bedrooms, and size of the
+    #       house.
+    ###
+    def extract_house_details(result)
+
+        # Price is in a nice easy location to access
+        price = result.search('span.price').text.strip
+
+        # Very strange name for element. Also, this location isn't always
+        #   an address, so maybe we can look for another way to access it?
+        #       -> Brief investigation into parsing from Google maps page was
+        #           fruitless
+        location = result.search('span.pnr').text.strip
+
+        # Strip away the 'pic' and 'map' links that definitely make sense
+        #   to include in this intuitively named 'pnr' element...
+        if location =~ /\(([^\)]+)\)/
+            location = $1
+        end
+
+        # Another odd name, but contains the number of bedrooms and square
+        #   footage of the place...
+        housing = result.search('span.housing').text.strip
+
+        # ...but number of bedrooms still needs to be parsed out...
+        if housing =~ /(\d+)br/
+            bed = $1
+        end
+
+        # ...and size too, which is labelled quite awkwardly.
+        if housing =~ /(\d+)ft2/
+            size = $1 << 'sq. ft'
+        end
+
+        # NOTE: It looks like the entry page may also have this information.
+        #   Maybe it can be parsed from there instead.
+
+        details = [price, location, bed, size]
+
+        details
+
+        # NOTE: It looks like the entry page may also have this information.
+        #   Maybe it can be parsed from there instead.
+    end # extract_house_details Method
+
+
+    ### --Initialize Mechanize-- ###
+    #   Params: result_entry_page - The page of the entry.
+    #   Returns: Array holding the contact's name, number, and email.
+    ###
+    def extract_contact_details(result_entry_page)
+
+        # Ok, we have to dive kinda deep here to get the contact info.
+
+        # These are used for testing because using the above takes the most recent post.
+        #result_entry_page = result_page.link_with(:text => '4-Bedroom Unit').click    # Email only
+        #result_entry_page = result_page.link_with(:text => '1 bedroom apartment with grade level entry,').click   # Ayanda, and number
+        #result_entry_page = result_page.link_with(:text => 'Awesome loft in heritage building').click    # Just number
+
+        # We want the 'reply' link, which HOPEFULLY holds all the
+        #   contact information of the posting.
+        reply_page = result_entry_page.link_with(:text => 'reply').click
+
+        # All contact information should be embedded in the 'reply_options'
+        #   element
+        options_element = reply_page.search('div.reply_options')
+
+        contact_name = '<name_not_provided>'
+        contact_number = '<number_not_provided>'
+
+        index = 0
+
+        # Need to make sure that the contact name and number are actually provided.
+        # Should check all elements, for robustness.
+        options_element.css('b').each do |label|
+
+            # Logic below associates a label with the data that immediately follows it.
+            #   If it's the data we want, extract it. Otherwise, skip to next label.
+            if label.text.strip === 'contact name:'
+                contact_name = options_element.css('ul')[index].text.strip
+            elsif label.text.strip === 'text'
+                contact_number = options_element.css('ul')[index].text.strip
+            else
+                index += 1
+                next
+            end
+
+            index += 1
+        end
+
+        # Clear previous value of email.
+        email = nil
+
+        # Email SHOULD always be there, so it's pretty easy to get.
+        email = reply_page.search('div.anonemail').text.strip
+
+        # Missing email may be an indication that we hit at Captcha...
+        puts "Something may have gone wrong..." unless email
+
+        details = [contact_name, contact_number, email]
+
+        details
+    end # extract_contact_details Method
 
 end ## Scraper Class
 
