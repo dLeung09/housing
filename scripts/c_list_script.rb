@@ -8,21 +8,6 @@ require 'date'
 
 ##### TODO #####
 #
-#   - Extract all valuable data points from search results (get_results)
-#       |-> Determine what information can be obtained directly from result
-#           |--> Complete
-#       |-> Clean-up data
-#           |--> Complete
-#       |-> Get contact information for posting
-#           |--> Name (Complete)
-#           |--> Phone Number (Complete)
-#           |--> Email (Complete)
-#       |-> Possible refactoring opportunity
-#           |--> Refactor 'get_results' (Complete)
-#           |--> Refactor 'save_results' (In Progress)
-#           |--> Make new class for results - Stretch
-#           |--> Performance considerations - Stretch
-#
 #   - Extend to multiple sites
 #       |-> Queen's Housing Service
 #       |-> Kijiji
@@ -47,6 +32,21 @@ require 'date'
 #       |-> XML (use Nokogiri)
 #
 #   - Use hash/external file to map results data to website
+#
+#   - Extract all valuable data points from search results (get_results)
+#       |-> Determine what information can be obtained directly from result
+#           |--> Complete
+#       |-> Clean-up data
+#           |--> Complete
+#       |-> Get contact information for posting
+#           |--> Name (Complete)
+#           |--> Phone Number (Complete)
+#           |--> Email (Complete)
+#       |-> Possible refactoring opportunity
+#           |--> Refactor 'get_results' (Complete)
+#           |--> Refactor 'save_results' (Complete)
+#           |--> Make new class for results - Stretch
+#           |--> Performance considerations - Stretch
 #
 #   - Optional: Distance optimization (e.g., limit to certain radius)
 #   - Optional: Add other configurations to 'init'
@@ -117,7 +117,7 @@ EOS
 
                 print "    <files>: "
                 input = gets.chomp!
-                @output_files = input.split(", ")
+                @output_files = input.split(/,? /)
             end
 
             # Check-box
@@ -167,7 +167,8 @@ EOS
                     elsif (input > 0 && input < array.length)
                         index = input - 1
                         inner_hash = array[index]
-                        inner_hash.each do |symbol, string| # Should only be one key-value pair
+                        # Should only be one key-value pair
+                        inner_hash.each do |symbol, string|
                             lower_hash[symbol] = true
                             search.checkbox_with( :id => symbol.to_s ).check
                         end
@@ -181,6 +182,7 @@ EOS
         end
 
         @search_form = form
+
         self
     end ## fill_form Method
 
@@ -262,7 +264,7 @@ EOS
             @output_files = []
             @output_files << 'output.txt'
         end
-        #files.each do |file|
+
         @output_files.each do |file|
             file = File.expand_path(__FILE__).gsub!('scripts/' << __FILE__, 'test_output/' << file)
             if /.*\.csv\z/.match(file)
@@ -273,65 +275,17 @@ EOS
                     end
                 end
             elsif /.*\.txt\z/.match(file)
-                puts "Saving to text file:\n\t#{file}"
-                File.open(file, "w+") do |txt_file|
-                    @search_results.each do |row|
-                        name = row[0]
-                        url = row[1]
-                        price = row[2]
-                        location = row[3]
-                        date = row[4]
-                        bed = row[5]
-                        size = row[6]
-                        contact = row[7]
-                        number = row[8]
-                        email = row[9]
-
-                        txt_file << "Name: #{name}"
-                        txt_file << "\n\t"
-
-                        txt_file << "URL: #{url}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Price: #{price}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Location: #{location}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Date Added: #{date}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Bedrooms: #{bed}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Size: #{size}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Contact name: #{contact}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Contact number: #{number}"
-                        txt_file << "\n\t"
-
-                        txt_file << "Email: #{email}"
-                        txt_file << "\n\n"
-                    end
-                end
+                save_txt(file)
             else
-                puts "Unrecognized file format.\nSaving as text file:\n\t#{file}"
-                if file =~ /\A(.*?)\.(.*?)\z/
+                puts "Unrecognized file format."
+
+                if file =~ /\A(.*)\.(.*?)\z/
+                    file = "#{$1}.txt"
+                elsif file =~ /\A([^\.]+)\z/
                     file = "#{$1}.txt"
                 end
-                File.open(file, "w+") do |txt_file|
-                    @search_results.each do |row|
-                        name = row[0]
-                        url = row[1]
-                        price = row[2]
-                        location = row[3]
-                        txt_file << "Name: #{name}\n\tURL: #{url}\n\tPrice: #{price}\n\tLocation: #{location}\n\n"
-                    end
-                end
+
+                save_txt(file)
             end
         end
     end
@@ -903,6 +857,58 @@ EOS
 
         details
     end # extract_contact_details Method
+
+    ### --Save Results to Text File-- ###
+    #   Params: file - File that it should be saved.
+    #   Returns: <none>
+    ###
+    def save_txt(file)
+        puts "Saving to text file:\n\t#{file}"
+        File.open(file, "w+") do |txt_file|
+            @search_results.each do |row|
+                name = row[0]
+                url = row[1]
+                price = row[2]
+                location = row[3]
+                date = row[4]
+                bed = row[5]
+                size = row[6]
+                contact = row[7]
+                number = row[8]
+                email = row[9]
+
+                txt_file << "Name: #{name}"
+                txt_file << "\n\t"
+
+                txt_file << "URL: #{url}"
+                txt_file << "\n\t"
+
+                txt_file << "Price: #{price}"
+                txt_file << "\n\t"
+
+                txt_file << "Location: #{location}"
+                txt_file << "\n\t"
+
+                txt_file << "Date Added: #{date}"
+                txt_file << "\n\t"
+
+                txt_file << "Bedrooms: #{bed}"
+                txt_file << "\n\t"
+
+                txt_file << "Size: #{size}"
+                txt_file << "\n\t"
+
+                txt_file << "Contact name: #{contact}"
+                txt_file << "\n\t"
+
+                txt_file << "Contact number: #{number}"
+                txt_file << "\n\t"
+
+                txt_file << "Email: #{email}"
+                txt_file << "\n\n"
+            end
+        end
+    end # save_txt Method
 
 end ## Scraper Class
 
