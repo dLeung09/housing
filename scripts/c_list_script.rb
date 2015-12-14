@@ -17,6 +17,7 @@ require 'date'
 #       |-> Dependency on above
 #
 #   - Print a status message on the terminal showing progress
+#       |-> Complete
 #
 #   - Investigate clearing of cookies, cache, other tracking mechanisms...
 #
@@ -89,6 +90,8 @@ class Scraper
         # Validate argument variables
         raise "Mechanize object not initialized properly." unless @scraper.respond_to?(:get)
 
+        print 'Parsing file arguments .'
+
         # Parse arguments
         parse_args
 
@@ -97,6 +100,8 @@ class Scraper
 
         # Work with the form. Used block to wrap all form fields in separate scope.
         form = search_page.form_with( :id => 'searchform' ) do |search|
+
+            print 'Filling search form .'
 
             # Search query related
             search.query = @query[:query] if @query[:query]
@@ -120,20 +125,28 @@ EOS
                 @output_files = input.split(/,? /)
             end
 
+            print ' .'
+
             # Check-box
             @checkbox_fields.each do |key, value|
                 search.checkbox_with( :name => key.to_s ).check
             end
+
+            print ' .'
 
             # Fill-able fields
             @fill_fields.each do |key, value|
                 search.field_with( :name => key.to_s ).value = value
             end
 
+            print ' .'
+
             # Drop-down menus
             @drop_fields.each do |key, value|
                search.field_with( :name => key.to_s ).options[value].click
             end
+
+            print ' .'
 
             # Multiple selection checkbox
             @mult_fields.each do |key, hash|
@@ -179,6 +192,8 @@ EOS
                 end
             end
 
+            print " DONE!\n"
+
         end
 
         @search_form = form
@@ -219,8 +234,11 @@ EOS
             'Landlord\'s email'
         ]
 
+        print 'Getting results .'
+
         # Parse the results
         raw_results.each do |result|
+            print ' .'
 
             # Elements to split into:
             #   - Posting information (Name, URL, Date added)
@@ -248,6 +266,8 @@ EOS
 
             break   # Debugging only
         end
+
+        print " DONE!\n"
 
         self
     end ## get_results Method
@@ -585,6 +605,8 @@ EOS
             # Customized usage message
             opt.banner = "Usage: c_list_script.rb [options] [<website>]\n\n"
 
+            print ' .'
+
             opt.on('-h', '--help', 'Show this help message') {
                 puts ''
                 puts opt
@@ -613,6 +635,8 @@ EOS
 
                 end
             end
+
+            print ' .'
 
             input_flags.each do |key, lower_hash|
                 tag = lower_hash[:tag]
@@ -661,6 +685,8 @@ EOS
                 }
             end
 
+            print ' .'
+
             # Special options
             opt.on('--open-house YYYY-MM-DD', 'Filter results by open house date') { |o|
                 sale_date = o
@@ -691,6 +717,8 @@ EOS
             }
 
         end.parse!
+
+        print " DONE!\n"
 
         ARGV.each do |arg|
             if arg =~ /\A#{URI::regexp}\z/

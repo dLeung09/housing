@@ -1,0 +1,22 @@
+Name: Name of entry
+	URL: URL of the entry
+	Price: Listing price
+	Location: Location of building
+	Date Added: Date entry was posted
+	Bedrooms: Number of bedrooms
+	Size: Size of the building (in square feet)
+	Contact name: Landlord's name
+	Contact number: Landlord's number
+	Email: Landlord's email
+
+Name: Spacious 4 Bedroom Apartment Blocks From Queen's University!
+	URL: http://kingston.craigslist.ca/apa/5333104781.html
+	Price: $2200
+	Location: 217 Collingwood St.
+	Date Added: Dec 14
+	Bedrooms: 4
+	Size: 
+	Contact name: <name_not_provided>
+	Contact number: <number_not_provided>
+	Email: chq5f-5333104781@hous.craigslist.org
+
